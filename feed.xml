@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Grup KPPDI</title>
-    <link href="https://kppdi.github.com/feed.xml" rel="self" />
-    <link href="https://kppdi.github.com" />
+    <link href="https://kppdi.github.io/feed.xml" rel="self" />
+    <link href="https://kppdi.github.io" />
     <updated>1970-01-01T08:00:00+08:00</updated>
     <author>
         <name>Grup KPPDI</name>
     </author>
-    <id>https://kppdi.github.com</id>
+    <id>https://kppdi.github.io</id>
 
     <entry>
         <title>Welcome :)</title>
         <author>
             <name>Grup KPPDI</name>
         </author>
-        <link href="https://kppdi.github.com/welcome.html"/>
-        <id>https://kppdi.github.com/welcome.html</id>
+        <link href="https://kppdi.github.io/welcome.html"/>
+        <id>https://kppdi.github.io/welcome.html</id>
             <category term="Docs"/>
 
-        <updated>2020-07-31T19:50:11+08:00</updated>
+        <updated>2020-07-31T19:52:17+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://kppdi.github.com/media/posts/1/plumbing-585658_1280.jpg" alt="" />
+                        <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
                      tes saja aadasddsadd asdsadsdsddsd 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://kppdi.github.com/media/posts/1/plumbing-585658_1280.jpg" alt="" />
+                    <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
                 
   <p>
     tes saja
@@ -42,7 +42,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kppdi.github.com/media/posts/1/Screen-Shot-2020-07-09-at-14.28.47.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.com/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xs.png 300w ,https://kppdi.github.com/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-sm.png 480w ,https://kppdi.github.com/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-md.png 768w ,https://kppdi.github.com/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-lg.png 1024w ,https://kppdi.github.com/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xl.png 1360w ,https://kppdi.github.com/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-2xl.png 1600w"  height="1634" width="2876" alt="" />
+      <img loading="lazy" src="https://kppdi.github.io/media/posts/1/Screen-Shot-2020-07-09-at-14.28.47.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xs.png 300w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-sm.png 480w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-md.png 768w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-lg.png 1024w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xl.png 1360w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-2xl.png 1600w"  height="1634" width="2876" alt="" />
       
     </figure>
             ]]>
