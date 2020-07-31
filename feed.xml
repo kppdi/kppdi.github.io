@@ -10,6 +10,52 @@
     <id>https://kppdi.github.io</id>
 
     <entry>
+        <title>Tampilkan Beberapa Form Di Satu Form</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/"/>
+        <id>https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/</id>
+            <category term="Tutorial"/>
+            <category term="Sample App"/>
+
+        <updated>2020-07-31T20:40:44+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
+                    Tulisan ini adalah reply untuk komentar dari Harum Anjani (deg degan nih, tulis namanya) yang berkaitan dengan beberapa form yang ditampilkan pada form utama. Form, melalui komponen TFrame (D6 ke atas, untuk D5 kaga’ tau, belum pernah pake’), dapat ditampilkan di form lain. Namun kurang&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
+                <p>Tulisan ini adalah reply untuk komentar dari Harum Anjani (deg degan nih, tulis namanya) yang berkaitan dengan beberapa form yang ditampilkan pada form utama.<br>Form, melalui komponen TFrame (D6 ke atas, untuk D5 kaga’ tau, belum pernah pake’), dapat ditampilkan di form lain. Namun kurang fleksibel. Di sini saya menggunakan TPanel (bisa juga komponen lain, asalkan dapat menampung child window, seperti TScrollBox, TGroupBox, TTPageControl, dll) agar lebih fleksibel dan dapat disesuaikan dengan kebutuhan saat runtime nantinya.</p>
+<p>Agar singkat, saya tulis langkah-langkahnya saja:</p>
+<ul>
+<li>Buat Aplikasi baru (File&gt;New&gt;Application)</li>
+<li>Tambahkan beberapa form (File&gt;New&gt;Form)<br>Otomatis, Form pertama adalah Form1, form kedua adalah Form2, dst. Fom1 nantinya akan menjadi form utama.</li>
+<li>Pada Form1, tambahkan beberapa Button sebanyak jumlah Form selain Form1.</li>
+<li>Pada klause Uses (setelah klausa <strong>implementation</strong>) tambahkan Unit2 (untuk form2), dst. Contohnya:
+<pre>implementationUses Unit4, Unit3, Unit2;{$R *.DFM}</pre>
+</li>
+<li>Tambahkan juga sebuah Panel ke Form1. Panel ini akan menampung Form lainnya.</li>
+<li>lik ganda Button1 pada Form1 dan masukkan kode seperti berikut:
+<pre>procedure TForm1.Button1Click(Sender: TObject);<br>begin <br>  Form2.parent:=Panel1;<br>  Form2.BorderStyle:=bsNone;
+  Form2.width:=panel1.width;
+  Form2.height:=Panel1.Height;<br>  Form2.Top:=0;
+  Form2.left:=0;
+  Form2.visible:=true;
+end;<br><br></pre>
+</li>
+<li>Lanjutkan kode Onclick Button2 untuk Form3, dst.</li>
+</ul>
+<p>Setelah semua selesai, jalankan aplikasi. Berikut adalah sebuah snapshot dari aplikasi demo yang dapat didownload pada bagian akhir tulisan ini:</p>
+<figure class="post__image"><br><img loading="lazy"  src="https://kppdi.github.io/media/posts/2/scrsht.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/2/responsive/scrsht-xs.jpg 300w ,https://kppdi.github.io/media/posts/2/responsive/scrsht-sm.jpg 480w ,https://kppdi.github.io/media/posts/2/responsive/scrsht-md.jpg 768w ,https://kppdi.github.io/media/posts/2/responsive/scrsht-lg.jpg 1024w ,https://kppdi.github.io/media/posts/2/responsive/scrsht-xl.jpg 1360w ,https://kppdi.github.io/media/posts/2/responsive/scrsht-2xl.jpg 1600w"  alt="" width="543" height="375"></figure><br><strong>Download</strong></p>
+<p><a href="https://jokorb.files.wordpress.com/2007/11/harum_anjani.ppt" title="harum_anjani.ppt">Source Code</a> ( setelah download, ubah ekstensi ke .zip)<br><a href="https://jokorb.files.wordpress.com/2007/11/multiform.ppt" title="multiform.ppt">Demo Exe</a> (ubah eks. ke .zip, scan dulu sebelum dijalankan)</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>Welcome :)</title>
         <author>
             <name>Grup KPPDI</name>
@@ -18,7 +64,7 @@
         <id>https://kppdi.github.io/welcome/</id>
             <category term="Docs"/>
 
-        <updated>2020-07-31T20:30:47+08:00</updated>
+        <updated>2020-07-31T20:40:44+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
