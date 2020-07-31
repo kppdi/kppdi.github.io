@@ -11,8 +11,8 @@
     },
     "items": [
         {
-            "id": "https://kppdi.github.io/welcome.html",
-            "url": "https://kppdi.github.io/welcome.html",
+            "id": "https://kppdi.github.io/welcome/",
+            "url": "https://kppdi.github.io/welcome/",
             "title": "Welcome :)",
             "summary": " tes saja aadasddsadd asdsadsdsddsd ",
             "content_html": "\n  <p>\n    tes saja\n  </p>\n\n  <p>\n    aadasddsadd\n  </p>\n\n  <p>\n    asdsadsdsddsd\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://kppdi.github.io/media/posts/1/Screen-Shot-2020-07-09-at-14.28.47.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xs.png 300w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-sm.png 480w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-md.png 768w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-lg.png 1024w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xl.png 1360w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-2xl.png 1600w\"  height=\"1634\" width=\"2876\" alt=\"\" />\n      \n    </figure>",
@@ -23,8 +23,8 @@
             "tags": [
                    "Docs"
             ],
-            "date_published": "2020-07-31T19:52:17+08:00",
-            "date_modified": "2020-07-31T19:52:17+08:00"
+            "date_published": "2020-07-31T19:56:46+08:00",
+            "date_modified": "2020-07-31T19:56:46+08:00"
         }
     ]
 }
