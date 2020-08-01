@@ -23,8 +23,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/screen-capture-menggunakan-delphi/",
@@ -40,8 +40,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/save-setting-koneksi-ke-file-ini/",
@@ -56,8 +56,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/",
@@ -73,24 +73,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
-        },
-        {
-            "id": "https://kppdi.github.io/welcome/",
-            "url": "https://kppdi.github.io/welcome/",
-            "title": "Welcome :)",
-            "summary": " tes saja aadasddsadd asdsadsdsddsd ",
-            "content_html": "\n  <p>\n    tes saja\n  </p>\n\n  <p>\n    aadasddsadd\n  </p>\n\n  <p>\n    asdsadsdsddsd\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://kppdi.github.io/media/posts/1/Screen-Shot-2020-07-09-at-14.28.47.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xs.png 300w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-sm.png 480w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-md.png 768w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-lg.png 1024w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xl.png 1360w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-2xl.png 1600w\"  height=\"1634\" width=\"2876\" alt=\"\" />\n      \n    </figure>",
-            "image": "https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg",
-            "author": {
-                "name": "Grup KPPDI"
-            },
-            "tags": [
-                   "Docs"
-            ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/format-angka-finansial/",
@@ -111,8 +95,8 @@
                    "Angka",
                    "Akuntansi"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/menggunakan-header-control-pada-dbgrid/",
@@ -131,8 +115,8 @@
                    "Control",
                    "Component"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer-2/",
@@ -148,8 +132,8 @@
                    "Object Pascal",
                    "Delphi"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer/",
@@ -164,8 +148,8 @@
                    "Tutorial",
                    "Docs"
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         },
         {
             "id": "https://kppdi.github.io/tipe-pointer/",
@@ -178,8 +162,22 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-01T18:34:52+08:00",
-            "date_modified": "2020-08-01T18:34:52+08:00"
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
+        },
+        {
+            "id": "https://kppdi.github.io/tipe-char-dan-string/",
+            "url": "https://kppdi.github.io/tipe-char-dan-string/",
+            "title": "Tipe Char dan String",
+            "summary": "AnsiCharKarakter berkuran 1 byte (8 bit) type AnsiChar = #0..#255;AnsiStringDeretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM). AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak&hellip;",
+            "content_html": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"2\" width=\"653\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>AnsiChar</strong></td>\n<td valign=\"top\" width=\"548\">Karakter berkuran 1 byte (8 bit)</p>\n<p><font color=\"#800000\">type <b>AnsiChar</b> = #0..#255;</font></td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>AnsiString</strong></td>\n<td valign=\"top\" width=\"548\">Deretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM).         <br />AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak bernilai.</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>Char</strong></td>\n<td valign=\"top\" width=\"548\">Char adalah tipe karakter seperti AnsiChar, namun sejak Delphi 2009 (Delphi 12), Char adalah WideChar, di mana ukurannya adalah 16bit (2 byte), menampung karakter ANSI maupun Unicode (multi-byte).</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>ShortString</strong></td>\n<td valign=\"top\" width=\"548\">ShortString merupakan deretan karakter berukuran hingga 255 karakter. Tipe String di bawah ini akan diperlakukan sebagai ShortString jika directive <b>$LongStrings</b> diset ke <strong>OFF</strong></td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>String</strong></td>\n<td valign=\"top\" width=\"548\">String merupakan deretan karakter. Bila directive <b>$LongStrings</b> diset ke <strong>OFF</strong>, String akan diperlakukan sebagai ShortString, sebaliknya jika directive ini diset ke <strong>ON, </strong>String akan diperlakukan sebagai AnsiString.          <br />Meskipun <b>$LongStrings</b> diset ke <strong>ON</strong>, sebuah string akan tetap diperlakukan sebagai ShortString jika kita menentukan FixedSize pada sebuah string.          <br />          <br /><font color=\"#800000\">var           <br />shortstr: String[5];            <br />{            <br />mendefiniskan sebuah variabel bertipe ShortString dengan panjang string maksimal 5 karakter.            <br />}            <br />longstr: String[260];            <br />{            <br />error! ShortString hanya dapat menampung maksimal 255 karakter!            <br />}</font></td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>WideChar</strong></td>\n<td valign=\"top\" width=\"548\">Karakter dengan ukuran 16 bit, untuk menampung karakter Unicode. Pada Delphi 2009 (mungkin versi selanjutnya juga), Char diperlakukan sebagai WideChar.</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>WideString</strong></td>\n<td valign=\"top\" width=\"548\">String yang terbentuk dari deretan karakter bertipe WideChar. Tiap elemennya berukuran 16 bit.         <br />Bila Anda mempunyai kode:          \n<p><font color=\"#800000\">var             <br />&#160; ws: WideString;              <br />&#160; l,              <br />&#160; sz: Integer;              <br />begin              <br />&#160; ws:='Hello World!';              <br />&#160; l:= Length(ws);              <br />&#160; sz:=SizeOf(widechar) * l;              <br />&#160; ShowMessage('Panjang String: '+InttoStr(l)+#13+              <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 'Ukuran String (memori): ' +IntToStr(sz)              <br />&#160; );</font></p>\n<p><font color=\"#000000\">Maka Anda akan mendapatkan hasil:             <br /><a href=\"http://jokorb.files.wordpress.com/2010/03/image.png\"><img loading=\"lazy\" style=\"border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;\" title=\"image\" border=\"0\" alt=\"image\" src=\"https://kppdi.github.io/media/posts/77/image_thumb.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/77/responsive/image_thumb-xs.png 300w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-sm.png 480w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-md.png 768w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-lg.png 1024w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-xl.png 1360w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-2xl.png 1600w\"  width=\"343\" height=\"133\" /></a> </font></p>\n</td>\n</tr>\n</tbody>\n</table>\n",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-01T18:58:34+08:00",
+            "date_modified": "2020-08-01T18:58:34+08:00"
         }
     ]
 }

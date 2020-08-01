@@ -18,7 +18,7 @@
         <id>https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/5/scalimg-codegear-delphi-for-microsoft-windows-umain-running_2011-06-24_00-26-54-2.png" alt="" />
@@ -471,7 +471,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/4/winsnap_delphi_snapshot_screen_caputure.png" alt="" />
@@ -602,7 +602,7 @@
         <id>https://kppdi.github.io/save-setting-koneksi-ke-file-ini/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/3/desain-form-parameter-koneksi.png" alt="" />
@@ -996,7 +996,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
@@ -1033,45 +1033,6 @@ end;<br><br></pre>
         </content>
     </entry>
     <entry>
-        <title>Welcome :)</title>
-        <author>
-            <name>Grup KPPDI</name>
-        </author>
-        <link href="https://kppdi.github.io/welcome/"/>
-        <id>https://kppdi.github.io/welcome/</id>
-            <category term="Docs"/>
-
-        <updated>2020-08-01T18:34:52+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
-                     tes saja aadasddsadd asdsadsdsddsd 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
-                
-  <p>
-    tes saja
-  </p>
-
-  <p>
-    aadasddsadd
-  </p>
-
-  <p>
-    asdsadsdsddsd
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://kppdi.github.io/media/posts/1/Screen-Shot-2020-07-09-at-14.28.47.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xs.png 300w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-sm.png 480w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-md.png 768w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-lg.png 1024w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xl.png 1360w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-2xl.png 1600w"  height="1634" width="2876" alt="" />
-      
-    </figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
         <title>Format Angka Finansial</title>
         <author>
             <name>Grup KPPDI</name>
@@ -1087,7 +1048,7 @@ end;<br><br></pre>
             <category term="Angka"/>
             <category term="Akuntansi"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                     Beberapa waktu lalau ada yang nyasar ke blog ini dengan sebuah pertanyaan: "listing delphi untuk angka dibelakang koma...." Nah, saya tulis saja :) Untuk memformat angka pecahan, terutama dalam aplikasi akuntansi, kita dapat menggunakan fungsi format float: [sourcecode language="delphi"] FormatFloat(const AFormat:String; const AValue: Extended): String;&hellip;
@@ -1146,7 +1107,7 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Control"/>
             <category term="Component"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                     Malas membaca? Langsung Download Source Code + Exe. Posting ini buat menjawab pertanyaan seorang rekan Delphier. FixedRow pada DBGrid default bawaan Delphi memang terlihat membosankan. Nah kita coba membuat tampilan yang lebih menarik. Langkah-Langkahnya: procedure TForm1.HeaderControl1SectionClick(HeaderControl: THeaderControl; &#160; Section: THeaderSection); begin &#160; ShowMessage('Anda mengklik pada:&hellip;
@@ -1213,7 +1174,7 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Object Pascal"/>
             <category term="Delphi"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                     Oke. Pembahasan kita terakhir adalah dereferensi pointer untuk mengambil nilai yang ditunjuknya. Pertanyaan, bila kita bebas melakukan casting terhadap variabel bertipe pointer untuk mengambil nilainya, dapatkah kita membuat saja tipe variabel baru yang sesuai dengan kebutuhan kita? Agar tidak usah ada casting lagi tiap kita&hellip;
@@ -1262,7 +1223,7 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Tutorial"/>
             <category term="Docs"/>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                     Pointer adalah sebuah tipe data yang berfungsi menunjukkan alamat di memori. Semua objek dalam Delphi yang diturunkan dari TObject adalah pointer. TForm, TStrings, TList, TDBGrid, semuanya pointer. Oke. Saya mulai dengan sebuah contoh. var p: Pointer; i, j: Integer; begin i:=45; j:=0; p:=@i; j:=Integer(p^); ShowMessage(IntToStr(j));&hellip;
@@ -1307,7 +1268,7 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
         <link href="https://kppdi.github.io/tipe-pointer/"/>
         <id>https://kppdi.github.io/tipe-pointer/</id>
 
-        <updated>2020-08-01T18:34:52+08:00</updated>
+        <updated>2020-08-01T18:58:34+08:00</updated>
             <summary>
                 <![CDATA[
                     Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list. Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel&hellip;
@@ -1339,6 +1300,62 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
 <p align="justify"><b>PWideChar</b>     <br />Mirip dengan PChar dan PAnsiChar.</p>
 <p align="justify"><b>PWideString</b>     <br />Pointer ke tipe WideString.</p>
 <p align="justify">Lebih jauh dengan pointer, kita diskusikan <a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/">di sini</a>.</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tipe Char dan String</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/tipe-char-dan-string/"/>
+        <id>https://kppdi.github.io/tipe-char-dan-string/</id>
+
+        <updated>2020-08-01T18:58:34+08:00</updated>
+            <summary>
+                <![CDATA[
+                    AnsiCharKarakter berkuran 1 byte (8 bit) type AnsiChar = #0..#255;AnsiStringDeretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM). AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <table border="0" cellspacing="0" cellpadding="2" width="653">
+<tbody>
+<tr>
+<td valign="top" width="103"><strong>AnsiChar</strong></td>
+<td valign="top" width="548">Karakter berkuran 1 byte (8 bit)</p>
+<p><font color="#800000">type <b>AnsiChar</b> = #0..#255;</font></td>
+</tr>
+<tr>
+<td valign="top" width="103"><strong>AnsiString</strong></td>
+<td valign="top" width="548">Deretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM).         <br />AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak bernilai.</td>
+</tr>
+<tr>
+<td valign="top" width="103"><strong>Char</strong></td>
+<td valign="top" width="548">Char adalah tipe karakter seperti AnsiChar, namun sejak Delphi 2009 (Delphi 12), Char adalah WideChar, di mana ukurannya adalah 16bit (2 byte), menampung karakter ANSI maupun Unicode (multi-byte).</td>
+</tr>
+<tr>
+<td valign="top" width="103"><strong>ShortString</strong></td>
+<td valign="top" width="548">ShortString merupakan deretan karakter berukuran hingga 255 karakter. Tipe String di bawah ini akan diperlakukan sebagai ShortString jika directive <b>$LongStrings</b> diset ke <strong>OFF</strong></td>
+</tr>
+<tr>
+<td valign="top" width="103"><strong>String</strong></td>
+<td valign="top" width="548">String merupakan deretan karakter. Bila directive <b>$LongStrings</b> diset ke <strong>OFF</strong>, String akan diperlakukan sebagai ShortString, sebaliknya jika directive ini diset ke <strong>ON, </strong>String akan diperlakukan sebagai AnsiString.          <br />Meskipun <b>$LongStrings</b> diset ke <strong>ON</strong>, sebuah string akan tetap diperlakukan sebagai ShortString jika kita menentukan FixedSize pada sebuah string.          <br />          <br /><font color="#800000">var           <br />shortstr: String[5];            <br />{            <br />mendefiniskan sebuah variabel bertipe ShortString dengan panjang string maksimal 5 karakter.            <br />}            <br />longstr: String[260];            <br />{            <br />error! ShortString hanya dapat menampung maksimal 255 karakter!            <br />}</font></td>
+</tr>
+<tr>
+<td valign="top" width="103"><strong>WideChar</strong></td>
+<td valign="top" width="548">Karakter dengan ukuran 16 bit, untuk menampung karakter Unicode. Pada Delphi 2009 (mungkin versi selanjutnya juga), Char diperlakukan sebagai WideChar.</td>
+</tr>
+<tr>
+<td valign="top" width="103"><strong>WideString</strong></td>
+<td valign="top" width="548">String yang terbentuk dari deretan karakter bertipe WideChar. Tiap elemennya berukuran 16 bit.         <br />Bila Anda mempunyai kode:          
+<p><font color="#800000">var             <br />&#160; ws: WideString;              <br />&#160; l,              <br />&#160; sz: Integer;              <br />begin              <br />&#160; ws:='Hello World!';              <br />&#160; l:= Length(ws);              <br />&#160; sz:=SizeOf(widechar) * l;              <br />&#160; ShowMessage('Panjang String: '+InttoStr(l)+#13+              <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 'Ukuran String (memori): ' +IntToStr(sz)              <br />&#160; );</font></p>
+<p><font color="#000000">Maka Anda akan mendapatkan hasil:             <br /><a href="http://jokorb.files.wordpress.com/2010/03/image.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/77/image_thumb.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/77/responsive/image_thumb-xs.png 300w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-sm.png 480w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-md.png 768w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-lg.png 1024w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-xl.png 1360w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-2xl.png 1600w"  width="343" height="133" /></a> </font></p>
+</td>
+</tr>
+</tbody>
+</table>
 
             ]]>
         </content>
