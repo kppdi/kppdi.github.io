@@ -1,0 +1,1421 @@
+
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"
+      class='com_content view-article itemid-101 home j39 mm-hover content-3168 os- brow-Array'>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="application developer tools, application development tools, embarcadero, embarcadero technologies" />
+	<meta name="title" content="Fast Cross-Platform App Development Software - Embarcadero" />
+	<meta name="og:url" content="https://www.embarcadero.com/" />
+	<meta name="og:type" content="article" />
+	<meta name="og:title" content="Embarcadero's advanced software tools help IT teams manage and optimize their database, software app development, and infrastructure performance." />
+	<meta name="og:site_name" content="Embarcadero Website" />
+	<meta name="description" content="Embarcadero's advanced software tools help IT teams manage and optimize their database, software app development, and infrastructure performance." />
+	
+	<title>Fast Cross-Platform App Development Software - Embarcadero</title>
+	<link href="https://www.embarcadero.com/" rel="canonical" />
+	<link href="/templates/t3_bs3_blank/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/cache/t3-assets/css/css-b64e1-51725.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/cache/t3-assets/css/css-e4cad-51725.css" rel="stylesheet" type="text/css" media="all" />
+	<style type="text/css">
+.translate-highlight{background: yellow;}
+	</style>
+	<script src="/cache/t3-assets/js/js-4abe4-51725.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(document).ready(function(){jQuery("html").append('<div style="display:none"><b>uri:</b>/<br/><b>countrycode:</b>id<br/><b>real countrycode:</b>id<br/><b>remoteaddr:</b>204.216.225.4<br/><b>xforward:</b>180.243.187.24<br/><b>server-remoteaddr:</b>204.216.225.4<br/><b>header-xforward:</b>180.243.187.24<br/><b>final session ip:</b>180.243.187.24<br/><b>actual last browsed product:</b><br/><b>session last browsed product:</b>rad-studio<br/></div>');});jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(document).ready(function(){var myRe = /translate-([0-9]*)/g;if(window.location.hash) {var myArray = myRe.exec(window.location.hash);if(myArray !== null && myArray[1]!==undefined){jQuery('[data-translate-id="'+myArray[1]+'"]').addClass("translate-highlight");}}});
+	</script>
+	<link rel="alternate" hreflang="zh" href="https://www.embarcadero.com/cn/" />
+	<link rel="alternate" hreflang="en" href="https://www.embarcadero.com/" />
+	<link rel="alternate" hreflang="x-default" href="https://www.embarcadero.com/" />
+	<link rel="alternate" hreflang="fr" href="https://www.embarcadero.com/fr/" />
+	<link rel="alternate" hreflang="de" href="https://www.embarcadero.com/de/" />
+	<link rel="alternate" hreflang="ja" href="https://www.embarcadero.com/jp/" />
+	<link rel="alternate" hreflang="pt" href="https://www.embarcadero.com/br/" />
+	<link rel="alternate" hreflang="ru" href="https://www.embarcadero.com/ru/" />
+	<link rel="alternate" hreflang="es" href="https://www.embarcadero.com/es/" />
+
+    <!-- META FOR IOS & HANDHELD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <style type="text/stylesheet">
+        @-webkit-viewport   { width: device-width; }
+        @-moz-viewport      { width: device-width; }
+        @-ms-viewport       { width: device-width; }
+        @-o-viewport        { width: device-width; }
+        @viewport           { width: device-width; }
+    </style>
+    <script type="text/javascript">
+        //<![CDATA[
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            msViewportStyle.appendChild(
+                    document.createTextNode("@-ms-viewport{width:auto!important}")
+                    );
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+        //]]>
+    </script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+<meta name="google-site-verification" content="isg3HWHxLV_7CcT0iulKG_fLVSHulyhLi_jOvR8R45k" />
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-T5BV9DJ':true});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-2244007-1', 'auto');
+  ga('require', 'GTM-T5BV9DJ');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2244007-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'AW-1070528707');
+</script>
+<x-choozle><script type="text/javascript" src="//nexus.ensighten.com/choozle/4634/Bootstrap.js"></script></x-choozle>
+
+
+
+</head>
+<body id="emb-body">
+    <!-- Google Tag Manager -->
+	<noscript>
+		<iframe src="//www.googletagmanager.com/ns.html?id=GTM-N7VMSS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-N7VMSS');</script>
+	<!-- End Google Tag Manager --> 
+
+    <div class="embarcadero-container">
+        <div class="body-wrapper  ">
+            <!-- HEADER -->
+
+<header id="t3-header" class="t3-header">
+	<div class="top-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 top-bar-left">
+					
+
+<div data-module-id="383" class="custom emb-library-slick"  >
+	<script>
+jQuery(document).on('ready', function () {
+	jQuery('#news-ticker').slick({
+		dots: false,
+      	arrows: false,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+      	autoplay: true,
+	});
+  	setBodyWrapperPadding();
+});
+</script>
+<div id="news-ticker" style="padding: 0;">
+  <div class="slide">
+    <p data-translate-id="20249">RAD Studio 10.4 is now available! <a href="/products/rad-studio/whats-new-in-10-4-sydney">Learn more</a></p>
+  </div>
+  <div class="slide">
+    <p data-translate-id="19931">Deep discounts available on <a href="/products/interbase">InterBase 2020</a> for OEM or VARs – <a href="/company/contact-sales?prod=IBVarInquiry">Contact sales</a></p>
+  </div>
+  <div class="slide">
+    <p data-translate-id="18888">Looking for Discounts? Visit our <a href="/radoffer">Special Offers</a> page</p>
+  </div>
+  <div class="slide">
+    <p data-translate-id="19526">Renew your Update Subscription license now <a href="/update-subscription">Read more</a></p>
+  </div>
+  <!--<div class="slide">
+    <p data-translate-id="19618">Visit the new Registered Products Portal <a href="https://license.embarcadero.com/edn/#login" target="_blank">here</a></p>
+  </div>-->
+</div></div>
+
+				</div>
+				<div class="col-md-7 top-bar-right">
+					<ul data-module-id="386" class="nav nav-pills nav-stacked menu nav navbar-nav">
+<li class="item-788"><a href="/rad-in-action/migration-upgrade-center" class="">Upgrade Center </a></li><li class="item-882"><a href="https://my.embarcadero.com" class=" link-color" target="_blank" rel="noopener noreferrer">New Customer Portal </a></li><li class="item-847"><a href="/company/contact-us" class="">Contact Us </a></li></ul>
+
+					<div class="top-bar-icons">
+						<div class="search-dropdown dropdown">
+							<a class="dropdown-toggle" href="javascript:void(0);"><i class="fa fa-search"></i></a>
+							<ul class="dropdown-menu">
+								<li>
+									<form action="/search" method="get" class="form-inline" id="searchForm">
+										<div class="input-append">
+											<input type="text" name="searchword" class="search-input" placeholder="Search">
+											<button type="submit" class="btn btn-blue"><i class="fa fa-search"></i></button>
+										</div>
+									</form>
+								</li>
+							</ul>
+						</div>
+						<div class="shopping-cart">
+							<a href="https://store.embarcadero.com/542/?scope=checkout&amp;continueurl=http%3A%2F%2Fwww.embarcadero.com%2Fapp-development-tools-store">
+								<i class="fa fa-shopping-cart"></i>
+								<span class="item-number">0</span></a>
+						</div>
+												<div class="language-dropdown dropdown" data-no-translate="1">
+							<a href="javascript:void(0);"><i class="fa fa-globe dropdown-toggle"></i></a>
+							<div data-module-id="218" class="mod-language-switcher">
+    <ul class="dropdown-menu">            <li >
+                <a href="https://www.embarcadero.com/es/">Español</a>
+            </li>            <li >
+                <a href="https://www.embarcadero.com/fr/">Français</a>
+            </li>            <li >
+                <a href="https://www.embarcadero.com/de/">Deutsch</a>
+            </li>            <li >
+                <a href="https://www.embarcadero.com/br/">Português</a>
+            </li>            <li >
+                <a href="https://www.embarcadero.com/ru/">Русский</a>
+            </li>            <li >
+                <a href="https://www.embarcadero.com/cn/">中文</a>
+            </li>            <li >
+                <a href="https://www.embarcadero.com/jp/">日本語</a>
+            </li>            <li class="active">
+                <a href="https://www.embarcadero.com/">English</a>
+            </li>    </ul>
+
+</div>
+
+						</div>
+											</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="brand-menu">
+			<ul data-module-id="417" class="nav nav-pills nav-stacked menu">
+<li class="item-830 deeper dropdown parent"><span class="nav-header "><img src="/images/logos/idera-menu-logo.png" alt="Idera Brand" /></span>
+<ul class="dropdown-menu"><li class="item-831"><a href="https://www.ideracorp.com/aboutus" class="" target="_blank" rel="noopener noreferrer">About Idera, Inc. </a></li><li class="item-832"><a href="https://www.ideracorp.com/brands" class="" target="_blank" rel="noopener noreferrer">Developer Tools </a></li><li class="item-833"><a href="https://www.ideracorp.com/brands" class="" target="_blank" rel="noopener noreferrer">Database Tool </a></li><li class="item-834"><a href="https://www.ideracorp.com/brands" class="" target="_blank" rel="noopener noreferrer">Testing Tools </a></li><li class="item-835 divider"><span class="separator ">-</span>
+</li><li class="item-836"><a href="tel:+18002122802" class="">US: 1 (800) 212-2802 </a></li></ul></li></ul>
+
+		</div>
+		<div class="menu-bar">
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<div class="logo">
+						<div class="logo-image">
+							<a href="/" title="Embarcadero">
+																	<img class="logo-img" src="/images/logos/embarcadero_logo.png" alt="Embarcadero" />
+																							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-6">
+					<div class="t3-navbar navbar-collapse collapse">
+						<div  class="t3-megamenu"  data-responsive="true">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+<li itemprop='name' class="dropdown mega" data-id="493" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/products"   data-target="#" data-toggle="dropdown">Products <em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width: 700px"  data-width="700"><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-6 mega-col-nav" data-width="6"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="793" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Development Tools</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="262" data-level="3" data-caption="The ultimate IDE with features both C++ and Delphi developers love: code, debug, test and fast design for cross-platform mobile and desktop deployment.">
+<a itemprop='url' class=""  href="/products/rad-studio"   data-target="#">RAD Studio <span class="mega-caption">The ultimate IDE with features both C++ and Delphi developers love: code, debug, test and fast design for cross-platform mobile and desktop deployment.</span></a>
+
+</li>
+<li itemprop='name'  data-id="297" data-level="3" data-caption="Trusted for over 25 years, our modern Delphi is the preferred choice of Object Pascal developers worldwide for creating cool apps across devices.">
+<a itemprop='url' class=""  href="/products/delphi"   data-target="#">Delphi <span class="mega-caption">Trusted for over 25 years, our modern Delphi is the preferred choice of Object Pascal developers worldwide for creating cool apps across devices.</span></a>
+
+</li>
+<li itemprop='name'  data-id="342" data-level="3" data-caption="Create and test code once to deploy all the apps with this powerful C++ IDE. Whether you prefer a clean text editor or fast UI design, C++ Builder has it.">
+<a itemprop='url' class=""  href="/products/cbuilder"   data-target="#">C++Builder <span class="mega-caption">Create and test code once to deploy all the apps with this powerful C++ IDE. Whether you prefer a clean text editor or fast UI design, C++ Builder has it.</span></a>
+
+</li>
+<li itemprop='name'  data-id="705" data-level="3" data-caption="Move, integrate, and analyze data with ease utilizing our NEW FireDAC Enterprise Connectors, powered by CData.">
+<a itemprop='url' class=""  href="/products/enterprise-connectors"   data-target="#">Enterprise Connectors <span class="mega-caption">Move, integrate, and analyze data with ease utilizing our NEW FireDAC Enterprise Connectors, powered by CData.</span></a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+<div class="col-xs-6 mega-col-nav" data-width="6"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="794" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Embedded SQL Database</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="384" data-level="3" data-caption="Ultrafast, scalable, embeddable SQL database with commercial-grade data security, disaster recovery and change synchronization">
+<a itemprop='url' class=""  href="/products/interbase"   data-target="#">InterBase <span class="mega-caption">Ultrafast, scalable, embeddable SQL database with commercial-grade data security, disaster recovery and change synchronization</span></a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="mega mega-group" data-id="795" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> RESTful MEAP Platform</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="602" data-level="3" data-caption="Turn-key application server that provides a robust &quot;out of the box&quot; back-end platform on which to build and deploy Delphi and C++Builder application services.">
+<a itemprop='url' class=""  href="/products/rad-server"   data-target="#">RAD Server <span class="mega-caption">Turn-key application server that provides a robust "out of the box" back-end platform on which to build and deploy Delphi and C++Builder application services.</span></a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="562" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/free-tools"   data-target="#" data-toggle="dropdown">Free Tools <em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width: 300px"  data-width="300"><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="829" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Development Tools</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="844" data-level="3">
+<a itemprop='url' class=""  href="/free-tools/ccompiler"   data-target="#">C++ Compiler</a>
+
+</li>
+<li itemprop='name'  data-id="797" data-level="3">
+<a itemprop='url' class=""  href="/products/delphi/starter"   data-target="#">Delphi Community Ed.</a>
+
+</li>
+<li itemprop='name'  data-id="796" data-level="3">
+<a itemprop='url' class=""  href="/products/cbuilder/starter"   data-target="#">C++Builder Community Ed.</a>
+
+</li>
+<li itemprop='name'  data-id="798" data-level="3">
+<a itemprop='url' class=""  href="/free-tools/rest-debugger"   data-target="#">REST Debugger</a>
+
+</li>
+<li itemprop='name'  data-id="799" data-level="3">
+<a itemprop='url' class=""  href="/products/interbase/developer/free-download"   data-target="#">InterBase Developer Edition</a>
+
+</li>
+<li itemprop='name'  data-id="800" data-level="3">
+<a itemprop='url' class=""  href="/free-tools/firemonkey-stencils"   data-target="#">FMX Stencils</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="801" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="https://community.idera.com/developer-tools/" target="_blank"   data-target="#" data-toggle="dropdown">Community<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="837" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Community</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="802" data-level="3">
+<a itemprop='url' class=""  href="https://community.idera.com/developer-tools/b/blog" target="_blank"   data-target="#">Blog</a>
+
+</li>
+<li itemprop='name'  data-id="803" data-level="3">
+<a itemprop='url' class=""  href="https://community.idera.com/developer-tools/p/forums" target="_blank"   data-target="#">Forums</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega mega-align-center" data-id="804" data-level="1" data-alignsub="center">
+<a itemprop='url' class=" dropdown-toggle"  href="/resources"   data-target="#" data-toggle="dropdown">Resources<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width: 1000px"  data-width="1000"><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-4 mega-col-nav" data-width="4"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="805" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Support &amp; Documentation</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="806" data-level="3">
+<a itemprop='url' class=""  href="/rad-in-action/migration-upgrade-center"   data-target="#">Migration and Upgrade Center</a>
+
+</li>
+<li itemprop='name'  data-id="807" data-level="3">
+<a itemprop='url' class=""  href="http://docwiki.embarcadero.com/" target="_blank"   data-target="#">Product Documentation</a>
+
+</li>
+<li itemprop='name'  data-id="808" data-level="3">
+<a itemprop='url' class=""  href="/resources/white-papers"   data-target="#">White Papers</a>
+
+</li>
+<li itemprop='name'  data-id="809" data-level="3">
+<a itemprop='url' class=""  href="/support"   data-target="#">Support</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+<div class="col-xs-4 mega-col-nav" data-width="4"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="810" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Events, Webinars &amp; Stories</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="811" data-level="3">
+<a itemprop='url' class=""  href="/events"   data-target="#">Events</a>
+
+</li>
+<li itemprop='name'  data-id="812" data-level="3">
+<a itemprop='url' class=""  href="/case-study"   data-target="#">Success Stories</a>
+
+</li>
+<li itemprop='name'  data-id="813" data-level="3">
+<a itemprop='url' class=""  href="https://www.youtube.com/channel/UCMmsCQhkz-WlJ-IVBzPhbgA" target="_blank"   data-target="#">Youtube Channel</a>
+
+</li>
+<li itemprop='name'  data-id="814" data-level="3">
+<a itemprop='url' class=""  href="/development-tools-for-education"   data-target="#">For Educators</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+<div class="col-xs-4 mega-col-nav" data-width="4"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name' class="mega mega-group" data-id="815" data-level="2" data-group="1">
+<span class=" dropdown-header mega-group-title separator"   data-target="#"> Embarcadero Partners</span>
+
+<div class="nav-child mega-group-ct"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level2">
+<li itemprop='name'  data-id="816" data-level="3">
+<a itemprop='url' class=""  href="/services/partners"   data-target="#">Partners</a>
+
+</li>
+<li itemprop='name'  data-id="817" data-level="3">
+<a itemprop='url' class=""  href="/embarcadero-mvp-program"   data-target="#">MVP Program</a>
+
+</li>
+<li itemprop='name'  data-id="818" data-level="3">
+<a itemprop='url' class=""  href="https://www.sencha.com/" target="_blank"   data-target="#">Web App Development</a>
+
+</li>
+<li itemprop='name'  data-id="819" data-level="3">
+<a itemprop='url' class=""  href="https://www.embarcaderoacademy.com/" target="_blank"   data-target="#">Embarcadero Academy</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+</ul>
+</div>
+
+					</div>
+																	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+									</div>
+				<div class="col-sm-3 hidden-xs main-nav-right text-right">
+					<div data-module-id="444" class="buy-now-link">
+    <a class="btn btn-secondary btn-secondary-alt" href="/update-subscription">Renew</a> 
+    <a class="btn btn-secondary" href="/app-development-tools-store">Buy Now</a>
+</div>
+				</div>
+			</div>
+							<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+					</div>
+			</div>
+</header>
+<!-- //HEADER -->
+
+                    <!-- HEADER BANNER -->
+        <header id="emb-banner" class="emb-banner  home-background emb-library-slick ">
+
+        <div class="container">
+			<div class="header-banner clearfix">
+				<div class="row">
+                    
+
+<div data-module-id="289" class="custom home-background emb-library-slick"  >
+	<script type="text/javascript">
+    jQuery(document).on('ready', function () {
+        jQuery('#xmas-promo .slider').slick({
+            dots: false,
+            infinite: false,
+            speed: 200,
+            autoplaySpeed: 4000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            arrows: false,
+            cssEase: 'ease-in-out'
+        });
+    });
+</script>
+<div class="col-md-12" id="xmas-promo">
+    <div class="slider no-arrows">
+        <div class="fade-slide">
+            <div class="row">
+                <div class="col-md-9 text-left">
+                  	<br/>
+                    <h1 style="text-align: left;">Introducing RAD Studio 10.4</h1>
+                    <h3 style="margin-bottom: 10px;">5X Faster - Build blazing fast Windows Apps</h3>
+                    <a class="btn btn-green" title="" href="/products/rad-studio/whats-new-in-10-4-sydney">Learn more</a>
+                </div>
+                <div class="col-md-3 md-text-right">
+                  	<img src="/images/banners_home/rad-heart.png" alt="Now Available RAD 10.4">
+                </div>
+            </div>
+        </div>
+        <div class="fade-slide">
+            <div class="row">
+                <div class="col-md-9 text-left">
+                    <h1 style="text-align: left;">Our Best Build Has Arrived <br/>Explore RAD Studio 10.4!</h1>
+                    <h3 style="margin-bottom: 10px;">Unmatched Windows 10 VCL Desktop Development</h3>
+                    <a class="btn btn-green" title="" href="/products/rad-studio/whats-new-in-10-4-sydney">Learn more</a>
+                </div>
+                <div class="col-md-3 md-text-right">
+                  	<img src="/images/banners_home/rad-heart.png" alt="Now Available RAD 10.4">
+                </div>
+            </div>
+        </div>
+        <div class="fade-slide">
+            <div class="row">
+                <div class="col-md-9 text-left">
+                    <h1 style="text-align: left;">Now Available: <br/>RAD Studio 10.4!</h1>
+                    <h3 style="margin-bottom: 10px;">Ready to build Windows apps faster than ever?</h3>
+                    <a class="btn btn-green" title="" href="/products/rad-studio/start-for-free">Start a FREE Trial</a>
+                </div>
+                <div class="col-md-3 md-text-right">
+                  	<img src="/images/banners_home/rad-heart.png" alt="Now Available RAD 10.4">
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+</div></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- //HEADER BANNER -->
+    
+			 <!-- //HEADER DYNAMIC BANNER -->
+  <!-- //HEADER DYNAMIC BANNER -->
+						
+			<div id="mainbody" class="container t3-mainbody ">
+
+				
+				
+				<div class="row">
+
+					<!-- MAIN CONTENT -->
+					<div id="t3-content" class="t3-content col-xs-12 ">
+						
+												<!-- Page header -->
+<!-- // Page header -->
+
+<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	
+	<!-- Article -->
+	<article itemscope itemtype="http://schema.org/Article">
+	  <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="https://google.com/article"/>
+		<meta itemprop="inLanguage" content="en-GB" />
+
+				
+				
+		
+  	<!-- Aside -->
+				<!-- // Aside -->
+
+		
+		<!-- Item tags -->
+				<!-- // Item tags -->
+
+				
+							
+					
+			
+			<section class="article-content clearfix" itemprop="articleBody">
+				<h2 class="text-center" style="font-size: 42px;">Build once and deploy modern apps for every platform - FAST</h2>
+<div class="spacer20"></div> 			</section>
+
+			<!-- Footer -->
+						<!-- // Footer -->
+
+			
+			
+						
+	</article>
+	<!-- //Article -->
+
+	
+		</div>
+					</div>
+					<!-- //MAIN CONTENT -->
+
+					
+				</div>
+				
+
+<div data-module-id="450" class="custom"  >
+	<div class="product-blocks js-eq-height-container eq-height-md">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="product-block text-center">
+				<img src="/images/logos/cbuilder-logo-64.png" alt="C++Builder">
+				<h3>C++Builder</h3>
+				<p data-translate-id="20281" class="js-eq-height">A complete RAD environment, loved by developers, with an integrated toolchain for modern C++ to help quickly build high-performance native Windows apps 10x faster than competing solutions.</p>
+				<a href="/products/cbuilder">Read more about C++Builder <i class="fa fa-arrow-right"></i></a>
+              	<a href="/products/cbuilder/start-for-free" class="btn">START FREE TRIAL</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="product-block text-center">
+				<img src="/images/logos/delphi-logo-64.png" alt="Delphi">
+				<h3>Delphi</h3>
+				<p data-translate-id="20282" class="js-eq-height">A powerful RAD environment for quickly developing high-performance native cross-platform applications using powerful visual design tools and integrated toolchains that independent developers and enterprise development teams love.</p>
+				<a href="/products/delphi">Read more about Delphi <i class="fa fa-arrow-right"></i></a>
+                <a href="/products/delphi/start-for-free" class="btn">START FREE TRIAL</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="product-block text-center">
+				<img src="/images/logos/rad-studio-logo-64.png" alt="RAD Studio">
+				<h3>RAD Studio</h3>
+				<p data-translate-id="20283" class="js-eq-height">The Ultimate RAD environment loved by developers for quickly building high-performance native cross-platform applications in modern C++ and Delphi using powerful visual design tools and integrated toolchains.</p>
+				<a href="/products/rad-studio">Read more about RAD Studio <i class="fa fa-arrow-right"></i></a>
+                <a href="/products/rad-studio/start-for-free" class="btn">START FREE TRIAL</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="product-block text-center">
+				<img src="/images/logos/ib-logo-64.png" alt="InterBase">
+				<h3>InterBase</h3>
+				<p data-translate-id="20284" class="js-eq-height">Ultra-fast, scalable, embeddable SQL database with commercial grade data security, disaster recovery and change synchronization. Run embedded on mobile devices, on desktops, or on servers.</p>
+				<a href="/products/interbase">Read more about InterBase <i class="fa fa-arrow-right"></i></a>
+                <a href="/products/interbase/start-for-free" class="btn">START FREE TRIAL</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="product-block text-center">
+				<img src="/images/logos/rad-server-logo-64.png" alt="RAD Server">
+				<h3>RAD Server</h3>
+				<p data-translate-id="20285" class="js-eq-height">Enterprise-grade REST API application platform available as on-premise or deployable to the cloud. Generate database APIs instantly in Delphi and C++Builder to build applications faster.</p>
+				<a href="/products/rad-server">Read more about RAD Server <i class="fa fa-arrow-right"></i></a>
+                <a href="/products/rad-server/demo-request" class="btn">START FREE TRIAL</a>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="product-block text-center">
+				<img src="/images/logos/learndelphi_logo_76x76.png" alt="Learn Delphi Logo">
+				<h3>LearnDelphi.org (New)</h3>
+				<p data-translate-id="20286" class="js-eq-height">Learning how to quickly design, code, and build apps using Object Pascal Delphi! This site features resources and free content for teaching and learning software development.</p>
+              	<a href="https://www.learndelphi.org/" target="_blank">Read more about LearnDelphi.org <i class="fa fa-arrow-right"></i></a>
+				<a class="btn" href="https://www.learndelphi.org/get-involved" target="_blank">Get Involved</a>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+
+<div data-module-id="418" class="custom clients-quotes emb-library-slick"  >
+	<script>
+jQuery(document).on('ready', function () {
+	jQuery('.clients-quotes-slides').slick({
+		dots: false,
+      	arrows: true,
+      	appendArrows: jQuery('#clientQuotesArrows'),
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		slidesToScroll: 1
+	});
+});
+</script>
+<div id="clientsQuotesCont">
+	<div class="clients-quotes-slides">
+	  <div class="slide">
+		<blockquote>
+          <p data-translate-id="19054" style="font-size: inherit">"What I like best about RAD Studio is the ease and speed of developing an application, and the ability to design whatever you can think of. It’s like my motto, Nothing is impossible!"</p>
+        </blockquote>
+		<p data-translate-id="18812">Paul Denham, IT Manager, Unique Car Mats (UK) Ltd.</p>
+		<!--<p data-translate-id="18813">(Source: TechValidate. <a href="https://www.techvalidate.com/tvid/EED-CE0-616" target="_blank">TViD: EED-CE0-616</a>)</p>-->
+	  </div>
+	  <div class="slide">
+		<blockquote>
+          <p data-translate-id="19055" style="font-size: inherit">"C++ Builder allows me to develop stunning UI without involving a lot of time, while at the same time focusing on the core alogrithmic parts of the application."</p>
+        </blockquote>
+		<p data-translate-id="18814">Engineer, Medium Enterprise Infrastructure And Engineering</p>
+		<!--<p data-translate-id="18815">(Source: TechValidate. <a href="https://www.techvalidate.com/tvid/5A6-3F4-E46" target="_blank">TViD: 5A6-3F4-E46</a>)</p>-->
+	  </div>
+	  <div class="slide">
+		<blockquote>
+          <p data-translate-id="19056" style="font-size: inherit">"With InterBase, we were able to deliver to our customers a reliable and powerful database that runs for several years with nearly zero administration."</p>
+        </blockquote>
+		<p data-translate-id="18816">Juergen Konewitz, Application Developer, Abies ITS Gmbh</p>
+		<!--<p data-translate-id="18817">(Source: TechValidate. <a href="https://www.techvalidate.com/tvid/CA6-20E-D50" target="_blank">TViD: CA6-20E-D50</a>)</p>-->
+	  </div>
+	</div>
+	<div id="clientQuotesArrows"></div>
+</div>
+<a href="/case-study">Learn more about our amazing customers <i class="fa fa-arrow-right"></i></a></div>
+
+
+<div data-module-id="419" class="custom client-logos extend-horiz"  >
+	<h3>Trusted by over 3 million developers worldwide</h3>
+<div class="static-logos">
+	<img src="/images/client-logos/GE_Logo1_WHITE.png" alt="GE">
+	<img src="/images/client-logos/Hitachi_Logo_WHITE.png" alt="HITACHI">
+	<img src="/images/client-logos/Intuit_Logo_WHITE.png" alt="INTUIT">
+	<img src="/images/client-logos/Nikon_Logo_WHITE.png" alt="Nikon">
+	<img src="/images/client-logos/WellsFargo_Logo_WHITE.png" alt="WELLS FARGO">
+	<img src="/images/client-logos/SuitcaseTV_Logo_WHITE.png" alt="Suitcase TV">
+</div></div>
+
+			</div> 
+            <!-- FOOTER -->
+<!--<div class="loader"></div>-->
+<footer id="t3-footer" class="wrap t3-footer">
+    <div class="container">
+		<div class="footer-menus">
+			<div class="row">
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					
+
+<div data-module-id="401" class="custom"  >
+	<h3>Products</h3>
+<ul class="nav menu">
+  <li><a href="/products/rad-studio">RAD Studio<sup>™</sup></a></li>
+  <li><a href="/products/delphi">Delphi<sup>®</sup></a></li>
+  <li><a href="/products/cbuilder">C++Builder<sup>®</sup></a></li>
+  <li><a href="/products/interbase">InterBase<sup>®</sup></a></li>
+  <li><a href="/products/rad-server">RAD Server<sup>™</sup></a></li>
+</ul></div>
+
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					
+
+<div data-module-id="402" class="custom"  >
+	<h3>Free Tools</h3>
+<ul class="nav menu">
+  <li><a href="/free-tools/ccompiler">C++ Compiler</a></li>
+  <li><a href="/products/cbuilder/starter">C++Builder Community Ed.</a></li>
+  <li><a href="/products/delphi/starter">Delphi Community Ed.</a></li>
+  <li><a href="/free-tools/rest-debugger">REST Debugger</a></li>
+  <li><a href="/products/interbase/developer/free-download">InterBase Developer Edition</a></li>
+  <li><a href="/free-tools/firemonkey-stencils">FMX Stencils</a></li>
+</ul></div>
+
+				</div>
+				<div class="clearfix hidden-sm hidden-md hidden-lg"></div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					
+
+<div data-module-id="403" class="custom"  >
+	<h3>Resources</h3>
+<ul class="nav menu">
+  <li><a href="/events">Events and Webinars</a></li>
+  <li><a href="/resources/white-papers">White Papers</a></li>
+  <li><a href="/resources/case-studies">Success Stories</a></li>
+  <li><a href="/development-tools-for-education">For Educators</a></li>
+  <li><a href="/services/partners">Partners</a></li>
+  <li><a href="/embarcadero-mvp-program">MVP Program</a></li>
+  <li><a href="https://www.sencha.com" target="_blank">Web App Development</a></li>
+</ul></div>
+
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6">
+					
+
+<div data-module-id="404" class="custom"  >
+	<h3>Support</h3>
+<ul class="nav menu">
+  <li><a href="/support">Support</a></li>
+  <li><a href="/solutions">Solutions</a></li>
+  <li><a href="https://my.embarcadero.com/" target="_blank">New Customer Portal</a></li>
+  <li><a href="http://docwiki.embarcadero.com" target="_blank">Documentation</a></li>
+</ul></div>
+
+				</div>
+				<div class="clearfix hidden-sm hidden-md hidden-lg"></div>
+				<div class="col-md-1 col-sm-4 col-xs-6">
+					
+
+<div data-module-id="405" class="custom"  >
+	<h3>Community</h3>
+<ul class="nav menu">
+  <li><a href="https://community.idera.com/developer-tools/b/blog" target="_blank">Blogs</a></li>
+  <li><a href="https://community.idera.com/developer-tools/p/forums" target="_blank">Forums</a></li>
+</ul></div>
+
+
+<div data-module-id="406" class="custom"  >
+	<h3>Company</h3>
+<ul class="nav menu">
+  <li><a href="/company/about-us">About us</a></li>
+  <li><a href="/company/contact-us">Contact us</a></li>
+  <li><a href="/company/contact-sales">Contact sales</a></li>
+  <li><a href="https://www.ideracorp.com/legal/embarcadero" target="_blank">Legal</a></li>
+  <li><a href="/news/logo">Logo</a></li>
+</ul></div>
+
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-12 footer-signup-col">
+					
+
+<div data-module-id="407" class="custom signup-form"  >
+	<h3>Sign up</h3>
+<p data-translate-id="18282">Join our email list  and receive the latest case studies, event updates, product news, and much more.</p>
+<form>
+    <div class="input-append">
+        <input id="initEmailField" type="text" placeholder="Enter your email"  aria-describedby="signup-btn" />
+        <a data-toggle="modal" href="#signupModal" id="triggersignupModal" class="btn btn-green">Sign up</a>
+    </div>
+</form>
+
+<!-- Modal -->
+<div class="modal fade" id="signupModal" role="dialog" style="display: none;">
+    <div class="modal-dialog">
+        <form role="form"  method="post" name="CGSubscribeForm" action="https://s608.t.eloqua.com/e/f2" >
+            <!-- Modal content-->
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sign up</h4>
+                </div>
+                <div class="modal-body">
+                                        <div class="g-grid">
+                        <div class="size-50">
+                            <div class="form-group">
+                                <input type="text" name="C_FirstName" id="first_name" class="form-control" required="" placeholder="First Name*">
+                            </div>
+                        </div>
+                        <div class="size-50">
+                            <div class="form-group">
+                                <input type="text" name="C_LastName" id="last_name" class="form-control" required="" placeholder="Last Name*">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" name="C_EmailAddress" id="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required="" placeholder="Email Address*">
+                    </div>
+
+                    <div class="g-grid">
+                        <div class="size-50">
+                            <div class="form-group">
+                                <select id="C_Country" name="C_Country" data-live-search="true" required="" size="1" class="form-control selectpicker">
+	<option value="" selected="selected">Select Country</option>
+	<option value="AF">Afghanistan</option>
+	<option value="AX">&Aring;land Islands</option>
+	<option value="AL">Albania</option>
+	<option value="DZ">Algeria</option>
+	<option value="AS">American Samoa</option>
+	<option value="AD">Andorra</option>
+	<option value="AO">Angola</option>
+	<option value="AI">Anguilla</option>
+	<option value="AQ">Antarctica</option>
+	<option value="AG">Antigua and Barbuda</option>
+	<option value="AR">Argentina</option>
+	<option value="AM">Armenia</option>
+	<option value="AW">Aruba</option>
+	<option value="AU">Australia</option>
+	<option value="AT">Austria</option>
+	<option value="AZ">Azerbaijan</option>
+	<option value="BS">Bahamas</option>
+	<option value="BH">Bahrain</option>
+	<option value="BD">Bangladesh</option>
+	<option value="BB">Barbados</option>
+	<option value="BY">Belarus</option>
+	<option value="BE">Belgium</option>
+	<option value="BZ">Belize</option>
+	<option value="BJ">Benin</option>
+	<option value="BM">Bermuda</option>
+	<option value="BT">Bhutan</option>
+	<option value="BO">Bolivia, Plurinational State of</option>
+	<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+	<option value="BA">Bosnia and Herzegovina</option>
+	<option value="BW">Botswana</option>
+	<option value="BV">Bouvet Island</option>
+	<option value="BR">Brazil</option>
+	<option value="IO">British Indian Ocean Territory</option>
+	<option value="BN">Brunei Darussalam</option>
+	<option value="BG">Bulgaria</option>
+	<option value="BF">Burkina Faso</option>
+	<option value="BI">Burundi</option>
+	<option value="KH">Cambodia</option>
+	<option value="CM">Cameroon</option>
+	<option value="CA">Canada</option>
+	<option value="CV">Cape Verde</option>
+	<option value="KY">Cayman Islands</option>
+	<option value="CF">Central African Republic</option>
+	<option value="TD">Chad</option>
+	<option value="CL">Chile</option>
+	<option value="CN">China</option>
+	<option value="CX">Christmas Island</option>
+	<option value="CC">Cocos (Keeling) Islands</option>
+	<option value="CO">Colombia</option>
+	<option value="KM">Comoros</option>
+	<option value="CG">Congo</option>
+	<option value="CD">Congo, the Democratic Republic of the</option>
+	<option value="CK">Cook Islands</option>
+	<option value="CR">Costa Rica</option>
+	<option value="CI">C&ocirc;te d'Ivoire</option>
+	<option value="HR">Croatia</option>
+	<option value="CU">Cuba</option>
+	<option value="CW">Cura&ccedil;ao</option>
+	<option value="CY">Cyprus</option>
+	<option value="CZ">Czech Republic</option>
+	<option value="DK">Denmark</option>
+	<option value="DJ">Djibouti</option>
+	<option value="DM">Dominica</option>
+	<option value="DO">Dominican Republic</option>
+	<option value="EC">Ecuador</option>
+	<option value="EG">Egypt</option>
+	<option value="SV">El Salvador</option>
+	<option value="GQ">Equatorial Guinea</option>
+	<option value="ER">Eritrea</option>
+	<option value="EE">Estonia</option>
+	<option value="ET">Ethiopia</option>
+	<option value="FK">Falkland Islands (Malvinas)</option>
+	<option value="FO">Faroe Islands</option>
+	<option value="FJ">Fiji</option>
+	<option value="FI">Finland</option>
+	<option value="FR">France</option>
+	<option value="GF">French Guiana</option>
+	<option value="PF">French Polynesia</option>
+	<option value="TF">French Southern Territories</option>
+	<option value="GA">Gabon</option>
+	<option value="GM">Gambia</option>
+	<option value="GE">Georgia</option>
+	<option value="DE">Germany</option>
+	<option value="GH">Ghana</option>
+	<option value="GI">Gibraltar</option>
+	<option value="GR">Greece</option>
+	<option value="GL">Greenland</option>
+	<option value="GD">Grenada</option>
+	<option value="GP">Guadeloupe</option>
+	<option value="GU">Guam</option>
+	<option value="GT">Guatemala</option>
+	<option value="GG">Guernsey</option>
+	<option value="GN">Guinea</option>
+	<option value="GW">Guinea-Bissau</option>
+	<option value="GY">Guyana</option>
+	<option value="HT">Haiti</option>
+	<option value="HM">Heard Island and McDonald Islands</option>
+	<option value="VA">Holy See (Vatican City State)</option>
+	<option value="HN">Honduras</option>
+	<option value="HK">Hong Kong</option>
+	<option value="HU">Hungary</option>
+	<option value="IS">Iceland</option>
+	<option value="IN">India</option>
+	<option value="ID">Indonesia</option>
+	<option value="IR">Iran, Islamic Republic of</option>
+	<option value="IQ">Iraq</option>
+	<option value="IE">Ireland</option>
+	<option value="IM">Isle of Man</option>
+	<option value="IL">Israel</option>
+	<option value="IT">Italy</option>
+	<option value="JM">Jamaica</option>
+	<option value="JP">Japan</option>
+	<option value="JE">Jersey</option>
+	<option value="JO">Jordan</option>
+	<option value="KZ">Kazakhstan</option>
+	<option value="KE">Kenya</option>
+	<option value="KI">Kiribati</option>
+	<option value="KP">Korea, Democratic People's Republic of</option>
+	<option value="KR">Korea, Republic of</option>
+	<option value="KW">Kuwait</option>
+	<option value="KG">Kyrgyzstan</option>
+	<option value="LA">Lao People's Democratic Republic</option>
+	<option value="LV">Latvia</option>
+	<option value="LB">Lebanon</option>
+	<option value="LS">Lesotho</option>
+	<option value="LR">Liberia</option>
+	<option value="LY">Libya</option>
+	<option value="LI">Liechtenstein</option>
+	<option value="LT">Lithuania</option>
+	<option value="LU">Luxembourg</option>
+	<option value="MO">Macao</option>
+	<option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+	<option value="MG">Madagascar</option>
+	<option value="MW">Malawi</option>
+	<option value="MY">Malaysia</option>
+	<option value="MV">Maldives</option>
+	<option value="ML">Mali</option>
+	<option value="MT">Malta</option>
+	<option value="MH">Marshall Islands</option>
+	<option value="MQ">Martinique</option>
+	<option value="MR">Mauritania</option>
+	<option value="MU">Mauritius</option>
+	<option value="YT">Mayotte</option>
+	<option value="MX">Mexico</option>
+	<option value="FM">Micronesia, Federated States of</option>
+	<option value="MD">Moldova, Republic of</option>
+	<option value="MC">Monaco</option>
+	<option value="MN">Mongolia</option>
+	<option value="ME">Montenegro</option>
+	<option value="MS">Montserrat</option>
+	<option value="MA">Morocco</option>
+	<option value="MZ">Mozambique</option>
+	<option value="MM">Myanmar</option>
+	<option value="NA">Namibia</option>
+	<option value="NR">Nauru</option>
+	<option value="NP">Nepal</option>
+	<option value="NL">Netherlands</option>
+	<option value="NC">New Caledonia</option>
+	<option value="NZ">New Zealand</option>
+	<option value="NI">Nicaragua</option>
+	<option value="NE">Niger</option>
+	<option value="NG">Nigeria</option>
+	<option value="NU">Niue</option>
+	<option value="NF">Norfolk Island</option>
+	<option value="MP">Northern Mariana Islands</option>
+	<option value="NO">Norway</option>
+	<option value="OM">Oman</option>
+	<option value="PK">Pakistan</option>
+	<option value="PW">Palau</option>
+	<option value="PS">Palestine, State of</option>
+	<option value="PA">Panama</option>
+	<option value="PG">Papua New Guinea</option>
+	<option value="PY">Paraguay</option>
+	<option value="PE">Peru</option>
+	<option value="PH">Philippines</option>
+	<option value="PN">Pitcairn</option>
+	<option value="PL">Poland</option>
+	<option value="PT">Portugal</option>
+	<option value="PR">Puerto Rico</option>
+	<option value="QA">Qatar</option>
+	<option value="RE">R&eacute;union</option>
+	<option value="RO">Romania</option>
+	<option value="RU">Russian Federation</option>
+	<option value="RW">Rwanda</option>
+	<option value="BL">Saint Barth&eacute;lemy</option>
+	<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+	<option value="KN">Saint Kitts and Nevis</option>
+	<option value="LC">Saint Lucia</option>
+	<option value="MF">Saint Martin (French part)</option>
+	<option value="PM">Saint Pierre and Miquelon</option>
+	<option value="VC">Saint Vincent and the Grenadines</option>
+	<option value="WS">Samoa</option>
+	<option value="SM">San Marino</option>
+	<option value="ST">Sao Tome and Principe</option>
+	<option value="SA">Saudi Arabia</option>
+	<option value="SN">Senegal</option>
+	<option value="RS">Serbia</option>
+	<option value="SC">Seychelles</option>
+	<option value="SL">Sierra Leone</option>
+	<option value="SG">Singapore</option>
+	<option value="SX">Sint Maarten (Dutch part)</option>
+	<option value="SK">Slovakia</option>
+	<option value="SI">Slovenia</option>
+	<option value="SB">Solomon Islands</option>
+	<option value="SO">Somalia</option>
+	<option value="ZA">South Africa</option>
+	<option value="GS">South Georgia and the South Sandwich Islands</option>
+	<option value="SS">South Sudan</option>
+	<option value="ES">Spain</option>
+	<option value="LK">Sri Lanka</option>
+	<option value="SD">Sudan</option>
+	<option value="SR">Suriname</option>
+	<option value="SJ">Svalbard and Jan Mayen</option>
+	<option value="SZ">Swaziland</option>
+	<option value="SE">Sweden</option>
+	<option value="CH">Switzerland</option>
+	<option value="SY">Syrian Arab Republic</option>
+	<option value="TW">Taiwan, China</option>
+	<option value="TJ">Tajikistan</option>
+	<option value="TZ">Tanzania, United Republic of</option>
+	<option value="TH">Thailand</option>
+	<option value="TL">Timor-Leste</option>
+	<option value="TG">Togo</option>
+	<option value="TK">Tokelau</option>
+	<option value="TO">Tonga</option>
+	<option value="TT">Trinidad and Tobago</option>
+	<option value="TN">Tunisia</option>
+	<option value="TR">Turkey</option>
+	<option value="TM">Turkmenistan</option>
+	<option value="TC">Turks and Caicos Islands</option>
+	<option value="TV">Tuvalu</option>
+	<option value="UG">Uganda</option>
+	<option value="UA">Ukraine</option>
+	<option value="AE">United Arab Emirates</option>
+	<option value="GB">United Kingdom</option>
+	<option value="US">United States</option>
+	<option value="UM">United States Minor Outlying Islands</option>
+	<option value="UY">Uruguay</option>
+	<option value="UZ">Uzbekistan</option>
+	<option value="VU">Vanuatu</option>
+	<option value="VE">Venezuela, Bolivarian Republic of</option>
+	<option value="VN">Viet Nam</option>
+	<option value="VG">Virgin Islands, British</option>
+	<option value="VI">Virgin Islands, U.S.</option>
+	<option value="WF">Wallis and Futuna</option>
+	<option value="EH">Western Sahara</option>
+	<option value="YE">Yemen</option>
+	<option value="ZM">Zambia</option>
+	<option value="ZW">Zimbabwe</option>
+</select>
+                            </div>
+                        </div>
+
+                        <div class="size-50">
+                            <div class="form-group">
+
+                                <input type="text" name="company" class="form-control" placeholder="Company">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <span  >
+                            <input id="emailOptIn" name="emailOptIn" required="" type="checkbox" value="on"  />
+                            <label class="checkbox-label" style="display: inline;" >I agree to receive Embarcadero marketing communications via email and phone call.                            </label>
+                        </span>
+                    </div>
+
+                    <div class="form-group">
+                        <span  >
+                            <input  id="privacyOptIn" name="privacyOptIn" required="" type="checkbox" value="on"  />
+                            <label class="checkbox-label" style="display: inline;" >
+                                I have read, understand and agree to Embarcadero’s terms and conditions and privacy statement.                            </label>
+                        </span>
+                    </div>
+                    <div class="row response hidden">
+                        <div class="col-xs-12 form-response alert alert-success">
+                            <p>Thank you for subscribing to Embarcadero email list.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <!--<input type="hidden" value="" name="C_State_Prov" class="btn btn-lg btn-info">-->
+                    <button id="CGSubscribeSubmit" class="btn btn-lg btn-green" type="submit">Subscribe</button>
+                    <input value="CGSubscribeForm" type="hidden" name="elqFormName"  />
+                    <input value="608" type="hidden" name="elqSiteId"  />
+                    <input name="elqCampaignId" type="hidden"  />
+                </div>
+            </div>
+        </form>
+    </div>
+</div></div>
+
+
+<div data-module-id="408" class="custom signup-form get-in-touch"  >
+	<h3>Get In Touch</h3>
+<p data-translate-id="18269">US: 1 (512) 226-8080</p>
+<p><a href="mailto:info@embarcadero.com">info@embarcadero.com</a></p>
+<a href="https://www.facebook.com/embarcaderotech" target="_blank"><span class="fa fa-facebook"></span></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/EmbarcaderoTechNet" target="_blank"><span class="fa fa-youtube"></span></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/EmbarcaderoTech" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/7548" target="_blank"><span class="fa fa-linkedin"></span></a></div>
+
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright-menu">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="logo">
+						<div class="logo-image">
+							<a href="/" title="Embarcadero">
+																	<img class="logo-img" src="/images/logos/embarcadero_logo.png" alt="Embarcadero" />
+																							</a>
+						</div>
+					</div>
+				</div>
+				<!--<div class="col-sm-9">
+					
+				</div>-->
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="row">
+				<div class="col-xs-12">
+					<p>© 2020 EMBARCADERO INC. ALL RIGHTS RESERVED</p>
+				</div>
+			</div>
+		</div>
+    </div>
+</footer>
+<!-- //FOOTER -->
+
+			<a href="javascript:;" class="scroll-up" title="Next Section" ><span class="fa fa-angle-down"></span></a>
+            
+
+<div data-module-id="429" class="custom"  >
+	<style>
+  #floatingBanner h3 {
+    font-size: 30px;
+  }
+</style>
+<script type="text/javascript">
+  function loadFloatingSlick() {
+    jQuery('#floating-carousel').slick({
+      dots: false,
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      autoplaySpeed: 5000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+    });
+  }
+</script>
+<div class="modal fade" id="floatingBanner" role="dialog" data-backdrop="false">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <div class="modal-content">
+            <div class="container">
+                <div id="floating-carousel" style="padding: 0;">
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/rad-heart.png" alt="RAD Studio 10.4" style="max-height: 150px;">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3>Introducing RAD Studio 10.4</h3>
+                              	<p><span>5X Faster - Build blazing fast Windows Apps</span></p>
+                                <a class="btn" href="/products/rad-studio/whats-new-in-10-4-sydney">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/rad-heart.png" alt="RAD Studio 10.4" style="max-height: 150px;">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3>Update to the Latest Version</h3>
+                                <p data-translate-id="18887">Discover how RAD Studio 10.4 provides developers with increased productivity, easier code maintenance, and perfect UI design.</p>
+                                <a class="btn" href="/products/rad-studio/start-for-free">START FREE TRIAL</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>See What's New in RAD Studio 10.4 Sydney</h3>
+                                <p data-translate-id="20288">Join the Embarcadero Product Management team for this webinar to see all the great new features in RAD Studio 10.4!</p>
+                                <a class="btn" href="https://youtu.be/-rTLEXLVueQ" target="_blank">Watch the Replay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/box.png" alt="Box" style="">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3 class="mb0">Get $1,000+ in FREE Getit Ad-ons!</h3>
+                                <h4>Buy or Renew Today and get IDE Ad-ons and Free Components</h4>
+                                <a class="btn" href="/company/contact-sales?prod=FlashSalesJune2020">Act Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-1">
+                                <img src="/images/banners_home/delphi-25-helmet.png" alt="Delphi" title="Delphi">
+                            </div>
+                            <div class="col-md-8 col-sm-10">
+                              	<br>
+                                <h3>When You Need High Performance - Trust Delphi</h3>
+                                <a class="btn" href="https://lp.embarcadero.com/Trust_Delphi_Whitepaper?utm_source=Trust_Delphi_WP&amp;utm_medium=website&amp;utm_content=Trust_Delphi_WP" target="_blank">Download Free Whitepaper</a>
+                            </div>
+                            <div class="col-md-2 col-sm-1">
+                                <img src="/images/banners_home/webinar-presenters/david-i.png" alt="David I." title="David I.">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Missed an Event?</h3>
+                                <p data-translate-id="20046">You can view our new Webinar Replays page to catch up on a missed event.</p>
+                                <a class="btn" href="/events/replays">View Webinar Replays</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/webinar-presenters/jim-mckeeth.png" alt="Jim McKeeth" title="Jim McKeeth">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3>Webinar Replay: CodeRage 2019 Year in Review</h3>
+                                <p data-translate-id="19887">2019 has been a great year in Delphi! Join Jim McKeeth as he recaps the year, announces the MVP's of the year, presents the Spirit of Delphi award to the incomparable David I, and gives a preview of what's to come in RAD Studio 10.4!</p>
+                                <a class="btn btn-sm" href="https://youtu.be/o7cUbitcuWA">Watch the Replay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/webinar-presenters/malcolm_groves.png" alt="Malcolm Groves" title="Malcolm Groves">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3>Webinar Replay: Working with Docker and RAD Server</h3>
+                                <p data-translate-id="19888">RAD Server Docker Deployment is new in 10.3.3. Docker is a container system using OS-Level virtualization to provide isolation and simplified deployment and management of software and service stacks. Join Malcolm Groves to learn more about using Docker and the new RAD Server Docker Deployment.</p>
+                                <a class="btn btn-sm" href="https://youtu.be/wFpbS3MDGTU">Watch the Replay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/webinar-presenters/sriram.png" alt="Sriram Balasubramanian" title="Sriram Balasubramanian">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3>Webinar Replay: Learn What's New in InterBase 2020</h3>
+                                <p data-translate-id="19889">New InterBase 2020 takes database organization to a more logical level with the introduction of Tablespace support. Come see what additional enhancements are offered in InterBase 2020 to help with your development and deployment needs!</p>
+                                <a class="btn btn-sm" href="https://youtu.be/5SLZq-k0qws">Watch the Replay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <img src="/images/banners_home/webinar-presenters/jim-mckeeth.png" alt="Jim McKeeth" title="Jim McKeeth">
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <h3>Webinar Replay: Happy 25th Birthday, Delphi!</h3>
+                                <p data-translate-id="19890">Celebrate 25 years of Delphi in this awesome webinar. Join Jim McKeeth together with the creators of Delphi, Anders Hejlsberg and Chuck Jazdzewski sit down with some of Delphi's leading developers for an insightful conversation celebrating the impact of 25 years of Delphi.</p>
+                                <a class="btn btn-sm" href="https://youtu.be/PAD-KiOjgIc">Watch the Replay</a>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+	
+        </div>
+    </div>
+    <!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq)
+            return;
+        n = f.fbq = function () {
+            n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq)
+            f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window,
+            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '512428178882388');
+    fbq('track', 'PageView');</script>
+<noscript><img height="1" width="1" style="display:none"  alt="Tr?id=512428178882388&ev=pageview&noscript=1" src="https://www.facebook.com/tr?id=512428178882388&ev=PageView&noscript=1" /></noscript>
+
+<!-- Twitter universal website tag code -->
+<script>
+    !function (e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function () {
+            s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        }, s.version = '1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init', 'nvi3u');
+    twq('track', 'PageView');
+</script>
+<!-- End Twitter universal website tag code --> 
+</body>
+</html>

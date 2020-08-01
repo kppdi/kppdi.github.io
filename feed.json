@@ -23,8 +23,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-01T17:21:06+08:00",
-            "date_modified": "2020-08-01T17:21:06+08:00"
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
         },
         {
             "id": "https://kppdi.github.io/screen-capture-menggunakan-delphi/",
@@ -40,8 +40,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-01T17:21:06+08:00",
-            "date_modified": "2020-08-01T17:21:06+08:00"
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
         },
         {
             "id": "https://kppdi.github.io/save-setting-koneksi-ke-file-ini/",
@@ -56,8 +56,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-01T17:21:06+08:00",
-            "date_modified": "2020-08-01T17:21:06+08:00"
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
         },
         {
             "id": "https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/",
@@ -73,8 +73,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-01T17:21:06+08:00",
-            "date_modified": "2020-08-01T17:21:06+08:00"
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
         },
         {
             "id": "https://kppdi.github.io/welcome/",
@@ -89,8 +89,80 @@
             "tags": [
                    "Docs"
             ],
-            "date_published": "2020-08-01T17:21:06+08:00",
-            "date_modified": "2020-08-01T17:21:06+08:00"
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
+        },
+        {
+            "id": "https://kppdi.github.io/tes-single-sql-sukses/",
+            "url": "https://kppdi.github.io/tes-single-sql-sukses/",
+            "title": "Tes Single SQL Sukses",
+            "summary": "Akhirnya. Perintah SQL yang panjang dan berliku jadi juga...",
+            "content_html": "<p>Akhirnya. Perintah SQL yang panjang dan berliku jadi juga...</p>\n",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
+        },
+        {
+            "id": "https://kppdi.github.io/select-n-n-1-as-nourut-tabel-2/",
+            "url": "https://kppdi.github.io/select-n-n-1-as-nourut-tabel-2/",
+            "title": "Select (@n :&#x3D; @n + 1) as NoUrut, tabel.*...",
+            "summary": "Select (@n := @n + 1) as NoUrut, tabel.* From (Select @n := 0) as X, tabel",
+            "content_html": "<p>Select (@n := @n + 1) as NoUrut, tabel.*<br />\nFrom<br />\n(Select @n := 0) as X,<br />\ntabel</p>\n",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
+        },
+        {
+            "id": "https://kppdi.github.io/select-n-n-1-as-nourut-tabel/",
+            "url": "https://kppdi.github.io/select-n-n-1-as-nourut-tabel/",
+            "title": "Select (@n :&#x3D; @n + 1) as NoUrut, tabel.*...",
+            "summary": "Select (@n := @n + 1) as NoUrut, tabel.* From (Select @n := 0) as X, tabel",
+            "content_html": "<p>Select (@n := @n + 1) as NoUrut, tabel.*<br />\nFrom<br />\n(Select @n := 0) as X,<br />\ntabel</p>\n",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
+        },
+        {
+            "id": "https://kppdi.github.io/jokorbwordpresscom-finally-stays-on-a/",
+            "url": "https://kppdi.github.io/jokorbwordpresscom-finally-stays-on-a/",
+            "title": "Jokorb.wordpress.com finally stays on. A...",
+            "summary": "Jokorb.wordpress.com finally stays on. After couple of days researching for new storage for attachments of this blog, i found a good free hosting service, www.kilu.de and decided to copy a mirror of this blog there. Formerly I was thingking to host this blog there. But&hellip;",
+            "content_html": "<p>Jokorb.wordpress.com finally stays on.<br />\nAfter couple of days researching for new storage for attachments of this blog, i found a good free hosting service, <a href=\"http://www.kilu.de\" target=\"_blank\">www.kilu.de</a> and decided to copy a mirror of this blog there.<br />\nFormerly I was thingking to host this blog there. But their PHP execution timeout is very small, and many things like comment editing, batch processing, and event comment posting can't properly be done. However, file uploading process always went good when tested.<br />\nSo, the final decision is I was making the mirror as blog hosting to facility attachments and files storage, and future postings of this blog link to them.<br />\nThis blog stays as is!rly hnin</p>\n",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+                   "mirror",
+                   "hosting"
+            ],
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
+        },
+        {
+            "id": "https://kppdi.github.io/ngetes-contoh-parsing-downloadcontoh/",
+            "url": "https://kppdi.github.io/ngetes-contoh-parsing-downloadcontoh/",
+            "title": "Ngetes contoh parsing: Download...contoh...",
+            "summary": "Ngetes contoh parsing: Download...contohparsing",
+            "content_html": "<p>Ngetes contoh parsing: Download...<a href='http://jokorb.files.wordpress.com/2010/08/parsing-delphi-7.ppt'>contohparsing</a></p>\n",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-08-01T17:48:50+08:00",
+            "date_modified": "2020-08-01T17:48:50+08:00"
         }
     ]
 }

@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Memproteksi File EXE Dengan Password - Grup KPPDI </title>
+        <meta name="description" content="Software : Delphi 6, PE Inject API oleh Michal Strahovsky Tingkat Kemahiran: 80% Kategori: Sekuriti &amp; WIN32API Pengantar Banyak kita melihat virus-virus yang menyerang file EXE/PE, seperti varian Alman, Virut dan berbagai virus lainnya. Banyak juga yang membuat aplikasi-aplikasi untuk memproteksi komputer dari tangan jahil&hellip;" />
+         
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <link rel="canonical" href="https://kppdi.github.io/memproteksi-file-exe-dengan-password/">
+        
+        <link rel="alternate" type="application/atom+xml" href="https://kppdi.github.io/feed.xml" />
+<link rel="alternate" type="application/json" href="https://kppdi.github.io/feed.json" />
+
+        <meta property="og:title" content="Memproteksi File EXE Dengan Password" /><meta property="og:image" content="https://kppdi.github.io/media/website/kppdi-headd.png"/><meta property="og:site_name" content="Grup KPPDI" /><meta property="og:description" content="Software : Delphi 6, PE Inject API oleh Michal Strahovsky Tingkat Kemahiran: 80% Kategori: Sekuriti &amp; WIN32API Pengantar Banyak kita melihat virus-virus yang menyerang file EXE/PE, seperti varian Alman, Virut dan berbagai virus lainnya. Banyak juga yang membuat aplikasi-aplikasi untuk memproteksi komputer dari tangan jahil&hellip;" /><meta property="og:url" content="https://kppdi.github.io/memproteksi-file-exe-dengan-password/" /><meta property="og:type" content="article" />
+        <style>:root{--body-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--heading-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--logo-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--menu-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}</style>
+        <link rel="stylesheet" href="https://kppdi.github.io/assets/css/style.css?v=1937a1e79836910fd8b372dab1a5ba8e">
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://kppdi.github.io/memproteksi-file-exe-dengan-password/"},"headline":"Memproteksi File EXE Dengan Password","datePublished":"2008-05-13T16:41","dateModified":"2020-08-01T17:42","image":{"@type":"ImageObject","url":"https://kppdi.github.io/media/website/kppdi-headd.png","height":72,"width":322},"description":"Software : Delphi 6, PE Inject API oleh Michal Strahovsky Tingkat Kemahiran: 80% Kategori: Sekuriti &amp; WIN32API Pengantar Banyak kita melihat virus-virus yang menyerang file EXE/PE, seperti varian Alman, Virut dan berbagai virus lainnya. Banyak juga yang membuat aplikasi-aplikasi untuk memproteksi komputer dari tangan jahil&hellip;","author":{"@type":"Person","name":"Grup KPPDI"},"publisher":{"@type":"Organization","name":"Grup KPPDI","logo":{"@type":"ImageObject","url":"https://kppdi.github.io/media/website/kppdi-headd.png","height":72,"width":322}}}</script>
+        
+        
+    </head>
+    <body>
+        <div class="site-container">
+   <header class="top" id="js-header">
+      <a class="logo" href="https://kppdi.github.io/">
+            <img src="https://kppdi.github.io/media/website/kppdi-headd.png" alt="Grup KPPDI">
+      </a>
+            <nav class="navbar js-navbar">
+               <button
+                  class="navbar__toggle js-toggle"
+                  aria-label="Menu"
+                  aria-haspopup="true"
+                  aria-expanded="false">
+                  <span class="navbar__toggle-box">
+                     <span class="navbar__toggle-inner">Menu</span>
+                  </span>
+               </button>
+             <ul class="navbar__menu">
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/"
+                              target="_self"
+         >
+                           Home
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/docs/"
+                              target="_self"
+         >
+                           Docs
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/tutorials/"
+                              target="_self"
+         >
+                           Tutorial
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/sample-apps/"
+                              target="_self"
+         >
+                           Sample App
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/files/"
+                              target="_self"
+         >
+                           Files
+                       </a>
+         
+                  </li>
+             </ul>
+            </nav>
+   </header>
+<main>
+      <article class="post">
+         <div class="hero">
+             
+                     <figure class="hero__image hero__image--overlay">
+                         
+                        <img
+                           src="https://kppdi.github.io/media/website/cover-kppdi-2.jpg"
+                               srcset="https://kppdi.github.io/media/website/responsive/cover-kppdi-2-xs.jpg 300w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-sm.jpg 480w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-md.jpg 768w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-lg.jpg 1024w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-xl.jpg 1360w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-2xl.jpg 1600w"   sizes="(max-width: 1600px) 100vw, 1600px" 
+                            loading="eager"
+                           alt="">
+                         
+                         
+                     </figure>
+             
+            <header class="hero__content">
+               <div class="wrapper">
+                     <div class="post__meta">
+                        <time datetime="2008-05-13T16:41">
+                              May 13, 2008
+                        </time>
+                     </div>
+                  <h1>
+                     Memproteksi File EXE Dengan Password
+                  </h1>
+                     <div class="post__meta post__meta--author">
+                              <img 
+                                   src="https://kppdi.github.io/media/website/Logo-KPPDI.png" 
+                                    loading="eager" 
+                                   alt="Grup KPPDI" 
+                                   class="post__author-thumb">
+                           <a href="https://kppdi.github.io/authors/grup-kppdi/" class="feed__author invert">Grup KPPDI</a>
+                     </div>
+               </div>
+            </header>
+         </div>
+
+         <div class="wrapper post__entry">           
+            <p>Software : Delphi 6, PE Inject API oleh <a href="http://migeel.sk" target="_blank">Michal Strahovsky</a><br />
+Tingkat Kemahiran: 80%<br />
+Kategori: Sekuriti &amp; WIN32API</p>
+<p><strong>Pengantar</strong></p>
+<p>Banyak kita melihat virus-virus yang menyerang file EXE/PE, seperti varian Alman, Virut dan berbagai virus lainnya. Banyak juga yang membuat aplikasi-aplikasi untuk memproteksi komputer dari tangan jahil atau bahkan virus. Pertanyaan, jika kedua jenis software di atas bisa kita buat, yang mana yang akan kita buat?<br />
+Saya pribadi akan membuat virus. Sayang, saya tidak bisa membuat virus yang bauk, jadi "terpaksa" saya pilih yang kedua, aplikasi untuk kepentingan sekuriti.</p>
+<p>Virus-virus yang menyerang file PE/EXE, sebagaimana juga software sekuriti dimaksud di atas, setidaknya memiliki dua opsi untuk mengerjakan tugasnya - menurut sepengetahuan saya, harap diingat - itu. Seperti ini:</p>
+<ol>
+<li>Sebagai stub dengan embbeded data. Ini mirip dengan aplikasi installer pada umumnya, di mana sebuah aplikasi membuat/mengkopi file EXE/PE dan kemudian menambahkan data tambahan di akhirnya, dan di bagian paling akhir (atau di bagian mana saja yang aman), ditambahkan beberapa parameter untuk digunakan oleh stub nantinya, seperti CRC check signature, besar data yang diembed, jumlah file/data yang diembed, dsb. Jika, misalnya, cara ini dipakai untuk kepentingan distribusi data melalui sebuah file (Self Extractor) atau SFX, jadilah dia sebuah aplikasi instalasi. Namun jika dipakai untuk menyebarkan "sesuatu", maka jadilah dia dalam golongan virus. Sebagai catatan, jika ada yang membuat virus dengan cara ini, sebaiknya kedua tugas di atas - membuat stub dan mengandung embedded data - dikerjakan oleh sebuah EXE saja, sehingga bisa menyebar tanpa software bantu lainnya. Dan sebaiknya jangan memilih tool yang menggunakan shared depencies seperti VB :-)<br />
+Di Tanah Air Indonesia ini, saya melihat kecenderungan membuat trojan atau virus - atau apa kek- dengan metode ini. Namun ada kelemahannya, icon aplikasi (stub/target) yang sudah dihinggapi (bukan diinfeksi) akan berubah sesuai icon stub yang sebenarnya, jadi user yang menjadi korban, jika cukup teliti, akan tahu bahwa dia sedang disantet.<br />
+Ini sebanya (barangkali), beberapa waktu lalu saya acap menerima e-mail atau membaca posting di milis-milis tentang bagaimana mengubah icon sebuah aplikasi. Tapi sebagaimana Anda, saya juga tidak menjawab sebuah pertanyaan yang mempunyai tendensi negatif, apalagi yang ditanyakan oleh seorang Delphier. Bukankah akan memalukan?</li>
+<li>Ini yang seru. Sebagai stub yang menjadi bagian dari file yang ditumpangi. Varian Alman dan Virut di atas masuk kategori ini. Sebuah aplikasi, katakan A, akan menyuntik kode-kode tertentu, katakan B, (seperti DLL Injection) yang residen dalam file target. Jika cara ini dipakai oleh virus, maka virus itu akan masuk kategori sulit dibasmi, kecuali dengan mempertaruhkan keselamatan file terinfeksi (bukan dihinggapi, silahkan bandingkan dengan metode pertama di atas) :-)<br />
+Seperti juga di atas, jika sebuah program mampu menjadi kode yang iinject sekaligus penginjectnya, pastikan program ini sudah menjadi sebuah virus yang tangguh. Tinggal ditambahkan sebuah rutin untuk mencari file PE/EXE di harddisk target, trus jalankan injeksi ke tiap PE/EXE yang mungkin untuk diinject.</li>
+</ol>
+<p>Baik. Sampai di sini, saya menunggu koreksi jika Anda menemukan ketidak sesuaian.</p>
+<p>Sesuai judul, kita hanya akan membahas metode nomor dua, dengan batasan positif, membuat sebuah aplikasi sekuriti untuk memproteksi file-file PE/EXE dengan password. Berikut kita lihat beberapa gambar screenshot dari demo aplikasi yang sudah saya buat:</p>
+<figure class="alignnone size-medium wp-image-149"><a href="http://jokorb.files.wordpress.com/2008/05/d8989du09sdf9df_pe_lock_01.gif"><img loading="lazy"  src="https://kppdi.github.io/media/posts/32/d8989du09sdf9df_pe_lock_01.gif" alt="" width="300" height="193" /></figure></a><br />
+Ini tampilan depan.</p>
+<figure class="alignnone size-medium wp-image-150"><a href="http://jokorb.files.wordpress.com/2008/05/diidfdu09sd567yf9df_pe_lock_02.jpg"><img loading="lazy"  src="https://kppdi.github.io/media/posts/32/diidfdu09sd567yf9df_pe_lock_02.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/32/responsive/diidfdu09sd567yf9df_pe_lock_02-xs.jpg 300w ,https://kppdi.github.io/media/posts/32/responsive/diidfdu09sd567yf9df_pe_lock_02-sm.jpg 480w ,https://kppdi.github.io/media/posts/32/responsive/diidfdu09sd567yf9df_pe_lock_02-md.jpg 768w ,https://kppdi.github.io/media/posts/32/responsive/diidfdu09sd567yf9df_pe_lock_02-lg.jpg 1024w ,https://kppdi.github.io/media/posts/32/responsive/diidfdu09sd567yf9df_pe_lock_02-xl.jpg 1360w ,https://kppdi.github.io/media/posts/32/responsive/diidfdu09sd567yf9df_pe_lock_02-2xl.jpg 1600w"  alt="" width="216" height="125" /></figure><br />
+</a>Ini tampilan pesan yang menyatakan bahwa proses injeksi berlangsung sempurna.</p>
+<figure class="alignnone size-medium wp-image-151"><a href="http://jokorb.files.wordpress.com/2008/05/e8ffgbdiidfdu09sd567yf9df_pe_lock_03.jpg"><img loading="lazy"  src="https://kppdi.github.io/media/posts/32/e8ffgbdiidfdu09sd567yf9df_pe_lock_03.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/32/responsive/e8ffgbdiidfdu09sd567yf9df_pe_lock_03-xs.jpg 300w ,https://kppdi.github.io/media/posts/32/responsive/e8ffgbdiidfdu09sd567yf9df_pe_lock_03-sm.jpg 480w ,https://kppdi.github.io/media/posts/32/responsive/e8ffgbdiidfdu09sd567yf9df_pe_lock_03-md.jpg 768w ,https://kppdi.github.io/media/posts/32/responsive/e8ffgbdiidfdu09sd567yf9df_pe_lock_03-lg.jpg 1024w ,https://kppdi.github.io/media/posts/32/responsive/e8ffgbdiidfdu09sd567yf9df_pe_lock_03-xl.jpg 1360w ,https://kppdi.github.io/media/posts/32/responsive/e8ffgbdiidfdu09sd567yf9df_pe_lock_03-2xl.jpg 1600w"  alt="" width="245" height="59" /></figure></a><br />
+Ini tampilan jika PE/EXE yang telah dinjeksi dijalankan :-)</p>
+<p><strong>Proses Pembuatan</strong></p>
+<p>Proses pembuatan aplikasi proteksi ini kita bagi dua. Yang pertama kode yang akan diinject ke file target (yang harus merupakan PE/EXE), dan yang kedua aplikasi untuk menginjeksi. Kita tidak membuat virus, jadi tugas aplikasi ini kita pisahkan, tidak dilakukan oleh sebuah aplikasi tunggal.</p>
+<p>Untuk menjalankan proses, kita butuh PE Inject Library oleh <a href="http://migeel.sk" target="_blank">Michal Strahovsky</a>, yang mana bukan saya pembuatnya :-). Silahkan download di websitenya <a href="http://migeel.sk" target="_blank">http://migeel.sk</a>.  Selanjutnya , kita buat sebuah projek baru di Delphi (saya menggunakan Delphi 6), dengan target Dynamic Link Library. Ini untuk mempermudah, karena <a href="http://migeel.sk" target="_blank">Michal Strahovsky</a> memilih menggunakan DLL sebagai kode yang akan diinject, sehingga dengan mudah kita buat, tanpa harus pusing menentukan batasan-batasan kode yang akan kita inject. Plus, kita bisa sertakan form (dengan WinAPI) tentunya.</p>
+<p><a href="http://migeel.sk" target="_blank">Michal Strahovsky</a> membagi kode dalam DLL kita atas dua, berupa fungsi BeforeHandler dan AfterHandler, yang akan dijalankan sebelum kode PE/EXE sesungguhnya dari file target, kemudian masuk ke entry point PE/EXE target, dan setelah berakhir, outpoint akan melompat ke awal fungsi AfterHandler dan menjalankan kode kita. Agar bisa diload oleh PEInject, kedua fungsi ini harus diekspor.</p>
+<p>Saya tidak menggunakan AfterHandler (opsional) karena yang saya butuhkan hanya Beforehandler sebelum masuk entry point PE/EXE target - yang disebut Original Entry Point, selanjutnya akan saya sebut OEP saja. Kemudian saya tambahkan sebuah fungsi WindowPorc untuk memproses pesan. Funsgi ini perlu untuk menangani message yang datanng dari Windows. Ingat, untuk meminta password kita butuh form dan minimal sebuah EditBox. Untuk membuat form, kita butuh WindowProc.</p>
+<p>Perbedaan mendasar DLL ini dari DLL lainnya adalah, entry pointnya berada pada fungsi BeforeHandler, bukan Begin &amp; End. Jadi proses pembuatan form harus ditempatkan dalam fungsi ini.</p>
+<p>Agar tidak membosankan, saya langsung saja dengan  kodenya, yang terbagi atas dua: Entry Point BeforeHandler dan WindowProc.</p>
+<p>[sourcecode language='delphi']<br />
+Library  pelock;</p>
+<p>uses<br />
+  Windows,Messages, InjectionTypes;</p>
+<p>const<br />
+  ClassName='PELOCKER_Plugin';</p>
+<p>var<br />
+  sLen:cardinal;<br />
+  form1,<br />
+  lblPassword,<br />
+  edtPassword,<br />
+  BtnOK:hwnd;<br />
+  s, pass:string;<br />
+  wc:TWNDClassEx;<br />
+  msg:Tmsg;<br />
+  Font:HFont;<br />
+  p:PChar;<br />
+  Adata:PextData;</p>
+<p>truePass:Boolean;</p>
+<p>//define window proc:<br />
+function WndProc(handle:hwnd; wmsg:cardinal;wparam:WParam;lparam:LParam):longint;stdcall;<br />
+begin<br />
+  result:=defWindowProc(handle,wmsg,wparam,lparam);<br />
+  case wmsg of<br />
+    wm_Destroy:<br />
+       begin<br />
+         halt;<br />
+       end;<br />
+    wm_command:<br />
+      begin<br />
+        if lparam=BtnOK then     //user click send button:<br />
+        begin<br />
+          slen:=GetWindowTextLength(edtPassword);<br />
+          if slen=0 then begin      //no message, boom!<br />
+            Messagebox(handle,'There is no password entered.','Cannot Run',MB_ICONHAND);<br />
+            SetWindowText(edtPassword, nil);<br />
+            SetFocus(edtPassword);<br />
+          end<br />
+          else<br />
+          begin<br />
+            //is it true password?<br />
+            Pass:=Adata^.Password;<br />
+            //DEBUG_ONLY:-> MessageBox(Form1, PChar(pass), 'Test',MB_OK);<br />
+            getmem(p, slen+1);<br />
+            GetWindowText(edtPassword, p, slen+1);<br />
+            s:=String(p);<br />
+            FreeMem(p);<br />
+            if s=pass then<br />
+            begin<br />
+              truePass:=True;<br />
+            end<br />
+            else<br />
+            begin<br />
+              MessageBox(Form1, 'Invalid password!','Cannot Run',MB_ICONHAND);<br />
+              SetWindowText(edtPassword, nil);<br />
+              SetFocus(edtPassword);<br />
+            end;<br />
+          end;<br />
+        end;<br />
+      end;<br />
+    //case...<br />
+      {<br />
+       other message<br />
+      }<br />
+  end;<br />
+end;</p>
+<p>function BeforeHandlers(Config: PStubConfiguration): DWORD; stdcall;<br />
+begin<br />
+  Adata:=PExtData(Config.ImageBase+Config.ExtraDataRVA);<br />
+  truepass:=False;</p>
+<p>//define main window's class:<br />
+  wc.cbSize:=sizeof(wc);<br />
+  wc.style:=0;<br />
+  wc.lpfnWndProc:=@WndProc;<br />
+  wc.cbClsExtra:=0;<br />
+  wc.cbWndExtra:=0;<br />
+  wc.hInstance:=Hinstance;<br />
+  wc.hIcon:=LoadIcon(hinstance,'MAINICON');<br />
+  wc.hCursor:=LoadCursor(hinstance,IDC_ARROW);<br />
+  wc.hbrBackground:=color_btnface+1;<br />
+  wc.lpszMenuName:=nil;<br />
+  wc.lpszClassName:=ClassName;<br />
+  wc.hIconSm:=0;<br />
+  //register class:<br />
+  registerclassex(wc);<br />
+  //Create main window:<br />
+  form1:=CreateWindowEx(WS_EX_STATICEDGE,<br />
+                pchar(ClassName),'PE Lock - JokoRB',<br />
+                WS_DLGFRAME+WS_VISIBLE+WS_SYSMENU,<br />
+                253,191,245,60,<br />
+                0,0,<br />
+                hinstance,nil);<br />
+  //show it<br />
+  ShowWindow(form1,SW_SHOW);<br />
+  updateWindow(form1);<br />
+  lblPassword:=CreateWindow(<br />
+                'Static','Password',WS_VISIBLE+WS_CHILD,<br />
+                2<br />
+                ,6,<br />
+                50,<br />
+                13,<br />
+                form1,<br />
+                0,<br />
+                hinstance,nil);</p>
+<p>edtPassword:=CreateWindow(<br />
+                'Edit',<br />
+                nil,<br />
+                WS_VISIBLE+WS_CHILD+WS_BORDER+ES_AUTOHSCROLL+ES_PASSWORD,<br />
+                63,<br />
+                2,<br />
+                121,<br />
+                21,<br />
+                form1,0,hinstance,nil);</p>
+<p>BtnOK:=CreateWindow('Button',<br />
+                'Run!',<br />
+                WS_CHILD+WS_VISIBLE+BS_PUSHLIKE,<br />
+                187,<br />
+                2,<br />
+                46,<br />
+                21,<br />
+                form1,<br />
+                0,hinstance,nil);<br />
+  //Create Default font:<br />
+  font:=CreateFont(14,5,0,0,0,0,0,0,0,0,0,0,0,'Arial');<br />
+  //set Control's font:<br />
+  SendMessage(lblPassword,WM_SETFONT,font,0);<br />
+  SendMessage(edtPassword,WM_SETFONT,font,0);<br />
+  SendMessage(BtnOK,WM_SETFONT,font,0);<br />
+  //limit entry text for hostname and message to 200 character<br />
+  SendMessage(edtPassword,EM_LIMITTEXT,30,0);<br />
+  SetFocus(edtPassword);<br />
+  //Then Create Message Processing Looping:<br />
+  while getmessage(msg,0,0,0) do<br />
+  begin<br />
+    TranslateMessage(msg);<br />
+    DispatchMessage(msg);<br />
+    if truepass then<br />
+    begin<br />
+      ShowWindow(Form1, SW_HIDE);<br />
+      exit;<br />
+    end;<br />
+  end;</p>
+<p>Result:=1; // the result is not checked, so this could be anything<br />
+end;</p>
+<p>exports BeforeHandlers;<br />
+begin<br />
+end.</p>
+<p>[/sourcecode]</p>
+<p>OK. Kita lanjut ke program penginjeknya.</p>
+<p>Kita butuh sebuah resource yang berisi DLL di atas. Ini supaya DLL nantinya tidak perlu diload dari harddisk.<br />
+Jadi kita buat sebuah file Resource Script dan isikann dengan skrip berikut</p>
+<p>[sourcecode language='delphi']<br />
+lockplugin RCDATA pelock.dll<br />
+[/sourcecode]</p>
+<p>Script ini bisa dikompilasi dengan BRCC32 - terdapat dalam %DelphiFolder%\Bin - untuk mendapatkan file Compiled Resource-nya. Ingat, pelock.dll adalah hasil kompilasi kode DLL di atas. Selanjutnya kita buat sebuah projek baru lagi dan tambahkan resource hasil kompilasi skrip di atas ke project source atau ke unit1 (unit utama).</p>
+<p>[sourcecode language='delphi']<br />
+//......................</p>
+<p>PE_LOCK_DLL = 'pelocklugin.dll';</p>
+<p>var<br />
+  Form1: TForm1;</p>
+<p>implementation</p>
+<p>{$R *.dfm}</p>
+<p>//tambahkan baris berikut, dengan memisalkan nama file resource adalah<br />
+// plugin.res</p>
+<p>{$R plugin.RES}<br />
+//..........................................<br />
+[/sourcecode]</p>
+<p>Kemudian, kita lihat prosedur untuk melakukan proses injeksi:<br />
+[sourcecode language='delphi']<br />
+procedure TForm1.SpeedButton2Click(Sender: TObject);<br />
+var<br />
+  cback:Boolean;<br />
+  ExtData:PExtData;<br />
+  PHost, PDll:Pointer;<br />
+  szHost, szDll:Cardinal;<br />
+  mslSize:DWORD;<br />
+  msldata, PEData:Pointer;<br />
+  TestSize:DWORD;<br />
+begin<br />
+  cback:=CheckBox1.Checked;<br />
+  if not FileExists(edit1.Text) then<br />
+  begin<br />
+    MessageBox(handle, 'File doesn''t exist!', 'Error',MB_ICONHAND);<br />
+    Edit1.SetFocus;<br />
+    Edit1.SelectAll;<br />
+    exit;<br />
+  end;<br />
+  if Edit2.Text<>Edit3.Text then<br />
+  begin<br />
+    MessageBox(handle, 'Passwords don''t match!', 'Error',MB_ICONHAND);<br />
+    Edit2.SetFocus;<br />
+    Edit2.SelectAll;<br />
+    exit;<br />
+  end;</p>
+<p>if Edit2.Text='' then<br />
+  begin<br />
+    MessageBox(handle, 'Passwords are empty!', 'Error',MB_ICONHAND);<br />
+    Edit2.SetFocus;<br />
+    Edit2.SelectAll;<br />
+    exit;<br />
+  end;</p>
+<p>TestSize:=TakeFileSize(Edit1.Text);<br />
+  if testsize > (100*1024*1024) {100MB} then<br />
+  begin<br />
+    MessageBox(handle, 'Target PE''size exceeds limit (100MB)!', 'Error',MB_ICONHAND);<br />
+    Edit1.SetFocus;<br />
+    Edit1.SelectAll;<br />
+    exit;<br />
+  end;</p>
+<p>with TMemoryStream.Create() do<br />
+  begin<br />
+    LoadFromFile(Edit1.Text);<br />
+    szHost:=size;<br />
+    GetMem(PHost, szHost);<br />
+    Read(pHost^, szHost);<br />
+    Free;<br />
+  end;</p>
+<p>with TResourceStream.Create(hInstance, 'lockplugin', RT_RCDATA) do<br />
+  begin<br />
+    szDll:=Size;</p>
+<p>GetMem(pDll, szDll);<br />
+    Read(pDll^, szDll);<br />
+    Free;<br />
+  end;</p>
+<p>//get dll as MSL:<br />
+  mslSize:=szDLL;<br />
+  mslData:=MappedDllToMsl(pDLL, @mslSize);<br />
+  FreeMem(pdll);</p>
+<p>New(ExtData);<br />
+  ExtData^.PasswordLength:=Length(Edit2.Text);<br />
+  ExtData^.Password:=Edit2.Text;</p>
+<p>if CBack then<br />
+    CopyFile(PChar(edit1.text), Pchar(Edit1.Text+'.bak'), False);</p>
+<p>PEData:=injectMappedFile(PHost, @szHost, MSLDATA, MslSize, ExtData, sizeof(TExtData),<br />
+                INJECT_FLAG_DOIMPORTS or<br />
+                INJECT_FLAG_JUMPTOOEP or<br />
+                INJECT_FLAG_HANDLERELOC or<br />
+                INJECT_FLAG_STRIPRELOCS or<br />
+                INJECT_FLAG_COMPRESSDLL or<br />
+                INJECT_FLAG_BACKUPTLS<br />
+                );<br />
+  if PEData<>nil<br />
+  {<br />
+  if 0 = InjectFile(Pchar(edit1.text),<br />
+                Pchar(edit1.text),<br />
+                PChar(fn),<br />
+                ExtData,<br />
+                SizeOf(TextData),<br />
+                INJECT_FLAG_DOIMPORTS or<br />
+                INJECT_FLAG_JUMPTOOEP or<br />
+                INJECT_FLAG_HANDLERELOC or<br />
+                INJECT_FLAG_STRIPRELOCS or<br />
+                INJECT_FLAG_COMPRESSDLL or<br />
+                INJECT_FLAG_BACKUPTLS<br />
+                )<br />
+  }<br />
+  then<br />
+  begin<br />
+    SaveFile(PEData, szHost, Edit1.Text);<br />
+    FreeMem(PHost, szHost);<br />
+    FreeMem(MSLDATA, mslSize);<br />
+    FreeMem(peData);<br />
+    MessageBox(handle, 'PE was injected successfully.', 'Information',MB_ICONInformation);<br />
+  end<br />
+  else<br />
+  begin<br />
+    MessageBox(handle, 'PE Injection failed.', 'Error',MB_ICONHAND);<br />
+  end;<br />
+  DispoSe(extData);<br />
+end;<br />
+[/sourcecode]</p>
+<p>Sampai di situ. Beberapa fungsi pendukung seperti TakeFileSize dan System dir tidak perlu saya tulis. Yang pertama untuk mengambil ukuran sebuah file dan yang kedua untuk mengambil path tempa System32 berada. Kenyataanya, kedua fungsi ini tidak dipakai :-)</p>
+<p>Dan berikut kode selengkapnya:<br />
+[sourcecode language='delphi']<br />
+unit uMMain;</p>
+<p>interface</p>
+<p>uses<br />
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,<br />
+  Dialogs, ExtCtrls, jpeg, StdCtrls, Buttons, InjectionTypes, InjectionEngine, msl, PEUtils;</p>
+<p>type</p>
+<p>TForm1 = class(TForm)<br />
+    Panel1: TPanel;<br />
+    Label1: TLabel;<br />
+    Label2: TLabel;<br />
+    imgOn: TImage;<br />
+    Bevel1: TBevel;<br />
+    Label3: TLabel;<br />
+    Edit1: TEdit;<br />
+    SpeedButton1: TSpeedButton;<br />
+    OpenDialog1: TOpenDialog;<br />
+    Bevel2: TBevel;<br />
+    Label4: TLabel;<br />
+    Label5: TLabel;<br />
+    Edit2: TEdit;<br />
+    Label6: TLabel;<br />
+    Edit3: TEdit;<br />
+    CheckBox1: TCheckBox;<br />
+    Bevel3: TBevel;<br />
+    SpeedButton2: TSpeedButton;<br />
+    SpeedButton3: TSpeedButton;<br />
+    Label7: TLabel;<br />
+    procedure SpeedButton1Click(Sender: TObject);<br />
+    procedure SpeedButton2Click(Sender: TObject);<br />
+    procedure SpeedButton3Click(Sender: TObject);<br />
+  private<br />
+    { Private declarations }<br />
+  public<br />
+    { Public declarations }<br />
+    function TakeFileSize(const AFile:String):DWORD;<br />
+    function SystemDir:String;<br />
+  end;</p>
+<p>const<br />
+  PE_LOCK_DLL = 'pelocklugin.dll';</p>
+<p>var<br />
+  Form1: TForm1;</p>
+<p>implementation</p>
+<p>{$R *.dfm}<br />
+{$R plugin.RES}</p>
+<p>procedure TForm1.SpeedButton1Click(Sender: TObject);<br />
+begin<br />
+  if OpenDIalog1.Execute then<br />
+  begin<br />
+    edit1.Text:=openDialog1.FileName;<br />
+  end;<br />
+end;</p>
+<p>procedure TForm1.SpeedButton2Click(Sender: TObject);<br />
+var<br />
+  cback:Boolean;<br />
+  ExtData:PExtData;<br />
+  PHost, PDll:Pointer;<br />
+  szHost, szDll:Cardinal;<br />
+  mslSize:DWORD;<br />
+  msldata, PEData:Pointer;<br />
+  TestSize:DWORD;<br />
+begin<br />
+  cback:=CheckBox1.Checked;<br />
+  if not FileExists(edit1.Text) then<br />
+  begin<br />
+    MessageBox(handle, 'File doesn''t exist!', 'Error',MB_ICONHAND);<br />
+    Edit1.SetFocus;<br />
+    Edit1.SelectAll;<br />
+    exit;<br />
+  end;<br />
+  if Edit2.Text<>Edit3.Text then<br />
+  begin<br />
+    MessageBox(handle, 'Passwords don''t match!', 'Error',MB_ICONHAND);<br />
+    Edit2.SetFocus;<br />
+    Edit2.SelectAll;<br />
+    exit;<br />
+  end;</p>
+<p>if Edit2.Text='' then<br />
+  begin<br />
+    MessageBox(handle, 'Passwords are empty!', 'Error',MB_ICONHAND);<br />
+    Edit2.SetFocus;<br />
+    Edit2.SelectAll;<br />
+    exit;<br />
+  end;</p>
+<p>TestSize:=TakeFileSize(Edit1.Text);<br />
+  if testsize > (100*1024*1024) {100MB} then<br />
+  begin<br />
+    MessageBox(handle, 'Target PE''size exceeds limit (100MB)!', 'Error',MB_ICONHAND);<br />
+    Edit1.SetFocus;<br />
+    Edit1.SelectAll;<br />
+    exit;<br />
+  end;</p>
+<p>with TMemoryStream.Create() do<br />
+  begin<br />
+    LoadFromFile(Edit1.Text);<br />
+    szHost:=size;<br />
+    GetMem(PHost, szHost);<br />
+    Read(pHost^, szHost);<br />
+    Free;<br />
+  end;</p>
+<p>with TResourceStream.Create(hInstance, 'lockplugin', RT_RCDATA) do<br />
+  begin<br />
+    szDll:=Size;</p>
+<p>GetMem(pDll, szDll);<br />
+    Read(pDll^, szDll);<br />
+    Free;<br />
+  end;</p>
+<p>//get dll as MSL:<br />
+  mslSize:=szDLL;<br />
+  mslData:=MappedDllToMsl(pDLL, @mslSize);<br />
+  FreeMem(pdll);</p>
+<p>New(ExtData);<br />
+  ExtData^.PasswordLength:=Length(Edit2.Text);<br />
+  ExtData^.Password:=Edit2.Text;</p>
+<p>if CBack then<br />
+    CopyFile(PChar(edit1.text), Pchar(Edit1.Text+'.bak'), False);</p>
+<p>PEData:=injectMappedFile(PHost, @szHost, MSLDATA, MslSize, ExtData, sizeof(TExtData),<br />
+                INJECT_FLAG_DOIMPORTS or<br />
+                INJECT_FLAG_JUMPTOOEP or<br />
+                INJECT_FLAG_HANDLERELOC or<br />
+                INJECT_FLAG_STRIPRELOCS or<br />
+                INJECT_FLAG_COMPRESSDLL or<br />
+                INJECT_FLAG_BACKUPTLS<br />
+                );<br />
+  if PEData<>nil<br />
+  {<br />
+  if 0 = InjectFile(Pchar(edit1.text),<br />
+                Pchar(edit1.text),<br />
+                PChar(fn),<br />
+                ExtData,<br />
+                SizeOf(TextData),<br />
+                INJECT_FLAG_DOIMPORTS or<br />
+                INJECT_FLAG_JUMPTOOEP or<br />
+                INJECT_FLAG_HANDLERELOC or<br />
+                INJECT_FLAG_STRIPRELOCS or<br />
+                INJECT_FLAG_COMPRESSDLL or<br />
+                INJECT_FLAG_BACKUPTLS<br />
+                )<br />
+  }<br />
+  then<br />
+  begin<br />
+    SaveFile(PEData, szHost, Edit1.Text);<br />
+    FreeMem(PHost, szHost);<br />
+    FreeMem(MSLDATA, mslSize);<br />
+    FreeMem(peData);<br />
+    MessageBox(handle, 'PE was injected successfully.', 'Information',MB_ICONInformation);<br />
+  end<br />
+  else<br />
+  begin<br />
+    MessageBox(handle, 'PE Injection failed.', 'Error',MB_ICONHAND);<br />
+  end;<br />
+  DispoSe(extData);<br />
+end;</p>
+<p>function TForm1.TakeFileSize(const AFile: String): DWORD;</p>
+<p>begin<br />
+  With TFileStream.Create(AFile, fmOpenRead or FMShareDenyNone) do<br />
+  begin<br />
+    try<br />
+      Result:=Size;<br />
+    finally<br />
+      Free;<br />
+    End;<br />
+  end;<br />
+end;</p>
+<p>procedure TForm1.SpeedButton3Click(Sender: TObject);<br />
+begin<br />
+  Messagebox(handle, 'PE Executable Locker by JokoRB.'#13'Find more at htt://jokorb.wordpress.com!','About',MB_ICONINFORMATION or MB_OK);<br />
+end;</p>
+<p>function TForm1.SystemDir: String;<br />
+var<br />
+  p:PChar;<br />
+begin<br />
+  GetMem(p, MAX_PATH+1);<br />
+  GetSystemDirectory(p, MAX_PATH);<br />
+  Result:=String(p);<br />
+  FreeMem(p, MAX_PATH+1);<br />
+  if Result[Length(Result)]='\' then<br />
+    Delete(Result, Length(Result),1);<br />
+end;</p>
+<p>end.</p>
+<p>[/sourcecode]</p>
+<p>Saya tidak sempat menulis banyak, apalagi tentang proses injeksi yang sesungguhnya. Tapi bila Anda tertarik, silahkan komen saja ke sini. Untuk ketarangan lebih jauh, silahkan kunjungi <a href="http://migeel.sk" target="_blank">http://migeel.sk</a> dan <a href="http://www.pelib.com" target="_blank">www.pelib.com</a>.</p>
+<p><strong>Download</p>
+<p></strong>Berikut demo dari posting ini beserta source kodenya dan PEInject Library:<br />
+<a href="http://jokorb.files.wordpress.com/2008/05/nswy7uhvd3fvd453_pelocker.ppt">Demo + Source </a><br />
+<a href="http://migeel.sk/programming/pe-inject/" target="_blank">PE Inject Library<br />
+</a>Dan jangan lupa, ekstensi ppt harus diubah ke zip, dan scan dulu file hasil download dengan antivirus :-)</p>
+<pre>google_tags: delphi, Exe/PE, EXE/PE Protector, EXE/PE Password, PE Inject, PE-Inject,
+PeInject, Michal Stehovsky, migeel.sk, www.pelib.com, jokorb.wordpress.com</pre>
+            
+         </div>
+
+            <footer class="wrapper post__footer">
+
+
+                     <ul class="post__tag">
+                           <li>
+                              <a href="https://kppdi.github.io/tags/delphi/">Delphi</a>
+                           </li>
+                           <li>
+                              <a href="https://kppdi.github.io/tags/injection/">Injection</a>
+                           </li>
+                           <li>
+                              <a href="https://kppdi.github.io/tags/peinject/">PEInject</a>
+                           </li>
+                     </ul>
+
+                  <div class="post__share">
+                        <a
+                           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkppdi.github.io%2Fmemproteksi-file-exe-dengan-password%2F"
+                           class="js-share facebook"
+                           rel="nofollow noopener noreferrer">
+                           <svg class="icon" aria-hidden="true" focusable="false">
+                              <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#facebook"/>
+                           </svg>
+                           <span>Facebook</span>
+                        </a>
+                     
+                     
+                        <a
+                           href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fkppdi.github.io%2Fmemproteksi-file-exe-dengan-password%2F&amp;media=undefined&amp;description=Memproteksi%20File%20EXE%20Dengan%20Password"
+                           class="js-share pinterest"
+                           rel="nofollow noopener noreferrer">
+                           <svg class="icon" aria-hidden="true" focusable="false">
+                              <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#pinterest"/>
+                           </svg>
+                           <span>Pinterest</span>
+                        </a>
+                     
+                     
+                     
+                     
+                        <a
+                           href="https://api.whatsapp.com/send?text=Memproteksi%20File%20EXE%20Dengan%20Password https%3A%2F%2Fkppdi.github.io%2Fmemproteksi-file-exe-dengan-password%2F" 
+                           class="js-share whatsapp"
+                           rel="nofollow noopener noreferrer">
+                           <svg class="icon" aria-hidden="true" focusable="false">
+                              <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#whatsapp"/>
+                           </svg>
+                           <span>WhatsApp</span>
+                        </a>
+                  </div>
+
+                  <div class="post__bio bio">
+                          <img 
+                               class="bio__avatar"
+                               src="https://kppdi.github.io/media/website/Logo-KPPDI.png" 
+                                loading="lazy" 
+                               alt="Grup KPPDI">                           
+                        <div class="bio__info">
+                           <h3 class="bio__name">
+                              <a href="https://kppdi.github.io/authors/grup-kppdi/" class="invert" rel="author">Grup KPPDI</a>
+                           </h3>
+
+                        </div>
+                  </div>
+            </footer>
+      </article>
+
+            <nav class="post__nav">
+               <div class="post__nav-inner">
+                     <div class="post__nav-prev">
+                        <svg width="1.041em" height="0.416em" aria-hidden="true">
+                           <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#arrow-prev"/>
+                        </svg>
+
+                        <a href="https://kppdi.github.io/install-txibutton-di-codegear-delphi-2007/" class="invert post__nav-link" rel="prev">
+                           <span>Previous</span>
+                           Install TXiButton Di Codegear Delphi 2007
+                        </a>
+                     </div>
+                     <div class="post__nav-next">
+                        <a href="https://kppdi.github.io/dasar-dll-injection/" class="invert post__nav-link" rel="next">
+                           <span>Next</span>
+                           Dasar DLL Injection
+                        </a>
+                        <svg width="1.041em" height="0.416em" aria-hidden="true">
+                           <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#arrow-next"/>
+                        </svg>
+                     </div>
+               </div>
+            </nav>
+
+            <div class="post__related related">
+               <div class="wrapper">
+                  <h2 class="h5 related__title">
+                     You should also read:
+                  </h2>
+                     <article class="related__item">
+                        <div class="feed__meta">
+                           <time datetime="2009-02-06T16:49" class="feed__date">
+                                 February 6, 2009
+                           </time>
+                        </div>
+                        <h3 class="h1">
+                           <a href="https://kppdi.github.io/mengganti-ikon-file-exe/" class="invert">
+                              Mengganti Ikon File Exe
+                           </a>
+                        </h3>
+                     </article>
+                     <article class="related__item">
+                        <div class="feed__meta">
+                           <time datetime="2008-11-08T15:08" class="feed__date">
+                                 November 8, 2008
+                           </time>
+                        </div>
+                        <h3 class="h1">
+                           <a href="https://kppdi.github.io/filedisk-virtual-driver-gui-updated/" class="invert">
+                              FileDisk Virtual Driver GUI - Updated
+                           </a>
+                        </h3>
+                     </article>
+                     <article class="related__item">
+                        <div class="feed__meta">
+                           <time datetime="2008-10-10T17:37" class="feed__date">
+                                 October 10, 2008
+                           </time>
+                        </div>
+                        <h3 class="h1">
+                           <a href="https://kppdi.github.io/filedisk-virtual-disk-drive-gui/" class="invert">
+                              FileDisk Virtual Disk Drive GUI
+                           </a>
+                        </h3>
+                     </article>
+               </div>
+            </div>
+
+         <div class="post__comments">
+            <div class="wrapper">
+               <h2 class="h5">
+                  Comments
+               </h2>
+               <div id="disqus_thread"></div>
+               <script>
+                   var disqus_config = function () {
+                       this.page.url = 'https://kppdi.github.io/memproteksi-file-exe-dengan-password/';
+               		this.page.identifier = '32';
+                   };
+               
+                   var disqus_loaded = false;
+               
+                   function publiiLoadDisqus() {
+                       if(disqus_loaded) {
+                           return false;
+                       }
+               
+                       var top = document.getElementById('disqus_thread').offsetTop;
+               
+                       if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
+                           disqus_loaded = true;
+               
+                           (function () {
+                               var d = document, s = d.createElement('script');
+                               s.src = 'https://kppdi-group.disqus.com/embed.js';
+                               s.setAttribute('data-timestamp', +new Date());
+                               (d.head || d.body).appendChild(s);
+                           })();
+                       }
+                   }
+               
+                   publiiLoadDisqus();
+               
+                   window.onscroll = function() {
+                       publiiLoadDisqus();
+                   };
+               </script>
+               <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="nofollow noopener noreferrer">comments powered by Disqus.</a></noscript>
+            </div>
+         </div>
+
+
+</main>
+<footer class="footer">
+        <div class="footer__copyright">
+            <p>Powered by <a href="https://facebook.com/groups/kppdi" title="Grup KPPDI" target="_blank" rel="noopener">Grup KPPDI</a></p>
+        </div>
+       <button class="footer__bttop js-footer__bttop" aria-label="Back to top"> 
+           <svg>
+               <title>Back to top</title>
+               <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#toparrow" />
+           </svg>
+       </button>   
+</footer>
+</div>
+
+<script>
+   window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',
+        animationSpeed: 300,
+        submenuWidth: 'auto',
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: true, 
+        relatedContainerForOverlayMenuSelector: '.top',
+   };
+</script>
+<script defer src="https://kppdi.github.io/assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script>
+    <script>        
+        var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }
+    </script>
+
+
+</body>
+</html>

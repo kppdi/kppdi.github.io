@@ -18,7 +18,7 @@
         <id>https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T17:21:06+08:00</updated>
+        <updated>2020-08-01T17:48:50+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/5/scalimg-codegear-delphi-for-microsoft-windows-umain-running_2011-06-24_00-26-54-2.png" alt="" />
@@ -471,7 +471,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T17:21:06+08:00</updated>
+        <updated>2020-08-01T17:48:50+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/4/winsnap_delphi_snapshot_screen_caputure.png" alt="" />
@@ -602,7 +602,7 @@
         <id>https://kppdi.github.io/save-setting-koneksi-ke-file-ini/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T17:21:06+08:00</updated>
+        <updated>2020-08-01T17:48:50+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/3/desain-form-parameter-koneksi.png" alt="" />
@@ -996,7 +996,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T17:21:06+08:00</updated>
+        <updated>2020-08-01T17:48:50+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
@@ -1041,7 +1041,7 @@ end;<br><br></pre>
         <id>https://kppdi.github.io/welcome/</id>
             <category term="Docs"/>
 
-        <updated>2020-08-01T17:21:06+08:00</updated>
+        <updated>2020-08-01T17:48:50+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
@@ -1068,6 +1068,123 @@ end;<br><br></pre>
       <img loading="lazy" src="https://kppdi.github.io/media/posts/1/Screen-Shot-2020-07-09-at-14.28.47.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xs.png 300w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-sm.png 480w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-md.png 768w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-lg.png 1024w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-xl.png 1360w ,https://kppdi.github.io/media/posts/1/responsive/Screen-Shot-2020-07-09-at-14.28.47-2xl.png 1600w"  height="1634" width="2876" alt="" />
       
     </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tes Single SQL Sukses</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/tes-single-sql-sukses/"/>
+        <id>https://kppdi.github.io/tes-single-sql-sukses/</id>
+
+        <updated>2020-08-01T17:48:50+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Akhirnya. Perintah SQL yang panjang dan berliku jadi juga...
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Akhirnya. Perintah SQL yang panjang dan berliku jadi juga...</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Select (@n :&#x3D; @n + 1) as NoUrut, tabel.*...</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/select-n-n-1-as-nourut-tabel-2/"/>
+        <id>https://kppdi.github.io/select-n-n-1-as-nourut-tabel-2/</id>
+
+        <updated>2020-08-01T17:48:50+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Select (@n := @n + 1) as NoUrut, tabel.* From (Select @n := 0) as X, tabel
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Select (@n := @n + 1) as NoUrut, tabel.*<br />
+From<br />
+(Select @n := 0) as X,<br />
+tabel</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Select (@n :&#x3D; @n + 1) as NoUrut, tabel.*...</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/select-n-n-1-as-nourut-tabel/"/>
+        <id>https://kppdi.github.io/select-n-n-1-as-nourut-tabel/</id>
+
+        <updated>2020-08-01T17:48:50+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Select (@n := @n + 1) as NoUrut, tabel.* From (Select @n := 0) as X, tabel
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Select (@n := @n + 1) as NoUrut, tabel.*<br />
+From<br />
+(Select @n := 0) as X,<br />
+tabel</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Jokorb.wordpress.com finally stays on. A...</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/jokorbwordpresscom-finally-stays-on-a/"/>
+        <id>https://kppdi.github.io/jokorbwordpresscom-finally-stays-on-a/</id>
+            <category term="mirror"/>
+            <category term="hosting"/>
+
+        <updated>2020-08-01T17:48:50+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Jokorb.wordpress.com finally stays on. After couple of days researching for new storage for attachments of this blog, i found a good free hosting service, www.kilu.de and decided to copy a mirror of this blog there. Formerly I was thingking to host this blog there. But&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Jokorb.wordpress.com finally stays on.<br />
+After couple of days researching for new storage for attachments of this blog, i found a good free hosting service, <a href="http://www.kilu.de" target="_blank">www.kilu.de</a> and decided to copy a mirror of this blog there.<br />
+Formerly I was thingking to host this blog there. But their PHP execution timeout is very small, and many things like comment editing, batch processing, and event comment posting can't properly be done. However, file uploading process always went good when tested.<br />
+So, the final decision is I was making the mirror as blog hosting to facility attachments and files storage, and future postings of this blog link to them.<br />
+This blog stays as is!rly hnin</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ngetes contoh parsing: Download...contoh...</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/ngetes-contoh-parsing-downloadcontoh/"/>
+        <id>https://kppdi.github.io/ngetes-contoh-parsing-downloadcontoh/</id>
+
+        <updated>2020-08-01T17:48:50+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Ngetes contoh parsing: Download...contohparsing
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Ngetes contoh parsing: Download...<a href='http://jokorb.files.wordpress.com/2010/08/parsing-delphi-7.ppt'>contohparsing</a></p>
+
             ]]>
         </content>
     </entry>

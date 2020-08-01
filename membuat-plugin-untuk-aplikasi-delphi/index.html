@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Membuat Plugin Untuk Aplikasi Delphi - Grup KPPDI </title>
+        <meta name="description" content="Kita tentunya pernah melihat aplikasi yang menggunakan plugin. Winamp misalnya. Kehebatan aplikasi seperti ini adalah, aplikasi dapat lebih modular, ukuran aplikasi lebih kecil dan portabel, serta memungkinkan pihak ketiga (third party) untuk menambahkan fitur-fitur baru pada aplikasi yang kita buat. Bagian yang akan kita lihat&hellip;" />
+         
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+        <link rel="canonical" href="https://kppdi.github.io/membuat-plugin-untuk-aplikasi-delphi/">
+        
+        <link rel="alternate" type="application/atom+xml" href="https://kppdi.github.io/feed.xml" />
+<link rel="alternate" type="application/json" href="https://kppdi.github.io/feed.json" />
+
+        <meta property="og:title" content="Membuat Plugin Untuk Aplikasi Delphi" /><meta property="og:image" content="https://kppdi.github.io/media/website/kppdi-headd.png"/><meta property="og:site_name" content="Grup KPPDI" /><meta property="og:description" content="Kita tentunya pernah melihat aplikasi yang menggunakan plugin. Winamp misalnya. Kehebatan aplikasi seperti ini adalah, aplikasi dapat lebih modular, ukuran aplikasi lebih kecil dan portabel, serta memungkinkan pihak ketiga (third party) untuk menambahkan fitur-fitur baru pada aplikasi yang kita buat. Bagian yang akan kita lihat&hellip;" /><meta property="og:url" content="https://kppdi.github.io/membuat-plugin-untuk-aplikasi-delphi/" /><meta property="og:type" content="article" />
+        <style>:root{--body-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--heading-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--logo-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--menu-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}</style>
+        <link rel="stylesheet" href="https://kppdi.github.io/assets/css/style.css?v=1937a1e79836910fd8b372dab1a5ba8e">
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://kppdi.github.io/membuat-plugin-untuk-aplikasi-delphi/"},"headline":"Membuat Plugin Untuk Aplikasi Delphi","datePublished":"2008-08-22T16:28","dateModified":"2020-08-01T17:42","image":{"@type":"ImageObject","url":"https://kppdi.github.io/media/website/kppdi-headd.png","height":72,"width":322},"description":"Kita tentunya pernah melihat aplikasi yang menggunakan plugin. Winamp misalnya. Kehebatan aplikasi seperti ini adalah, aplikasi dapat lebih modular, ukuran aplikasi lebih kecil dan portabel, serta memungkinkan pihak ketiga (third party) untuk menambahkan fitur-fitur baru pada aplikasi yang kita buat. Bagian yang akan kita lihat&hellip;","author":{"@type":"Person","name":"Grup KPPDI"},"publisher":{"@type":"Organization","name":"Grup KPPDI","logo":{"@type":"ImageObject","url":"https://kppdi.github.io/media/website/kppdi-headd.png","height":72,"width":322}}}</script>
+        
+        
+    </head>
+    <body>
+        <div class="site-container">
+   <header class="top" id="js-header">
+      <a class="logo" href="https://kppdi.github.io/">
+            <img src="https://kppdi.github.io/media/website/kppdi-headd.png" alt="Grup KPPDI">
+      </a>
+            <nav class="navbar js-navbar">
+               <button
+                  class="navbar__toggle js-toggle"
+                  aria-label="Menu"
+                  aria-haspopup="true"
+                  aria-expanded="false">
+                  <span class="navbar__toggle-box">
+                     <span class="navbar__toggle-inner">Menu</span>
+                  </span>
+               </button>
+             <ul class="navbar__menu">
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/"
+                              target="_self"
+         >
+                           Home
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/docs/"
+                              target="_self"
+         >
+                           Docs
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/tutorials/"
+                              target="_self"
+         >
+                           Tutorial
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/sample-apps/"
+                              target="_self"
+         >
+                           Sample App
+                       </a>
+         
+                  </li>
+                      <li>
+                        <a
+                           href="https://kppdi.github.io/tags/files/"
+                              target="_self"
+         >
+                           Files
+                       </a>
+         
+                  </li>
+             </ul>
+            </nav>
+   </header>
+<main>
+      <article class="post">
+         <div class="hero">
+             
+                     <figure class="hero__image hero__image--overlay">
+                         
+                        <img
+                           src="https://kppdi.github.io/media/website/cover-kppdi-2.jpg"
+                               srcset="https://kppdi.github.io/media/website/responsive/cover-kppdi-2-xs.jpg 300w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-sm.jpg 480w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-md.jpg 768w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-lg.jpg 1024w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-xl.jpg 1360w ,https://kppdi.github.io/media/website/responsive/cover-kppdi-2-2xl.jpg 1600w"   sizes="(max-width: 1600px) 100vw, 1600px" 
+                            loading="eager"
+                           alt="">
+                         
+                         
+                     </figure>
+             
+            <header class="hero__content">
+               <div class="wrapper">
+                     <div class="post__meta">
+                        <time datetime="2008-08-22T16:28">
+                              August 22, 2008
+                        </time>
+                     </div>
+                  <h1>
+                     Membuat Plugin Untuk Aplikasi Delphi
+                  </h1>
+                     <div class="post__meta post__meta--author">
+                              <img 
+                                   src="https://kppdi.github.io/media/website/Logo-KPPDI.png" 
+                                    loading="eager" 
+                                   alt="Grup KPPDI" 
+                                   class="post__author-thumb">
+                           <a href="https://kppdi.github.io/authors/grup-kppdi/" class="feed__author invert">Grup KPPDI</a>
+                     </div>
+               </div>
+            </header>
+         </div>
+
+         <div class="wrapper post__entry">           
+            <p>Kita tentunya pernah melihat aplikasi yang menggunakan plugin. Winamp misalnya. Kehebatan aplikasi seperti ini adalah, aplikasi dapat lebih modular, ukuran aplikasi lebih kecil dan portabel, serta memungkinkan pihak ketiga (third party) untuk menambahkan fitur-fitur baru pada aplikasi yang kita buat.</p>
+<p>Bagian yang akan kita lihat dari aplikasi dengan plugin adalah, aplikasi memiliki sebuah menu dengan caption, taruhlah, "Plugins" atau "Tools", yang di dalamnya terdapat submenu-submenu sesuai dengan plugin yang ditambahkan pada aplikasi ini. Tiap submenu memiliki caption yang ditentukan oleh vendor plugin, dan apabila diklik, fungsi yang dijalankan pun ditentukan oleh vendor plugin.</p>
+<p>Bagaimana ini bisa terjadi? Harus ada kesepakatan antara aplikasi dan plugin-plugin untuk memungkinkan komunikasi ini.</p>
+<p>Pertama, di mana plugin diletakkan. Plugin dapat diletakkan di mana saja, termasuk di komputer lain (network), asalkan komputer yang menampung plugin memiliki sistem operasi sama, dalam hal ini Windows. Setiap dijalankan, aplikasi akan melakukan scanning terhadap semua dirtektori untuk mencari plugin. Benar! Ini cara barbar. Bagaimana jika aplikasi menemukan plugin dalam CD-ROM, dan saat dipakai CD tersebuat di-eject? Atau plugin yang disengaja untuk tidak dipakai oleh user? Dan berapa lama waktu yang digunakan? Ada alternatif lain: semua dapat diletakkan di tempat yang semau mereka, tetapi harus mencatat/meregistrasikan namanya sebagai plugin aplikasi kita pada file tertentu, misalnya registry, dan aplikasi akan mengambil daftar plugin dari catatan ini. Cara ini efektif, seperti yang digunakan Windows terhadap file OCX. Namun sepertinya cara ini kurang terorganisir. Anda memahami yang saya maksud. Jadi saya mengusulkan cara ketiga: semua plugin diletakkan pada folder yang ditentukan oleh aplikasi, baik yang relatif terhadap aplikasi misalnya %APPDIR%\Plugins atau yang hard-coded path seperti C:\Program Files\Common Files\App Shared\Plugins.Cara ketiga, seperti yang Anda setujui, adalah cara terbaik, terutama yang menggunaan path relatif terhadap aplikasi. Aplikasi dan pluginnya akan lebih portabel (tinggal copy-paste, kan) dan mudah diinstal. Cara ini yang akan kita pakai dalam pembahasan kita, cuma plugin diletakkan dalam satu folder dengan aplikasi.</p>
+<p>Kedua, plugin dan aplikasi memiliki satu tipe fungsi yang sama untuk saling bertukar data. Seperti pada Windows, semua file OCX harus memiliki fungsi DLLRegisterServer.</p>
+<p>Sekarang mari kita buat sebuah fungsi sesuai kesepakatan di atas.</p>
+<p>[sourcecode language='delphi']</p>
+<pre>const
+  PLUGIN_NAME           = 'Show About';
+function pluName:Pchar;
+begin
+  Result:=PLUGIN_NAME;
+end;</pre>
+<p>[/sourcecode]<br />
+Sebagai vendor, tentunya pihak ketiga ingin memberi nama pluginnya. Fungsi pluName() akan mengembalikan nama plugin ini.<br />
+Pada saat aplikasi melakukan scan terhadap plugin-plugin, aplikasi akan mencoba melihat keberadaan fungsi ini.</p>
+<p>Jika ada, plugin valid. Dan jika tidak, plugin tidak valid. Fungsi ini mengembalikan nama plugin yang selanjutnya dijadikan caption bagi submenu-submenu dalam aplikasi.<br />
+Selanjutnya kita buat sebuah fungsi lagi, yang merupakan "entry point" bagi plugin. Kita tentukan saja</p>
+<p>[sourcecode language='delphi']<br />
+fungsi pluMain():Integer;<br />
+[/sourcecode]</p>
+<p>Keberhasilan fungsi pluMain dan proses di dalamnya dilihat dari nilai kembalian fungsi. Bentuk fungsi pluMain seperti ini:</p>
+<p>[sourcecode language='delphi']</p>
+<pre>function pluMain:Integer;
+begin
+  Result:=Messagebox(0,'This is a test plugin by Joko Rivai.',pchar(PLUGIN_NAME),MB_ICONINFORMATION);
+end;
+[/sourcecode]
+Selanjutnya kita mengekspor kedua fungsi. Listing lengkap untuk plugin pertama kita ini ada di bawah:
+[sourcecode language='delphi']
+library showabout;
+uses
+  Windows;
+{$E plu}
+{$R *.res}
+const
+  PLUGIN_NAME           = 'Show About';
+
+function pluName:Pchar;
+begin
+  Result:=PLUGIN_NAME;
+end;
+
+function pluMain:Integer;
+begin
+  Result:=Messagebox(0,'This is a test plugin by Joko Rivai.',
+			pchar(PLUGIN_NAME),MB_ICONINFORMATION);
+end;
+
+exports
+  pluName, pluMain;
+
+begin
+
+end.
+[/sourcecode]
+
+Sampai di sini konsep plugin kita sudah jadi. Sekarang kita sudah mempunyai dua fungsi pembentuk plugin ini, pluName() untuk mengembalikan nama plugin, dan pluMain untuk mengeksekusi plugin.
+
+Saya rasa sudah jelas. Ini cuma DLL sederhana dengan dua fungsi. OK, mengenai {$E plu} itu ya? Itu sengaja saya tambahkan agar pluginnya berekstensi ".plu", untuk mempermudah scanning plugin di antara DLL lainnya, jika ada. Buat jaga-jaga, gitu loh.
+Selanjutnya kita buat aplikasi yang memanggil plugin. Saya membuatnya seperti gambar:
+
+<img loading="lazy" src="https://kppdi.github.io/media/posts/43/001_001.gif" alt="" width="142" height="93" />
+
+Jika Anda ingin melihat struktur menu yang ada, boleh:
+<img loading="lazy" src="https://kppdi.github.io/media/posts/43/001_002.gif" alt="" width="142" height="93" />
+
+Sekarang kita tambahkan dua buah prosedur pada bagian private form
+
+[sourcecode language='delphi']
+<pre>type
+
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    Plugins1: TMenuItem;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+    procedure ExecPlugin(Sender:TObject);
+    procedure LoadPlugin;
+  public
+    { Public declarations }
+  end;
+TPluName=function:pchar;
+TPluMain=function:integer;
+const
+BASE_TAG        = 1000;
+
+var
+  Form1: TForm1;  
+  pluNames:array of String;
+[/sourcecode]
+
+procedure LoadPlugin adalah prosedur untuk melakukan scanning terhadap folder aplikasi. Jika ada file berekstensi *.PLU, aplikasi akan mengecek ada kah fungsi pluName? Jika ya, submenu baru dibuat, fungsi pluName akan dipanggil dan hasilnya dijadikan caption submenu yang baru, dan nama pluginnya dicatat dalam array dinamis pluNames. Procedure ExecPlugin(sender:Object) dipakai sebagai event handler untuk event OnClick menu-menu yang dibuat. Prosedur ini memeriksa tag dari sender. Jika ternyata tag&lt;BASE_TAG maka sender bukanlah submenu yang terhubung dengan plugin. Jadi berhenti di situ. Sebaliknya, prosedur mengambil elemen array dinamis pluNames pada index yang sesuai dengan tag, meloadnya dengan LoadLibrary, dan memanggil fungsi pluMain. Sederhana bukan?
+
+TPluName adalah tipe fungsi yang harus sesuai dengan fungsi pluName pada plugin, fungsi tanpa parameter dan tipe kembalian Pchar. Mengapa Pchar? Penggunaan String akan mengharuskan Anda menyertakan file borlandmm.dll dan unit sharemem.pas. Jika Anda membuat library dengan library wizard, ini yang pertama Anda temukan. 
+
+TPluMain adalah padanan untuk fungsi pluMain dalam plugin.
+Kita lihat deklarasi kedua prosedur, LoadPlugin dan ExecPlugin(sender:TObject):
+
+[sourcecode language='delphi']
+
+procedure TForm1.LoadPlugin;
+
+var
+
+   sr:TSearchRec;
+
+  I:integer;
+<pre>  mi:TMenuItem;		//untuk menambahkan submenu baru di bawah 
+			//menu Plugins
+  fname:String;
+  libH:HModule;		//handle untuk LoadLibrary
+  pluname:TPluName;	//variabel fungsi TPluName, 
+			//untuk mengambil nama plugin
+begin
+  //cari file *.plu dalam folder aplikasi
+	if FindFirst(extractFilePath(paramstr(0))+'*.plu',
+	faAnyFile,sr)<>0 then
+    exit;
+  i:=0;
+  repeat
+    fname:=ExtractFilePath(paramstr(0))+sr.Name; //ambil nama file
+    libh:=LoadLibrary(pchar(fname));	        //coba loadlibrary	
+    if libh<>-1 then
+    begin
+      setLength(pluNames, i+1);
+      pluNames[i]:=sr.Name; 	//jika library valid, masukkan 
+				//nama file ke array
+      @pluname:=GetProcAddress(libh,'pluName');	//cek fungsi pluName
+      if @pluname<>nil then	//jika OK, buat submenu baru
+      begin
+        mi:=TMenuItem.Create(self);
+        mi.Caption:=pluname();
+        mi.Tag:=BASE_TAG+i;	//mi.tag:=1000+i;
+        mi.OnClick:=ExecPlugin;
+        MainMenu1.Items[0].Add(mi); //tambahkan ke menu Plugins
+        inc(i);
+      end;
+    end;
+  until FindNext(sr)<>0;
+  findClose(sr);
+end;</pre>
+<p>[/sourcecode]</p>
+<p>Hasilnya:</p>
+<p><img loading="lazy" src="https://kppdi.github.io/media/posts/43/001_003.gif" alt="" width="142" height="93" /></p>
+<p>Kini deklarasi prosedur ExecPlugin(Sender: TObject):</p>
+<p>[sourcecode language='delphi']</p>
+<pre>procedure TForm1.ExecPlugin(Sender: TObject);<br />
+var<br />
+  i:integer;<br />
+  hlib:HMODULE;<br />
+  pluMain:TPLUMain;		//variabel padanan fungsi pluMain();<br />
+  fname:String;<br />
+begin<br />
+  if not (sender is TMEnuItem) then exit; //jika bukan submenu, batalkan<br />
+  i:=TMenuItem(sender).Tag-BASE_TAG;<br />
+  if i<0 then exit;		// --> not a plugin menu.<br />
+  fname:=ExtractFilePath(paramstr(0))+pluNames[i];//ambil nama library dari array<br />
+  hlib:=LoadLibrary(pchar(fname));<br />
+  if hlib=-1 then<br />
+  begin<br />
+    ShowMessage('Couldn''t load plugin.');<br />
+    exit;<br />
+  end;<br />
+  @pluMain:=GetProcAddress(hlib, 'pluMain');//ambil proses di memori<br />
+  if @pluMain=nil then<br />
+  begin<br />
+    ShowMessage('Couldn''t load plugin entry point.');<br />
+    exit;<br />
+  end;<br />
+  pluMain();				//eksekusi pluMain()<br />
+  @pluMain:=nil;			//bebaskan memori<br />
+  FreeLibrary(hlib);		//bebaskan library<br />
+end;<br />
+[/sourcecode]</p>
+<p>Sekarang kita jalankan aplikasi dan coba mengklik menu yang ada:</p>
+<p><img loading="lazy" src="https://kppdi.github.io/media/posts/43/001_004.gif" alt="" width="241" height="165" /></p>
+<p>OK. Ini sebenarnya cuma ide dasarnya saja. Anda mungkin memiliki metode yang lebih baik. FYI, pembuatan plugin dengan konsep OOP telah ditulis oleh Arymurthy, dapat dilihat di <a href="http://groups.yahoo.com/group/delphindo/files/">archive milis Delphindo</a> ( <a href="http://groups.yahoo.com/group/delphindo/files/">http://groups.yahoo.com/group/delphindo/files</a> ) folder Technical Articles.</p>
+            
+         </div>
+
+            <footer class="wrapper post__footer">
+
+
+                     <ul class="post__tag">
+                           <li>
+                              <a href="https://kppdi.github.io/tags/delphi/">Delphi</a>
+                           </li>
+                           <li>
+                              <a href="https://kppdi.github.io/tags/plugin/">plugin</a>
+                           </li>
+                           <li>
+                              <a href="https://kppdi.github.io/tags/tip/">tip</a>
+                           </li>
+                           <li>
+                              <a href="https://kppdi.github.io/tags/trick/">trick</a>
+                           </li>
+                     </ul>
+
+                  <div class="post__share">
+                        <a
+                           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkppdi.github.io%2Fmembuat-plugin-untuk-aplikasi-delphi%2F"
+                           class="js-share facebook"
+                           rel="nofollow noopener noreferrer">
+                           <svg class="icon" aria-hidden="true" focusable="false">
+                              <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#facebook"/>
+                           </svg>
+                           <span>Facebook</span>
+                        </a>
+                     
+                     
+                        <a
+                           href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fkppdi.github.io%2Fmembuat-plugin-untuk-aplikasi-delphi%2F&amp;media=undefined&amp;description=Membuat%20Plugin%20Untuk%20Aplikasi%20Delphi"
+                           class="js-share pinterest"
+                           rel="nofollow noopener noreferrer">
+                           <svg class="icon" aria-hidden="true" focusable="false">
+                              <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#pinterest"/>
+                           </svg>
+                           <span>Pinterest</span>
+                        </a>
+                     
+                     
+                     
+                     
+                        <a
+                           href="https://api.whatsapp.com/send?text=Membuat%20Plugin%20Untuk%20Aplikasi%20Delphi https%3A%2F%2Fkppdi.github.io%2Fmembuat-plugin-untuk-aplikasi-delphi%2F" 
+                           class="js-share whatsapp"
+                           rel="nofollow noopener noreferrer">
+                           <svg class="icon" aria-hidden="true" focusable="false">
+                              <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#whatsapp"/>
+                           </svg>
+                           <span>WhatsApp</span>
+                        </a>
+                  </div>
+
+                  <div class="post__bio bio">
+                          <img 
+                               class="bio__avatar"
+                               src="https://kppdi.github.io/media/website/Logo-KPPDI.png" 
+                                loading="lazy" 
+                               alt="Grup KPPDI">                           
+                        <div class="bio__info">
+                           <h3 class="bio__name">
+                              <a href="https://kppdi.github.io/authors/grup-kppdi/" class="invert" rel="author">Grup KPPDI</a>
+                           </h3>
+
+                        </div>
+                  </div>
+            </footer>
+      </article>
+
+            <nav class="post__nav">
+               <div class="post__nav-inner">
+                     <div class="post__nav-prev">
+                        <svg width="1.041em" height="0.416em" aria-hidden="true">
+                           <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#arrow-prev"/>
+                        </svg>
+
+                        <a href="https://kppdi.github.io/megekstrak-swf-dari-flash-projector-exe/" class="invert post__nav-link" rel="prev">
+                           <span>Previous</span>
+                           Megekstrak SWF dari Flash Projector (*.exe)
+                        </a>
+                     </div>
+                     <div class="post__nav-next">
+                        <a href="https://kppdi.github.io/marhaban-ya-ramadhan/" class="invert post__nav-link" rel="next">
+                           <span>Next</span>
+                           Marhaban Ya Ramadhan
+                        </a>
+                        <svg width="1.041em" height="0.416em" aria-hidden="true">
+                           <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#arrow-next"/>
+                        </svg>
+                     </div>
+               </div>
+            </nav>
+
+            <div class="post__related related">
+               <div class="wrapper">
+                  <h2 class="h5 related__title">
+                     You should also read:
+                  </h2>
+                     <article class="related__item">
+                        <div class="feed__meta">
+                           <time datetime="2008-07-14T15:20" class="feed__date">
+                                 July 14, 2008
+                           </time>
+                        </div>
+                        <h3 class="h1">
+                           <a href="https://kppdi.github.io/mysql-delphi-error-someone-asked-me-about-these/" class="invert">
+                              MySQL + Delphi &#x3D; Error? Someone Asked Me About These
+                           </a>
+                        </h3>
+                     </article>
+                     <article class="related__item">
+                        <div class="feed__meta">
+                           <time datetime="2008-07-05T13:59" class="feed__date">
+                                 July 5, 2008
+                           </time>
+                        </div>
+                        <h3 class="h1">
+                           <a href="https://kppdi.github.io/delphi-for-php-list-file-drive-c/" class="invert">
+                              Delphi For PHP - List File Drive C:\
+                           </a>
+                        </h3>
+                     </article>
+                     <article class="related__item">
+                        <div class="feed__meta">
+                           <time datetime="2008-06-26T14:37" class="feed__date">
+                                 June 26, 2008
+                           </time>
+                        </div>
+                        <h3 class="h1">
+                           <a href="https://kppdi.github.io/delphi-for-php-untuk-developer-php/" class="invert">
+                              Delphi For PHP Untuk Developer PHP
+                           </a>
+                        </h3>
+                     </article>
+               </div>
+            </div>
+
+         <div class="post__comments">
+            <div class="wrapper">
+               <h2 class="h5">
+                  Comments
+               </h2>
+               <div id="disqus_thread"></div>
+               <script>
+                   var disqus_config = function () {
+                       this.page.url = 'https://kppdi.github.io/membuat-plugin-untuk-aplikasi-delphi/';
+               		this.page.identifier = '43';
+                   };
+               
+                   var disqus_loaded = false;
+               
+                   function publiiLoadDisqus() {
+                       if(disqus_loaded) {
+                           return false;
+                       }
+               
+                       var top = document.getElementById('disqus_thread').offsetTop;
+               
+                       if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
+                           disqus_loaded = true;
+               
+                           (function () {
+                               var d = document, s = d.createElement('script');
+                               s.src = 'https://kppdi-group.disqus.com/embed.js';
+                               s.setAttribute('data-timestamp', +new Date());
+                               (d.head || d.body).appendChild(s);
+                           })();
+                       }
+                   }
+               
+                   publiiLoadDisqus();
+               
+                   window.onscroll = function() {
+                       publiiLoadDisqus();
+                   };
+               </script>
+               <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" target="_blank" rel="nofollow noopener noreferrer">comments powered by Disqus.</a></noscript>
+            </div>
+         </div>
+
+
+</main>
+<footer class="footer">
+        <div class="footer__copyright">
+            <p>Powered by <a href="https://facebook.com/groups/kppdi" title="Grup KPPDI" target="_blank" rel="noopener">Grup KPPDI</a></p>
+        </div>
+       <button class="footer__bttop js-footer__bttop" aria-label="Back to top"> 
+           <svg>
+               <title>Back to top</title>
+               <use xlink:href="https://kppdi.github.io/assets/svg/svg-map.svg#toparrow" />
+           </svg>
+       </button>   
+</footer>
+</div>
+
+<script>
+   window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',
+        animationSpeed: 300,
+        submenuWidth: 'auto',
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: true, 
+        relatedContainerForOverlayMenuSelector: '.top',
+   };
+</script>
+<script defer src="https://kppdi.github.io/assets/js/scripts.min.js?v=f4c4d35432d0e17d212f2fae4e0f8247"></script>
+    <script>        
+        var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }
+    </script>
+
+
+</body>
+</html>
