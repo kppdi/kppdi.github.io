@@ -18,7 +18,7 @@
         <id>https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/5/scalimg-codegear-delphi-for-microsoft-windows-umain-running_2011-06-24_00-26-54-2.png" alt="" />
@@ -471,7 +471,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/4/winsnap_delphi_snapshot_screen_caputure.png" alt="" />
@@ -602,7 +602,7 @@
         <id>https://kppdi.github.io/save-setting-koneksi-ke-file-ini/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/3/desain-form-parameter-koneksi.png" alt="" />
@@ -996,7 +996,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
@@ -1048,48 +1048,28 @@ end;<br><br></pre>
             <category term="Angka"/>
             <category term="Akuntansi"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://kppdi.github.io/media/posts/84/startup-594090_1280.jpg" alt="" />
                     Beberapa waktu lalau ada yang nyasar ke blog ini dengan sebuah pertanyaan: "listing delphi untuk angka dibelakang koma...." Nah, saya tulis saja :) Untuk memformat angka pecahan, terutama dalam aplikasi akuntansi, kita dapat menggunakan fungsi format float: [sourcecode language="delphi"] FormatFloat(const AFormat:String; const AValue: Extended): String;&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://kppdi.github.io/media/posts/84/startup-594090_1280.jpg" alt="" />
                 <p>Beberapa waktu lalau ada yang nyasar ke blog ini dengan sebuah pertanyaan: "listing delphi untuk angka dibelakang koma...."</p>
 <p>Nah, saya tulis saja :)</p>
 <p>Untuk memformat angka pecahan, terutama dalam aplikasi akuntansi, kita dapat menggunakan fungsi format float:</p>
-<p>[sourcecode language="delphi"]<br />
-FormatFloat(const AFormat:String; const AValue: Extended): String;<br />
-[/sourcecode]</p>
+<p>[sourcecode language="delphi"]<br>FormatFloat(const AFormat:String; const AValue: Extended): String;<br>[/sourcecode]</p>
 <p>Di mana,</p>
-<p>[sourcecode language="delphi"]<br />
- AFormat = 'FORMAT_ANGKA_POSITIF;FORMAT_ANGKA_NEGATIF;FORMAT_0';<br />
- [/sourcecode]</p>
+<p>[sourcecode language="delphi"]<br>AFormat = 'FORMAT_ANGKA_POSITIF;FORMAT_ANGKA_NEGATIF;FORMAT_0';<br>[/sourcecode]</p>
 <p>Saya telah membuat potongan kode untuk mempermudah:</p>
-<p>[sourcecode language="delphi"]<br />
-function FinaceFloat(const AValue: Double): String;<br />
-var<br />
-simpan: array[1..2] of char;<br />
-begin<br />
-simpan[1]:=ThousandSeparator;<br />
-simpan[2]:=DecimalSeparator;<br />
-ThousandSeparator:='.';<br />
-DecimalSeparator:=',';<br />
-Result:=FormatFloat('#,#0.00   ;(#,#0.00)  ;-    ', AValue);<br />
- ThousandSeparator:=simpan[1];<br />
-DecimalSeparator:=simpan[2];<br />
-end;<br />
- [/sourcecode]</p>
+<p>[sourcecode language="delphi"]<br>function FinaceFloat(const AValue: Double): String;<br>var<br>simpan: array[1..2] of char;<br>begin<br>simpan[1]:=ThousandSeparator;<br>simpan[2]:=DecimalSeparator;<br>ThousandSeparator:='.';<br>DecimalSeparator:=',';<br>Result:=FormatFloat('#,#0.00   ;(#,#0.00)  ;-    ', AValue);<br>ThousandSeparator:=simpan[1];<br>DecimalSeparator:=simpan[2];<br>end;<br>[/sourcecode]</p>
 <p>Berikut contoh penggunaanya:</p>
-<p>[sourcecode language="delphi"]<br />
-Edit2.Text:=FinaceFloat(StrToFloat(Edit1.Text));<br />
-Edit4.Text:=FinaceFloat(StrToFloat(Edit3.Text));<br />
-Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
-[/sourcecode]</p>
+<p>[sourcecode language="delphi"]<br>Edit2.Text:=FinaceFloat(StrToFloat(Edit1.Text));<br>Edit4.Text:=FinaceFloat(StrToFloat(Edit3.Text));<br>Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br>[/sourcecode]</p>
 <p>Hasilnya:</p>
-<figure class="alignnone size-medium wp-image-564"><a href="http://jokorb.files.wordpress.com/2010/04/000s890d898sd977sd_finace_format.png"><img loading="lazy"  title="Format Angka Finansial" src="https://kppdi.github.io/media/posts/84/000s890d898sd977sd_finace_format.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-xs.png 300w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-sm.png 480w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-md.png 768w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-lg.png 1024w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-xl.png 1360w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-2xl.png 1600w"  alt="Format Angka Finansial" width="300" height="166" /></figure></a></p>
-
+<figure class="alignnone size-medium wp-image-564"><a href="http://jokorb.files.wordpress.com/2010/04/000s890d898sd977sd_finace_format.png"><img loading="lazy"  title="Format Angka Finansial" src="https://kppdi.github.io/media/posts/84/000s890d898sd977sd_finace_format.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-xs.png 300w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-sm.png 480w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-md.png 768w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-lg.png 1024w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-xl.png 1360w ,https://kppdi.github.io/media/posts/84/responsive/000s890d898sd977sd_finace_format-2xl.png 1600w"  alt="Format Angka Finansial" width="300" height="166"></figure></a></p>
             ]]>
         </content>
     </entry>
@@ -1107,59 +1087,65 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Control"/>
             <category term="Component"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
-                    Malas membaca? Langsung Download Source Code + Exe. Posting ini buat menjawab pertanyaan seorang rekan Delphier. FixedRow pada DBGrid default bawaan Delphi memang terlihat membosankan. Nah kita coba membuat tampilan yang lebih menarik. Langkah-Langkahnya: procedure TForm1.HeaderControl1SectionClick(HeaderControl: THeaderControl; &#160; Section: THeaderSection); begin &#160; ShowMessage('Anda mengklik pada:&hellip;
+                        <img src="https://kppdi.github.io/media/posts/82/office-620817_1280.jpg" alt="" />
+                    Malas membaca? Langsung Download Source Code + Exe. Posting ini buat menjawab pertanyaan seorang rekan Delphier. FixedRow pada DBGrid default bawaan Delphi memang terlihat membosankan. Nah kita coba membuat tampilan yang lebih menarik. Langkah-Langkahnya: procedure TForm1.HeaderControl1SectionClick(HeaderControl: THeaderControl; Section: THeaderSection); begin ShowMessage('Anda mengklik pada: '+ Section.Text);&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p align="justify">Malas membaca? Langsung <a href="http://7868b282.realfiles.net" target="_blank">Download Source Code + Exe.</a></p>
-<p align="justify"><a href="http://jokorb.files.wordpress.com/2010/04/image9.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb9.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb9-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-2xl.png 1600w"  width="596" height="313" /></a> </p>
-<p align="justify">Posting ini buat menjawab pertanyaan seorang rekan Delphier. </p>
+                    <img src="https://kppdi.github.io/media/posts/82/office-620817_1280.jpg" alt="" />
+                <p align="justify">Malas membaca? Langsung <a href="http://7868b282.realfiles.net" target="_blank" rel="noopener">Download Source Code + Exe.</a></p>
+<p align="justify"><a href="http://jokorb.files.wordpress.com/2010/04/image9.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb9.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb9-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb9-2xl.png 1600w"  alt="image" width="596" height="313" border="0"></a></p>
+<p align="justify">Posting ini buat menjawab pertanyaan seorang rekan Delphier.</p>
 <p align="justify">FixedRow pada DBGrid default bawaan Delphi memang terlihat membosankan. Nah kita coba membuat tampilan yang lebih menarik.</p>
 <p align="justify"><strong>Langkah-Langkahnya:</strong></p>
 <ol>
+<li style="list-style-type: none;">
+<ol>
 <li>
-<div align="justify">Buat Form baru. Tambahkan sebuah panel (page Standard) dan kosongkan property Caption.       <br /><a href="http://jokorb.files.wordpress.com/2010/04/image10.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb10.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb10-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-2xl.png 1600w"  width="244" height="129" /></a> </div>
+<div align="justify">Buat Form baru. Tambahkan sebuah panel (page Standard) dan kosongkan property Caption. <br><a href="http://jokorb.files.wordpress.com/2010/04/image10.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb10.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb10-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb10-2xl.png 1600w"  alt="image" width="244" height="129" border="0"></a></div>
 </li>
 <li>
-<div align="justify">Tambahkan sebuah Header Control (page Win32) ke dalam panel tersebut. Set property Height menjadi <strong>25</strong>, property Cursor menjadi <strong>crHandPoint</strong>, dan property Style menjadi <strong>hsButtons</strong>. Tambahkan juga sebuah ImageList (page Win32) ke form.         <br /><a href="http://jokorb.files.wordpress.com/2010/04/image11.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb11.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb11-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-2xl.png 1600w"  width="244" height="129" /></a>&#160; <br />Klik ganda ImageList1, tambahkan beberapa gambar berukuran 16 x 16 pixel.        <br /><a href="http://jokorb.files.wordpress.com/2010/04/image12.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb12.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb12-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-2xl.png 1600w"  width="244" height="139" /></a> </div>
+<div align="justify">Tambahkan sebuah Header Control (page Win32) ke dalam panel tersebut. Set property Height menjadi <strong>25</strong>, property Cursor menjadi <strong>crHandPoint</strong>, dan property Style menjadi <strong>hsButtons</strong>. Tambahkan juga sebuah ImageList (page Win32) ke form. <br><a href="http://jokorb.files.wordpress.com/2010/04/image11.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb11.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb11-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb11-2xl.png 1600w"  alt="image" width="244" height="129" border="0"></a>  <br>Klik ganda ImageList1, tambahkan beberapa gambar berukuran 16 x 16 pixel. <br><a href="http://jokorb.files.wordpress.com/2010/04/image12.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb12.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb12-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb12-2xl.png 1600w"  alt="image" width="244" height="139" border="0"></a></div>
 </li>
 <li>
-<div align="justify">Kini Tambahkan sebuah DBGrid (page Data Controls) ke dalam Panel1. Set property Align ke <strong>alClient.         <br /></strong><a href="http://jokorb.files.wordpress.com/2010/04/image13.png"><strong><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb13.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb13-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-2xl.png 1600w"  width="244" height="129" /></strong></a><strong>&#160; <br /></strong>Lihat property Options milik DBGrid1, set property dgTitles ke False:        <br /><a href="http://jokorb.files.wordpress.com/2010/04/image14.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;margin-left:0;border-top:0;margin-right:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb14.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb14-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-2xl.png 1600w"  width="177" height="139" /></a>&#160; <br />dan hasilnya, tampilan form sekarang menjadi:        <br /><a href="http://jokorb.files.wordpress.com/2010/04/image15.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb15.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb15-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-2xl.png 1600w"  width="158" height="97" /></a>&#160;</div>
+<div align="justify">Kini Tambahkan sebuah DBGrid (page Data Controls) ke dalam Panel1. Set property Align ke <strong>alClient. <br></strong><a href="http://jokorb.files.wordpress.com/2010/04/image13.png"><strong><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb13.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb13-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb13-2xl.png 1600w"  alt="image" width="244" height="129" border="0"></strong></a><strong>  <br></strong>Lihat property Options milik DBGrid1, set property dgTitles ke False: <br><a href="http://jokorb.files.wordpress.com/2010/04/image14.png"><img loading="lazy" style="display: inline; margin-left: 0; margin-right: 0; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb14.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb14-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb14-2xl.png 1600w"  alt="image" width="177" height="139" border="0"></a>  <br>dan hasilnya, tampilan form sekarang menjadi: <br><a href="http://jokorb.files.wordpress.com/2010/04/image15.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb15.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb15-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb15-2xl.png 1600w"  alt="image" width="158" height="97" border="0"></a> </div>
 </li>
 <li>
-<div align="justify">Klik ganda pada DBGrid, tambahkan Column sesuai kebutuhan.       <br /><a href="http://jokorb.files.wordpress.com/2010/04/image16.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb16.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb16-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-2xl.png 1600w"  width="219" height="148" /></a>         <br />Klik ganda juga pada HeaderControl1, tambahkan <strong>Section</strong>&#160; sesuai kebutuhan.        <br /><a href="http://jokorb.files.wordpress.com/2010/04/image17.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb17.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb17-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-2xl.png 1600w"  width="242" height="147" /></a>         <br />Atur property Width untuk tiap Column pada DBGrid1, sesuaikan dengan property Width untuk tiap Section pada HeaderControl1.        <br />&#160;<a href="http://jokorb.files.wordpress.com/2010/04/image18.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb18.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb18-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-2xl.png 1600w"  width="244" height="129" /></a> </div>
+<div align="justify">Klik ganda pada DBGrid, tambahkan Column sesuai kebutuhan. <br><a href="http://jokorb.files.wordpress.com/2010/04/image16.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb16.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb16-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb16-2xl.png 1600w"  alt="image" width="219" height="148" border="0"></a> <br>Klik ganda juga pada HeaderControl1, tambahkan <strong>Section</strong>  sesuai kebutuhan. <br><a href="http://jokorb.files.wordpress.com/2010/04/image17.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb17.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb17-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb17-2xl.png 1600w"  alt="image" width="242" height="147" border="0"></a> <br>Atur property Width untuk tiap Column pada DBGrid1, sesuaikan dengan property Width untuk tiap Section pada HeaderControl1. <br> <a href="http://jokorb.files.wordpress.com/2010/04/image18.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb18.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb18-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb18-2xl.png 1600w"  alt="image" width="244" height="129" border="0"></a></div>
 </li>
 <li>
-<div align="justify">Set property Images milik HeaderControl1 ke ImageList1. Kemudian klik ganda HeaderControl1. Klik salah satu Section dan atur property ImageIndex dengan gambar yang sesuai:       <br /><a href="http://jokorb.files.wordpress.com/2010/04/image19.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb19.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb19-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-2xl.png 1600w"  width="184" height="152" /></a>         <br />Lakukan dengan Section yang lain.</div>
+<div align="justify">Set property Images milik HeaderControl1 ke ImageList1. Kemudian klik ganda HeaderControl1. Klik salah satu Section dan atur property ImageIndex dengan gambar yang sesuai: <br><a href="http://jokorb.files.wordpress.com/2010/04/image19.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb19.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb19-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb19-2xl.png 1600w"  alt="image" width="184" height="152" border="0"></a> <br>Lakukan dengan Section yang lain.</div>
 </li>
 <li>
-<div align="justify">Klik pada HeaderControl1 dan klik tab Events pada Object Inspector. Klik ganda pada event OnSectionClick:       <br /><a href="http://jokorb.files.wordpress.com/2010/04/image20.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb20.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb20-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-2xl.png 1600w"  width="181" height="77" /></a>         <br />Masukkan kode seperti berikut:</div>
-</li>
-<blockquote><p>
-<p align="justify"><font color="#004080" face="cour">procedure TForm1.HeaderControl1SectionClick(HeaderControl: THeaderControl;         <br />&#160; Section: THeaderSection);          <br />begin          <br />&#160; ShowMessage('Anda mengklik pada: '+ Section.Text);          <br />end;</font></p>
-</blockquote>
-<li>
-<div align="justify">Jalankan program.       <br /><a href="http://jokorb.files.wordpress.com/2010/04/image21.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/82/image_thumb21.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb21-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-2xl.png 1600w"  width="244" height="122" /></a> </div>
+<div align="justify">Klik pada HeaderControl1 dan klik tab Events pada Object Inspector. Klik ganda pada event OnSectionClick: <br><a href="http://jokorb.files.wordpress.com/2010/04/image20.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb20.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb20-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb20-2xl.png 1600w"  alt="image" width="181" height="77" border="0"></a> <br>Masukkan kode seperti berikut:</div>
 </li>
 </ol>
-<p align="justify">Bagaimana? Menarik?   <br />Selanjutnya tinggal mengatur DataSource dan Dataset untuk DBGrid buat menampilkan data dari database. Selamat melanjutkan.</p>
+</li>
+</ol>
+<blockquote>
+<p align="justify"><span style="color: #004080; font-family: cour;">procedure TForm1.HeaderControl1SectionClick(HeaderControl: THeaderControl; <br>  Section: THeaderSection); <br>begin <br>  ShowMessage('Anda mengklik pada: '+ Section.Text); <br>end;</span></p>
+</blockquote>
+<ol>
+<li>
+<div align="justify">Jalankan program. <br><a href="http://jokorb.files.wordpress.com/2010/04/image21.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/82/image_thumb21.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/82/responsive/image_thumb21-xs.png 300w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-sm.png 480w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-md.png 768w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-lg.png 1024w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-xl.png 1360w ,https://kppdi.github.io/media/posts/82/responsive/image_thumb21-2xl.png 1600w"  alt="image" width="244" height="122" border="0"></a></div>
+</li>
+</ol>
+<p align="justify">Bagaimana? Menarik? <br>Selanjutnya tinggal mengatur DataSource dan Dataset untuk DBGrid buat menampilkan data dari database. Selamat melanjutkan.</p>
 <p align="justify">Berikut referensi yang mungkin membantu Anda:</p>
 <ul>
 <li>
-<div align="justify"><a title="http://www.experts-exchange.com/Programming/Languages/Pascal/Delphi/Q_23318783.html" href="http://www.experts-exchange.com/Programming/Languages/Pascal/Delphi/Q_23318783.html" target="_blank">http://www.experts-exchange.com/Programming/Languages/Pascal/Delphi/Q_23318783.html</a></div>
+<div align="justify"><a title="http://www.experts-exchange.com/Programming/Languages/Pascal/Delphi/Q_23318783.html" href="http://www.experts-exchange.com/Programming/Languages/Pascal/Delphi/Q_23318783.html" target="_blank" rel="noopener">http://www.experts-exchange.com/Programming/Languages/Pascal/Delphi/Q_23318783.html</a></div>
 </li>
 <li>
-<div align="justify"><a title="http://www.scalabium.com/smdbgrid.htm" href="http://www.scalabium.com/smdbgrid.htm" target="_blank">http://www.scalabium.com/smdbgrid.htm</a></div>
+<div align="justify"><a title="http://www.scalabium.com/smdbgrid.htm" href="http://www.scalabium.com/smdbgrid.htm" target="_blank" rel="noopener">http://www.scalabium.com/smdbgrid.htm</a></div>
 </li>
 </ul>
-<p align="justify">
-<p align="justify"><strong><a href="http://7868b282.realfiles.net" target="_blank">Download Source Code + Exe</a> – [ 347 KB ]</strong></p>
+<p align="justify"><strong><a href="http://7868b282.realfiles.net" target="_blank" rel="noopener">Download Source Code + Exe</a> – [ 347 KB ]</strong></p>
 <p align="justify"><em>File ini sesungguhnya adalah file .zip. Jadi setelah didownload harus diganti ekstensi filenya dari .ppt ke .zip. Jangan lupa discan dulu sebelum diekstrak.</em></p>
-
             ]]>
         </content>
     </entry>
@@ -1174,42 +1160,43 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Object Pascal"/>
             <category term="Delphi"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://kppdi.github.io/media/posts/81/fiber-4814456_1280.jpg" alt="" />
                     Oke. Pembahasan kita terakhir adalah dereferensi pointer untuk mengambil nilai yang ditunjuknya. Pertanyaan, bila kita bebas melakukan casting terhadap variabel bertipe pointer untuk mengambil nilainya, dapatkah kita membuat saja tipe variabel baru yang sesuai dengan kebutuhan kita? Agar tidak usah ada casting lagi tiap kita&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p align="justify">Oke. <a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/" target="_blank">Pembahasan kita terakhir</a> adalah dereferensi pointer untuk mengambil nilai yang ditunjuknya.</p>
+                    <img src="https://kppdi.github.io/media/posts/81/fiber-4814456_1280.jpg" alt="" />
+                <p align="justify">Oke. <a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/" target="_blank" rel="noopener">Pembahasan kita terakhir</a> adalah dereferensi pointer untuk mengambil nilai yang ditunjuknya.</p>
 <p align="justify">Pertanyaan, bila kita bebas melakukan casting terhadap variabel bertipe pointer untuk mengambil nilainya, dapatkah kita membuat saja tipe variabel baru yang sesuai dengan kebutuhan kita? Agar tidak usah ada casting lagi tiap kita melakukan dereferensi terhadap pointer?</p>
 <p align="justify">Jawabannya, tentu saja.</p>
 <p align="justify">Kita dapat membuat tipe variabel baru bertipe pointer dengan ukuran yang bebas. Contoh, kita akan membuat sebuah tipe data, berjenis pointer, dan data yang ditunjuknya seukuran Dword.</p>
-<blockquote><p>
+<blockquote>
 <p align="justify">type</p>
 <p>PDword = ^Dword;</p>
 </blockquote>
 <p align="justify">Nah, kita telah memiliki tipe data baru. Sebuah tipe data berjenis pointer, data yang ditunjuk seukuran Dword, bernama PDword. Kita memberi nama dengan prefiks P agar kita mudah mengingat bahwa tipe data tersebut berjenis pointer. Tanda ^ di depan tipe data dasar (Dword) adalah penunjuk bahwa kita sedang mendeklarasikan sejenis pointer sebagai tipe data baru.</p>
 <p align="justify">Sebuah contoh akan menjelaskan lebih jauh:</p>
-<blockquote><p>
-<p align="justify">procedure TForm1.Button1Click(Sender: TObject);     <br />type      <br />&#160; PDword = ^Dword;      <br />var      <br />&#160; PointerDword: PDword;      <br />&#160; DwordBiasa1,      <br />&#160; DwordBiasa2:&#160; Dword;      <br />begin      <br />&#160; DwordBiasa1 := 16762;      <br />&#160; PointerDword := @DwordBiasa1;      <br />&#160; DwordBiasa2 := pointerDword^;      <br />&#160; ShowMessage('Nilai dereferensi: '+ IntToStr(DwordBiasa2));      <br />&#160; pointerDword^ := 4;      <br />&#160; ShowMessage('Nilai dereferensi: '+ IntToStr(DwordBiasa1));      <br />end;</p>
+<blockquote>
+<p align="justify">procedure TForm1.Button1Click(Sender: TObject); <br>type <br>  PDword = ^Dword; <br>var <br>  PointerDword: PDword; <br>  DwordBiasa1, <br>  DwordBiasa2:  Dword; <br>begin <br>  DwordBiasa1 := 16762; <br>  PointerDword := @DwordBiasa1; <br>  DwordBiasa2 := pointerDword^; <br>  ShowMessage('Nilai dereferensi: '+ IntToStr(DwordBiasa2)); <br>  pointerDword^ := 4; <br>  ShowMessage('Nilai dereferensi: '+ IntToStr(DwordBiasa1)); <br>end;</p>
 </blockquote>
-<p align="justify">Lihat. Nilai DwordBiasa1 adalah 16762. Kita deklarasikan tipe data baru dengan nama PDword, sebagai tipe berjenis pointer, ukuran data yang ditunjuknya sebesar ukuran data Dword. Kita juga punya sebuah variabel PointerDword dengan tipe PDword tadi. variabel PointerDword ini kita tugaskan untuk menjukkan alamat variabel DwordBiasa1 di memori. Kemudian kita dereferensikan lagi ke variabel DwordBiasa2. Ternyata, tanpa perlu casting tipe data, kita sudah dapat mengambil nilai 16762 tadi.   <br /><a href="http://jokorb.files.wordpress.com/2010/03/image8.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/81/image_thumb8.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/81/responsive/image_thumb8-xs.png 300w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-sm.png 480w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-md.png 768w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-lg.png 1024w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-xl.png 1360w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-2xl.png 1600w"  width="161" height="122" /></a> </p>
+<p align="justify">Lihat. Nilai DwordBiasa1 adalah 16762. Kita deklarasikan tipe data baru dengan nama PDword, sebagai tipe berjenis pointer, ukuran data yang ditunjuknya sebesar ukuran data Dword. Kita juga punya sebuah variabel PointerDword dengan tipe PDword tadi. variabel PointerDword ini kita tugaskan untuk menjukkan alamat variabel DwordBiasa1 di memori. Kemudian kita dereferensikan lagi ke variabel DwordBiasa2. Ternyata, tanpa perlu casting tipe data, kita sudah dapat mengambil nilai 16762 tadi. <br><a href="http://jokorb.files.wordpress.com/2010/03/image8.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/81/image_thumb8.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/81/responsive/image_thumb8-xs.png 300w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-sm.png 480w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-md.png 768w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-lg.png 1024w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-xl.png 1360w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb8-2xl.png 1600w"  alt="image" width="161" height="122" border="0"></a></p>
 <p align="justify">Bagaimana dengan dua baris terakhir? Ingat, pointer, termasuk PDword tadi, hanya menunjukkan alamat sebuah data/variabel di memori. Bukan menunjukkan nilainya. Jika kita melakukan dereferensi dengan x:=p^, maka nilai pada memori yang ditunjuk oleh p di memori akan dimasukkan ke variabel x. Sebaliknya, bilai kita melakukan penugasan p^:=x, maka nilai di memori yang ditunjuk oleh p akan diisi dengan nilai x.</p>
-<blockquote><p>
-<p align="justify">DwordBiasa1 := 16762;     <br />PointerDword := @DwordBiasa1;      <br />//……………………………      <br />pointerDword^ := 4;</p>
+<blockquote>
+<p align="justify">DwordBiasa1 := 16762; <br>PointerDword := @DwordBiasa1; <br>//…………………………… <br>pointerDword^ := 4;</p>
 </blockquote>
-<p align="justify">Pada kode di atas, DwordBiasa1 awalnya bernilai 16762. Kemudian kita mencatat alamat data DwordBiasa1 ke variabel PointerDword. Baris terakhir mengubah nilai di alamat tersebut (yang ditunjuk oleh PointerDword) menjadi 4. Ini berakibat variabel DwordBiasa1, yang berada di alamat tersebut, menjadi bernilai 4, bukan lagi 16762. Percaya?   <br /><a href="http://jokorb.files.wordpress.com/2010/03/image9.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/81/image_thumb9.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/81/responsive/image_thumb9-xs.png 300w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-sm.png 480w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-md.png 768w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-lg.png 1024w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-xl.png 1360w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-2xl.png 1600w"  width="137" height="122" /></a> </p>
+<p align="justify">Pada kode di atas, DwordBiasa1 awalnya bernilai 16762. Kemudian kita mencatat alamat data DwordBiasa1 ke variabel PointerDword. Baris terakhir mengubah nilai di alamat tersebut (yang ditunjuk oleh PointerDword) menjadi 4. Ini berakibat variabel DwordBiasa1, yang berada di alamat tersebut, menjadi bernilai 4, bukan lagi 16762. Percaya? <br><a href="http://jokorb.files.wordpress.com/2010/03/image9.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/81/image_thumb9.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/81/responsive/image_thumb9-xs.png 300w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-sm.png 480w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-md.png 768w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-lg.png 1024w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-xl.png 1360w ,https://kppdi.github.io/media/posts/81/responsive/image_thumb9-2xl.png 1600w"  alt="image" width="137" height="122" border="0"></a></p>
 <p align="justify">Oke. Lanjut. :)</p>
 <p align="justify">Kemudian perhatikan deklarasi tipe-tipe data yang tersedia di Delphi. Kebanyakan mereka dideklarasikan menggunakan cara kita:</p>
-<blockquote><p>
+<blockquote>
 <p align="justify">PTipe = ^Tipe;</p>
 </blockquote>
 <p align="justify">Dengan pembahasan ini, saya berharap kita sudah punya sebuah pengetahuan baru, bahwasannya pointer adalah sesuatu yang sangat bagus dalam memfasilitasi kita dalam menulis program. Meskipun terlihat begitu rumit dan bertele-tele, kita harus bersyukur bahwa pointer ada di dunia yang kita tinggali, dunia programming :)</p>
 <p align="justify">Manfaat pointer tentu saja belum terasa sampai di sini. Kita masih akan melanjutkan dengan tipe-tipe data dasar lainnya, sebelum melanjutkan pembahasan sampai ke pemanfaatan pointer dan contoh-contoh implementasinya dalam kode.</p>
 <p align="justify">Salam, Joko Rivai.</p>
-
             ]]>
         </content>
     </entry>
@@ -1223,14 +1210,16 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Tutorial"/>
             <category term="Docs"/>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://kppdi.github.io/media/posts/79/fiber-4814456_1280.jpg" alt="" />
                     Pointer adalah sebuah tipe data yang berfungsi menunjukkan alamat di memori. Semua objek dalam Delphi yang diturunkan dari TObject adalah pointer. TForm, TStrings, TList, TDBGrid, semuanya pointer. Oke. Saya mulai dengan sebuah contoh. var p: Pointer; i, j: Integer; begin i:=45; j:=0; p:=@i; j:=Integer(p^); ShowMessage(IntToStr(j));&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://kppdi.github.io/media/posts/79/fiber-4814456_1280.jpg" alt="" />
                 <p align="justify">Pointer adalah sebuah tipe data yang berfungsi menunjukkan alamat di memori. Semua objek dalam Delphi yang diturunkan dari TObject adalah pointer. TForm, TStrings, TList, TDBGrid, semuanya pointer.</p>
 <p align="justify">Oke. Saya mulai dengan sebuah contoh.</p>
 <p class="align-left"><code>var </code><br><code>  p: Pointer; </code><br><code>  i, j: Integer; </code><br><code>begin </code><br><code>  i:=45; </code><br><code>  j:=0; </code><br><code>  p:=@i; </code><br><code>  j:=Integer(p^); </code><br><code>  ShowMessage(IntToStr(j));</code></p>
@@ -1248,9 +1237,9 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
 <p>Demikian halnya bila kita ingin mengambil nilai dengan ukuran yang berbeda. Katakan kita hanya mengambil 1 byte:</p>
 <p><code>j:=Byte(p^);</code></p>
 <p>Bila Anda jeli, Anda dapat melihat kenapa ada tipe data PByte, PInt64, PDword, dan lainnya. Deklarasi tipe-tipe tersebut adalah:</p>
-<p><code><span>PByte = ^Byte;</span></code><br><code><span>PInt64 = ^Int64;</span></code><br><code><span>PDword = ^Dword;</span></code></p>
-<p><span>Mereka dideklarasikan sebagai tipe pointer ke tipe data dasarnya. Maksudnya, agar compiler tahu bahwa ukuran data pada alamat yang ditunjuknya. <br><a href="http://jokorb.files.wordpress.com/2010/03/image6.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-2xl.png 1600w"  alt="image" width="558" height="255" border="0"></a> </span></p>
-<p><span>Anda lihat? Compiler kebingungan karena harus mengambil nilai yang tidak diketahui berapa ukurannya. Bagaimana jika kode di atas kita modifikasi:</span></p>
+<p><code>PByte = ^Byte;</code><br><code>PInt64 = ^Int64;</code><br><code>PDword = ^Dword;</code></p>
+<p>Mereka dideklarasikan sebagai tipe pointer ke tipe data dasarnya. Maksudnya, agar compiler tahu bahwa ukuran data pada alamat yang ditunjuknya. <br><a href="http://jokorb.files.wordpress.com/2010/03/image6.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-2xl.png 1600w"  alt="image" width="558" height="255" border="0"></a> </p>
+<p>Anda lihat? Compiler kebingungan karena harus mengambil nilai yang tidak diketahui berapa ukurannya. Bagaimana jika kode di atas kita modifikasi:</p>
 <p><a href="http://jokorb.files.wordpress.com/2010/03/image7.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb7.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb7-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-2xl.png 1600w"  alt="image" width="463" height="274" border="0"></a></p>
 <p>Tidak ada masalah, kan?</p>
 <p>Oke. Tulisan ini belum berakhir. Saya capek, maen Point Blank dulu. Nanti sambung lagi :)</p>
@@ -1268,39 +1257,40 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
         <link href="https://kppdi.github.io/tipe-pointer/"/>
         <id>https://kppdi.github.io/tipe-pointer/</id>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://kppdi.github.io/media/posts/78/office-620817_1280.jpg" alt="" />
                     Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list. Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://kppdi.github.io/media/posts/78/office-620817_1280.jpg" alt="" />
                 <p align="justify">Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list.</p>
 <p align="justify">Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel tersebut, terlepas dari apakah variabel tersebut digunakan atau tidak. Dengan pointer, memori hanya akan dialokasikan jika variabel bertipe pointer akan digunakan. Dengan demikian, kita dapat mengatur penggunaan memori secara fleksibel dan hemat. Bila belum perlu, memori tidak digunakan, sehingga dapat dialokasikan oleh variabel lain yang mungkin akan lebih dulu menggunakan memori.</p>
 <p align="justify">Di bawah ini beberapa tipe pointer yang disediakan Delphi. Namun Anda dapat dengan bebas mendeklarasikan tipe pointer lainnya sesuai kebutuhan. Satu catatan mengenai penggunaan pointer, bila Anda mengalokasikan memori pada sebuah pointer, Anda bertanggungjawab untuk melepaskannya kembali. Bila tidak, memori tersebut tetap dicatat sebagai “sedang digunakan”, sehingga variabel bertipe pointer lainnya tidak mengalokasikan memori pada alamat yang ditunjuk oleh variabel bertipe pointer sebelumnya.</p>
 <p align="justify">Sebenarnya pointer adalah berukuran 4 byte (32 bit), bertipe <a href="http://jokorb.wordpress.com/2010/03/20/tipe-ordinalbilangan-bulat/">Dword</a>. Semua tipe pointer lainnya adalah pointer. Hanyasannya, tipe pointer lainnya dideklarasikan secara khusus untuk memberitahu compiler ukuran satuan data pada alamat yang ditunjuk oleh pointer tersebut.</p>
 <p align="justify">Berikut adalah tipe-tipe pointer yang telah disediakan Delphi. Selanjutnya, kita akan lihat tipe-tipe pointer yang user-defined dan contoh penggunaanya.</p>
-<p align="justify">   <br /><b>PAnsiChar</b>     <br />PAnsiChar adalah pointer yang menunjukkan alamat data bertipe AnsiChar. Harap diingat, meskipun AnsiChar berukuran 1 byte (8 bit), tetapi PAnsiChar berukuran 4 byte (32 bite), karena pada dasarnya, semua pointer berukuran 4 byte.</p>
-<blockquote><p>
-<p>var      <br />&#160; p: PansiChar;       <br />&#160; a: AnsiChar;       <br />begin       <br />&#160; ShowMessage('Ukuran AnsiChar: '+IntToStr(SizeOf(a)) +#13'Ukuran PansiChar: '+ IntToStr(SizeOf(p)));</p>
+<p align="justify"><br><strong>PAnsiChar</strong> <br>PAnsiChar adalah pointer yang menunjukkan alamat data bertipe AnsiChar. Harap diingat, meskipun AnsiChar berukuran 1 byte (8 bit), tetapi PAnsiChar berukuran 4 byte (32 bite), karena pada dasarnya, semua pointer berukuran 4 byte.</p>
+<blockquote>
+<p>var <br>  p: PansiChar; <br>  a: AnsiChar; <br>begin <br>  ShowMessage('Ukuran AnsiChar: '+IntToStr(SizeOf(a)) +#13'Ukuran PansiChar: '+ IntToStr(SizeOf(p)));</p>
 </blockquote>
-<p align="justify">Hasil kode di atas:    <br /><a href="http://jokorb.files.wordpress.com/2010/03/image1.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/78/image_thumb1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xs.png 300w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-sm.png 480w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-md.png 768w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-lg.png 1024w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xl.png 1360w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-2xl.png 1600w"  width="146" height="137" /></a>&#160;</p>
-<p align="justify"><b>PAnsiString</b>     <br />Menunjukkan alamat AnsiString. AnsiString sendiri adalah sejenis pointer, sehingga PAnsiString jarang dugunakan. Anda mungkin ingin membaca tentang <a href="http://jokorb.wordpress.com/2010/03/20/tipe-char-dan-string/">AnsiString</a> untuk melihatnya lebih jauh.</p>
-<p align="justify"><b>PChar</b>     <br />Mirip dengan PAnsiChar. Meskipun pada versi Delphi terbaru, Char telah diperlakukan sebagai PWideChar (2 byte), bukan lagi AnsiChar (1 byte), tetap saja PChar berukuran 4 byte. Karena bagaimanapun, PChar adalah pointer. Penggunakan PChar biasanya dalam operasi string yang dibatasi dengan zero character, seperti yang digunakan di Windows dan biasanya digunakan dalam C/C++. </p>
+<p align="justify">Hasil kode di atas: <br><a href="http://jokorb.files.wordpress.com/2010/03/image1.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/78/image_thumb1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xs.png 300w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-sm.png 480w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-md.png 768w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-lg.png 1024w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xl.png 1360w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-2xl.png 1600w"  alt="image" width="146" height="137" border="0"></a> </p>
+<p align="justify"><strong>PAnsiString</strong> <br>Menunjukkan alamat AnsiString. AnsiString sendiri adalah sejenis pointer, sehingga PAnsiString jarang dugunakan. Anda mungkin ingin membaca tentang <a href="http://jokorb.wordpress.com/2010/03/20/tipe-char-dan-string/">AnsiString</a> untuk melihatnya lebih jauh.</p>
+<p align="justify"><strong>PChar</strong> <br>Mirip dengan PAnsiChar. Meskipun pada versi Delphi terbaru, Char telah diperlakukan sebagai PWideChar (2 byte), bukan lagi AnsiChar (1 byte), tetap saja PChar berukuran 4 byte. Karena bagaimanapun, PChar adalah pointer. Penggunakan PChar biasanya dalam operasi string yang dibatasi dengan zero character, seperti yang digunakan di Windows dan biasanya digunakan dalam C/C++.</p>
 <p align="justify">Pada kode-kode Windows API yang menggunakan string sebagai parameter/kembalian fungsi, maka tipe data inilah yang sering dipakai. Tinggal menetukan apakah PAnsiChar apabila fungsi tersebut menggunakan standar ANSI ataukah PWideChar jika Unicode.</p>
-<p align="justify"><b>PCurrency</b>     <br />Pointer ke tipe data Currency.</p>
-<p align="justify"><b>PDateTime</b>     <br />Pointer ke tipe DateTime.</p>
-<p align="justify"><b>PExtended</b>     <br />Pointer ke tipe Extended.</p>
+<p align="justify"><strong>PCurrency</strong> <br>Pointer ke tipe data Currency.</p>
+<p align="justify"><strong>PDateTime</strong> <br>Pointer ke tipe DateTime.</p>
+<p align="justify"><strong>PExtended</strong> <br>Pointer ke tipe Extended.</p>
 <p align="justify">Pointer to an Int64 value.</p>
-<p align="justify"><b><a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/">Pointer</a></b>     <br />Defines a general use Pointer to any memory based data.</p>
-<p align="justify"><b>PShortString</b>     <br />Pointer ke tipe data ShortString.</p>
-<p align="justify"><b>PString</b>     <br />Pointer ke tipe String</p>
-<p align="justify"><b>PVariant</b>     <br />Pointer ke tipe</p>
-<p align="justify"><b>PWideChar</b>     <br />Mirip dengan PChar dan PAnsiChar.</p>
-<p align="justify"><b>PWideString</b>     <br />Pointer ke tipe WideString.</p>
+<p align="justify"><strong><a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/">Pointer</a></strong> <br>Defines a general use Pointer to any memory based data.</p>
+<p align="justify"><strong>PShortString</strong> <br>Pointer ke tipe data ShortString.</p>
+<p align="justify"><strong>PString</strong> <br>Pointer ke tipe String</p>
+<p align="justify"><strong>PVariant</strong> <br>Pointer ke tipe</p>
+<p align="justify"><strong>PWideChar</strong> <br>Mirip dengan PChar dan PAnsiChar.</p>
+<p align="justify"><strong>PWideString</strong> <br>Pointer ke tipe WideString.</p>
 <p align="justify">Lebih jauh dengan pointer, kita diskusikan <a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/">di sini</a>.</p>
-
             ]]>
         </content>
     </entry>
@@ -1312,24 +1302,27 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
         <link href="https://kppdi.github.io/tipe-char-dan-string/"/>
         <id>https://kppdi.github.io/tipe-char-dan-string/</id>
 
-        <updated>2020-08-01T18:58:34+08:00</updated>
+        <updated>2020-08-01T19:08:25+08:00</updated>
             <summary>
                 <![CDATA[
-                    AnsiCharKarakter berkuran 1 byte (8 bit) type AnsiChar = #0..#255;AnsiStringDeretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM). AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak&hellip;
+                        <img src="https://kppdi.github.io/media/posts/77/geometry-2520247_1280.jpg" alt="" />
+                    AnsiCharKarakter berkuran 1 byte (8 bit)type AnsiChar = #0..#255; var ws: WideString; l, sz: Integer; begin ws:='Hello World!'; l:= Length(ws); sz:=SizeOf(widechar) * l; ShowMessage('Panjang String: '+InttoStr(l)+#13+ 'Ukuran String (memori): ' +IntToStr(sz) ); Maka Anda akan mendapatkan hasil: 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <table border="0" cellspacing="0" cellpadding="2" width="653">
+                    <img src="https://kppdi.github.io/media/posts/77/geometry-2520247_1280.jpg" alt="" />
+                <table border="0" width="653" cellspacing="0" cellpadding="2">
 <tbody>
 <tr>
 <td valign="top" width="103"><strong>AnsiChar</strong></td>
-<td valign="top" width="548">Karakter berkuran 1 byte (8 bit)</p>
-<p><font color="#800000">type <b>AnsiChar</b> = #0..#255;</font></td>
+<td valign="top" width="548">Karakter berkuran 1 byte (8 bit)
+<p><span style="color: #800000;">type <strong>AnsiChar</strong> = #0..#255;</span></p>
+</td>
 </tr>
 <tr>
 <td valign="top" width="103"><strong>AnsiString</strong></td>
-<td valign="top" width="548">Deretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM).         <br />AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak bernilai.</td>
+<td valign="top" width="548">Deretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM). <br>AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak bernilai.</td>
 </tr>
 <tr>
 <td valign="top" width="103"><strong>Char</strong></td>
@@ -1337,11 +1330,11 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
 </tr>
 <tr>
 <td valign="top" width="103"><strong>ShortString</strong></td>
-<td valign="top" width="548">ShortString merupakan deretan karakter berukuran hingga 255 karakter. Tipe String di bawah ini akan diperlakukan sebagai ShortString jika directive <b>$LongStrings</b> diset ke <strong>OFF</strong></td>
+<td valign="top" width="548">ShortString merupakan deretan karakter berukuran hingga 255 karakter. Tipe String di bawah ini akan diperlakukan sebagai ShortString jika directive <strong>$LongStrings</strong> diset ke <strong>OFF</strong></td>
 </tr>
 <tr>
 <td valign="top" width="103"><strong>String</strong></td>
-<td valign="top" width="548">String merupakan deretan karakter. Bila directive <b>$LongStrings</b> diset ke <strong>OFF</strong>, String akan diperlakukan sebagai ShortString, sebaliknya jika directive ini diset ke <strong>ON, </strong>String akan diperlakukan sebagai AnsiString.          <br />Meskipun <b>$LongStrings</b> diset ke <strong>ON</strong>, sebuah string akan tetap diperlakukan sebagai ShortString jika kita menentukan FixedSize pada sebuah string.          <br />          <br /><font color="#800000">var           <br />shortstr: String[5];            <br />{            <br />mendefiniskan sebuah variabel bertipe ShortString dengan panjang string maksimal 5 karakter.            <br />}            <br />longstr: String[260];            <br />{            <br />error! ShortString hanya dapat menampung maksimal 255 karakter!            <br />}</font></td>
+<td valign="top" width="548">String merupakan deretan karakter. Bila directive <strong>$LongStrings</strong> diset ke <strong>OFF</strong>, String akan diperlakukan sebagai ShortString, sebaliknya jika directive ini diset ke <strong>ON, </strong>String akan diperlakukan sebagai AnsiString. <br>Meskipun <strong>$LongStrings</strong> diset ke <strong>ON</strong>, sebuah string akan tetap diperlakukan sebagai ShortString jika kita menentukan FixedSize pada sebuah string. <br><br><span style="color: #800000;">var <br>shortstr: String[5]; <br>{ <br>mendefiniskan sebuah variabel bertipe ShortString dengan panjang string maksimal 5 karakter. <br>} <br>longstr: String[260]; <br>{ <br>error! ShortString hanya dapat menampung maksimal 255 karakter! <br>}</span></td>
 </tr>
 <tr>
 <td valign="top" width="103"><strong>WideChar</strong></td>
@@ -1349,14 +1342,13 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
 </tr>
 <tr>
 <td valign="top" width="103"><strong>WideString</strong></td>
-<td valign="top" width="548">String yang terbentuk dari deretan karakter bertipe WideChar. Tiap elemennya berukuran 16 bit.         <br />Bila Anda mempunyai kode:          
-<p><font color="#800000">var             <br />&#160; ws: WideString;              <br />&#160; l,              <br />&#160; sz: Integer;              <br />begin              <br />&#160; ws:='Hello World!';              <br />&#160; l:= Length(ws);              <br />&#160; sz:=SizeOf(widechar) * l;              <br />&#160; ShowMessage('Panjang String: '+InttoStr(l)+#13+              <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 'Ukuran String (memori): ' +IntToStr(sz)              <br />&#160; );</font></p>
-<p><font color="#000000">Maka Anda akan mendapatkan hasil:             <br /><a href="http://jokorb.files.wordpress.com/2010/03/image.png"><img loading="lazy" style="border-bottom:0;border-left:0;display:inline;border-top:0;border-right:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/77/image_thumb.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/77/responsive/image_thumb-xs.png 300w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-sm.png 480w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-md.png 768w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-lg.png 1024w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-xl.png 1360w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-2xl.png 1600w"  width="343" height="133" /></a> </font></p>
+<td valign="top" width="548">String yang terbentuk dari deretan karakter bertipe WideChar. Tiap elemennya berukuran 16 bit. <br>Bila Anda mempunyai kode:
+<p><span style="color: #800000;">var <br>  ws: WideString; <br>  l, <br>  sz: Integer; <br>begin <br>  ws:='Hello World!'; <br>  l:= Length(ws); <br>  sz:=SizeOf(widechar) * l; <br>  ShowMessage('Panjang String: '+InttoStr(l)+#13+ <br>              'Ukuran String (memori): ' +IntToStr(sz) <br>  );</span></p>
+<p><span style="color: #000000;">Maka Anda akan mendapatkan hasil: <br><a href="http://jokorb.files.wordpress.com/2010/03/image.png"><img loading="lazy" style="display: inline; border: 0;" title="image" src="https://kppdi.github.io/media/posts/77/image_thumb.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/77/responsive/image_thumb-xs.png 300w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-sm.png 480w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-md.png 768w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-lg.png 1024w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-xl.png 1360w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-2xl.png 1600w"  alt="image" width="343" height="133" border="0"></a> </span></p>
 </td>
 </tr>
 </tbody>
 </table>
-
             ]]>
         </content>
     </entry>
