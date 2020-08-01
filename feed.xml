@@ -18,7 +18,7 @@
         <id>https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/5/scalimg-codegear-delphi-for-microsoft-windows-umain-running_2011-06-24_00-26-54-2.png" alt="" />
@@ -471,7 +471,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/4/winsnap_delphi_snapshot_screen_caputure.png" alt="" />
@@ -602,7 +602,7 @@
         <id>https://kppdi.github.io/save-setting-koneksi-ke-file-ini/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/3/desain-form-parameter-koneksi.png" alt="" />
@@ -996,7 +996,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
@@ -1041,7 +1041,7 @@ end;<br><br></pre>
         <id>https://kppdi.github.io/welcome/</id>
             <category term="Docs"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/1/plumbing-585658_1280.jpg" alt="" />
@@ -1072,27 +1072,6 @@ end;<br><br></pre>
         </content>
     </entry>
     <entry>
-        <title>Tes Single SQL Sukses</title>
-        <author>
-            <name>Grup KPPDI</name>
-        </author>
-        <link href="https://kppdi.github.io/tes-single-sql-sukses/"/>
-        <id>https://kppdi.github.io/tes-single-sql-sukses/</id>
-
-        <updated>2020-08-01T18:14:16+08:00</updated>
-            <summary>
-                <![CDATA[
-                    Akhirnya. Perintah SQL yang panjang dan berliku jadi juga...
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Akhirnya. Perintah SQL yang panjang dan berliku jadi juga...</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
         <title>Format Angka Finansial</title>
         <author>
             <name>Grup KPPDI</name>
@@ -1108,7 +1087,7 @@ end;<br><br></pre>
             <category term="Angka"/>
             <category term="Akuntansi"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                     Beberapa waktu lalau ada yang nyasar ke blog ini dengan sebuah pertanyaan: "listing delphi untuk angka dibelakang koma...." Nah, saya tulis saja :) Untuk memformat angka pecahan, terutama dalam aplikasi akuntansi, kita dapat menggunakan fungsi format float: [sourcecode language="delphi"] FormatFloat(const AFormat:String; const AValue: Extended): String;&hellip;
@@ -1167,7 +1146,7 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Control"/>
             <category term="Component"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                     Malas membaca? Langsung Download Source Code + Exe. Posting ini buat menjawab pertanyaan seorang rekan Delphier. FixedRow pada DBGrid default bawaan Delphi memang terlihat membosankan. Nah kita coba membuat tampilan yang lebih menarik. Langkah-Langkahnya: procedure TForm1.HeaderControl1SectionClick(HeaderControl: THeaderControl; &#160; Section: THeaderSection); begin &#160; ShowMessage('Anda mengklik pada:&hellip;
@@ -1234,7 +1213,7 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
             <category term="Object Pascal"/>
             <category term="Delphi"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
                     Oke. Pembahasan kita terakhir adalah dereferensi pointer untuk mengambil nilai yang ditunjuknya. Pertanyaan, bila kita bebas melakukan casting terhadap variabel bertipe pointer untuk mengambil nilainya, dapatkah kita membuat saja tipe variabel baru yang sesuai dengan kebutuhan kita? Agar tidak usah ada casting lagi tiap kita&hellip;
@@ -1280,58 +1259,86 @@ Edit6.Text:=FinaceFloat(StrToFloat(Edit5.Text));<br />
         </author>
         <link href="https://kppdi.github.io/lebih-jauh-dengan-pointer/"/>
         <id>https://kppdi.github.io/lebih-jauh-dengan-pointer/</id>
+            <category term="Tutorial"/>
+            <category term="Docs"/>
 
-        <updated>2020-08-01T18:14:16+08:00</updated>
+        <updated>2020-08-01T18:34:52+08:00</updated>
             <summary>
                 <![CDATA[
-                    Pointer adalah sebuah tipe data yang berfungsi menunjukkan alamat di memori. Semua objek dalam Delphi yang diturunkan dari TObject adalah pointer. TForm, TStrings, TList, TDBGrid, semuanya pointer. Oke. Saya mulai dengan sebuah contoh. var &#160; p: Pointer; &#160; i, j: Integer; begin &#160; i:=45; &#160;&hellip;
+                    Pointer adalah sebuah tipe data yang berfungsi menunjukkan alamat di memori. Semua objek dalam Delphi yang diturunkan dari TObject adalah pointer. TForm, TStrings, TList, TDBGrid, semuanya pointer. Oke. Saya mulai dengan sebuah contoh. var p: Pointer; i, j: Integer; begin i:=45; j:=0; p:=@i; j:=Integer(p^); ShowMessage(IntToStr(j));&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p align="justify">Pointer adalah sebuah tipe data yang berfungsi menunjukkan alamat di memori. Semua objek dalam Delphi yang diturunkan dari TObject adalah pointer. TForm, TStrings, TList, TDBGrid, semuanya pointer.</p>
 <p align="justify">Oke. Saya mulai dengan sebuah contoh.</p>
-<blockquote><p>
-<p>var      <br />&#160; p: Pointer;       <br />&#160; i, j: Integer;       <br />begin       <br />&#160; i:=45;       <br />&#160; j:=0;       <br />&#160; p:=@i;       <br />&#160; j:=Integer(p^);       <br />&#160; ShowMessage(IntToStr(j));       </p>
-</blockquote>
+<p class="align-left"><code>var </code><br><code>  p: Pointer; </code><br><code>  i, j: Integer; </code><br><code>begin </code><br><code>  i:=45; </code><br><code>  j:=0; </code><br><code>  p:=@i; </code><br><code>  j:=Integer(p^); </code><br><code>  ShowMessage(IntToStr(j));</code></p>
 <p>Pertama, nilai j adalah 0, nilai i adalah 45. kemudian kita tugaskan p untuk menunjukkan alamat dari i di memori. Pada alamat tersebut terdapat nilai 45. Bilai alamat yang ditunjuk oleh p kita ambil isinya ke variabel j, maka j akan memiliki nilai 45 juga.</p>
-<p>Kode di atas memiliki hasil:    <br /><a href="http://jokorb.files.wordpress.com/2010/03/image2.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/79/image_thumb2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb2-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-2xl.png 1600w"  width="109" height="122" /></a>&#160;</p>
-<p>Dengan demikian kita tahu bahwa:    <br />p := @x adalah ekspresi menugaskan p untuk menunjukkan alamat dari x disebut <strong>referencing</strong>, dan     <br />x:=p^ adalah mengambil data/nilai pada alamat yang ditunjukkan oleh p, disebut <strong>dereferencing</strong>.</p>
+<p>Kode di atas memiliki hasil: <br><a href="http://jokorb.files.wordpress.com/2010/03/image2.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb2-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb2-2xl.png 1600w"  alt="image" width="109" height="122" border="0"></a> </p>
+<p>Dengan demikian kita tahu bahwa: <br>p := @x adalah ekspresi menugaskan p untuk menunjukkan alamat dari x disebut <strong>referencing</strong>, dan <br>x:=p^ adalah mengambil data/nilai pada alamat yang ditunjukkan oleh p, disebut <strong>dereferencing</strong>.</p>
 <p>Biasanya orang bingung dengan @, dan ^. Jangan khawatir, lama-lama semuanya akan terasa biasa saja :)</p>
 <p>Mungkin Anda akan bertanya, apa maksudnya <strong>j:=integer(p^)</strong> ? Mudah saja, p adalah untyped pointer (pointer tak bertipe), sehingga akan membingungkan compiler berapa ukuran data/nilai yang ditunjuk oleh pointer tersebut. Mari membuat semua jelas: pointer berukuran 4 byte, tapi data/nilai di memori yang ditunjuknya tidak diketahui berapa ukurannya. Bisa jadi nilai itu adalah Char (1 byte), Integer (4 byte), Variant, atau lainnya.</p>
 <p>Kita akan lihat alamat yang ditunjukkan oleh pointer dan mekanisme derefencing data pada alamat tersebut.</p>
-<blockquote><p>
-<p>i:=45;      <br />&#160; p:=@i;       <br />&#160; ShowMessage(IntToStr( integer(p) ));</p>
-</blockquote>
-<p>integer(p) merupakan casting/perubahan tipe dari pointer ke integer. Jadi alamat yang ditunjukkan oleh p dapat kita tampilkan dengan ShowMessage(IntToStr( integer(p) ));    <br /><a href="http://jokorb.files.wordpress.com/2010/03/image3.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/79/image_thumb3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb3-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-2xl.png 1600w"  width="109" height="122" /></a>     <br />Lantas, bagaimana mekanisme dereferencing?     <br /><a href="http://jokorb.files.wordpress.com/2010/03/image4.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/79/image_thumb4.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb4-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-2xl.png 1600w"  width="389" height="63" /></a> </p>
+<p><code>i:=45; </code><br><code>  p:=@i; </code><br><code>  ShowMessage(IntToStr( integer(p) ));</code></p>
+<p>integer(p) merupakan casting/perubahan tipe dari pointer ke integer. Jadi alamat yang ditunjukkan oleh p dapat kita tampilkan dengan ShowMessage(IntToStr( integer(p) )); <br><a href="http://jokorb.files.wordpress.com/2010/03/image3.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb3-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb3-2xl.png 1600w"  alt="image" width="109" height="122" border="0"></a> <br>Lantas, bagaimana mekanisme dereferencing? <br><a href="http://jokorb.files.wordpress.com/2010/03/image4.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb4.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb4-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb4-2xl.png 1600w"  alt="image" width="389" height="63" border="0"></a></p>
 <p>Dengan memeriksa p, compiler tahu bahwa data yang akan direferensikan berada pada alamat 1244636 di memori. Tapi berapakah ukuran datanya? apakah cuma 1 byte atau sepanjang alamat 1244636 sampai akhir memori? Compiler takkan pernah tahu. Jadi kita harus mengarahkan compiler dengan:</p>
-<blockquote><p>
-<p>j:=Integer(p^);      </p>
-</blockquote>
-<p>Kini compiler tahu bahwa kita akan mengambil data bertipe integer. Compiler tahu bahwa integer berukuran 4 byte. Dengan begitu, compiler akan mengambil data sebanyak 4 byte, dimulai dengan byte pertama pada alamat 1244636. Terakhir, compiler mengembalikan hasilnya, nilai 45.    <br />&#160;<a href="http://jokorb.files.wordpress.com/2010/03/image5.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/79/image_thumb5.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb5-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-2xl.png 1600w"  width="382" height="60" /></a> </p>
+<p><code>j:=Integer(p^);</code></p>
+<p>Kini compiler tahu bahwa kita akan mengambil data bertipe integer. Compiler tahu bahwa integer berukuran 4 byte. Dengan begitu, compiler akan mengambil data sebanyak 4 byte, dimulai dengan byte pertama pada alamat 1244636. Terakhir, compiler mengembalikan hasilnya, nilai 45. <br> <a href="http://jokorb.files.wordpress.com/2010/03/image5.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb5.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb5-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb5-2xl.png 1600w"  alt="image" width="382" height="60" border="0"></a></p>
 <p>Demikian halnya bila kita ingin mengambil nilai dengan ukuran yang berbeda. Katakan kita hanya mengambil 1 byte:</p>
-<blockquote><p>
-<p>j:=Byte(p^);      </p>
-</blockquote></p></p>
-<p>Bila Anda jeli, Anda dapat melihat kenapa ada tipe data PByte, PInt64, PDword, dan lainnya. Deklarasi tipe-tipe tersebut adalah: </p>
-<blockquote><p>
-<p><font>PByte = ^Byte;</font></p>
-<p><font>PInt64 = ^Int64;</font></p>
-<p><font>PDword = ^Dword;</font></p>
-</blockquote>
-<p><font>Mereka dideklarasikan sebagai tipe pointer ke tipe data dasarnya. Maksudnya, agar compiler tahu bahwa ukuran data pada alamat yang ditunjuknya.      <br /><a href="http://jokorb.files.wordpress.com/2010/03/image6.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/79/image_thumb6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-2xl.png 1600w"  width="558" height="255" /></a>&#160;</font></p>
-<p><font>Anda lihat? Compiler kebingungan karena harus mengambil nilai yang tidak diketahui berapa ukurannya. Bagaimana jika kode di atas kita modifikasi:</font></p>
-<blockquote><p>
-<p><font></font></p>
-</blockquote>
-<p><a href="http://jokorb.files.wordpress.com/2010/03/image7.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/79/image_thumb7.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb7-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-2xl.png 1600w"  width="463" height="274" /></a> </p>
+<p><code>j:=Byte(p^);</code></p>
+<p>Bila Anda jeli, Anda dapat melihat kenapa ada tipe data PByte, PInt64, PDword, dan lainnya. Deklarasi tipe-tipe tersebut adalah:</p>
+<p><code><span>PByte = ^Byte;</span></code><br><code><span>PInt64 = ^Int64;</span></code><br><code><span>PDword = ^Dword;</span></code></p>
+<p><span>Mereka dideklarasikan sebagai tipe pointer ke tipe data dasarnya. Maksudnya, agar compiler tahu bahwa ukuran data pada alamat yang ditunjuknya. <br><a href="http://jokorb.files.wordpress.com/2010/03/image6.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb6-2xl.png 1600w"  alt="image" width="558" height="255" border="0"></a> </span></p>
+<p><span>Anda lihat? Compiler kebingungan karena harus mengambil nilai yang tidak diketahui berapa ukurannya. Bagaimana jika kode di atas kita modifikasi:</span></p>
+<p><a href="http://jokorb.files.wordpress.com/2010/03/image7.png"><img loading="lazy" style="display: inline; border-width: 0;" title="image" src="https://kppdi.github.io/media/posts/79/image_thumb7.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/79/responsive/image_thumb7-xs.png 300w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-sm.png 480w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-md.png 768w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-lg.png 1024w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-xl.png 1360w ,https://kppdi.github.io/media/posts/79/responsive/image_thumb7-2xl.png 1600w"  alt="image" width="463" height="274" border="0"></a></p>
 <p>Tidak ada masalah, kan?</p>
-<p>Oke. Tulisan ini belum berakhir. Saya capek, maen Point Blank dulu. Nanti sambung lagi :)<font></font> </p>
+<p>Oke. Tulisan ini belum berakhir. Saya capek, maen Point Blank dulu. Nanti sambung lagi :)</p>
+<p>Biar gak panjang, tulisan ini telah saya bagi dua. <a href="http://jokorb.wordpress.com/2010/03/24/lebih-jauh-dengan-pointer-2/" target="_blank" rel="noopener">Lanjutannya di sini</a>.</p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tipe Pointer</title>
+        <author>
+            <name>Grup KPPDI</name>
+        </author>
+        <link href="https://kppdi.github.io/tipe-pointer/"/>
+        <id>https://kppdi.github.io/tipe-pointer/</id>
+
+        <updated>2020-08-01T18:34:52+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list. Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p align="justify">Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list.</p>
+<p align="justify">Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel tersebut, terlepas dari apakah variabel tersebut digunakan atau tidak. Dengan pointer, memori hanya akan dialokasikan jika variabel bertipe pointer akan digunakan. Dengan demikian, kita dapat mengatur penggunaan memori secara fleksibel dan hemat. Bila belum perlu, memori tidak digunakan, sehingga dapat dialokasikan oleh variabel lain yang mungkin akan lebih dulu menggunakan memori.</p>
+<p align="justify">Di bawah ini beberapa tipe pointer yang disediakan Delphi. Namun Anda dapat dengan bebas mendeklarasikan tipe pointer lainnya sesuai kebutuhan. Satu catatan mengenai penggunaan pointer, bila Anda mengalokasikan memori pada sebuah pointer, Anda bertanggungjawab untuk melepaskannya kembali. Bila tidak, memori tersebut tetap dicatat sebagai “sedang digunakan”, sehingga variabel bertipe pointer lainnya tidak mengalokasikan memori pada alamat yang ditunjuk oleh variabel bertipe pointer sebelumnya.</p>
+<p align="justify">Sebenarnya pointer adalah berukuran 4 byte (32 bit), bertipe <a href="http://jokorb.wordpress.com/2010/03/20/tipe-ordinalbilangan-bulat/">Dword</a>. Semua tipe pointer lainnya adalah pointer. Hanyasannya, tipe pointer lainnya dideklarasikan secara khusus untuk memberitahu compiler ukuran satuan data pada alamat yang ditunjuk oleh pointer tersebut.</p>
+<p align="justify">Berikut adalah tipe-tipe pointer yang telah disediakan Delphi. Selanjutnya, kita akan lihat tipe-tipe pointer yang user-defined dan contoh penggunaanya.</p>
+<p align="justify">   <br /><b>PAnsiChar</b>     <br />PAnsiChar adalah pointer yang menunjukkan alamat data bertipe AnsiChar. Harap diingat, meskipun AnsiChar berukuran 1 byte (8 bit), tetapi PAnsiChar berukuran 4 byte (32 bite), karena pada dasarnya, semua pointer berukuran 4 byte.</p>
 <blockquote><p>
-<p>Biar gak panjang, tulisan ini telah saya bagi dua. <a href="http://jokorb.wordpress.com/2010/03/24/lebih-jauh-dengan-pointer-2/" target="_blank">Lanjutannya di sini</a>.</p>
+<p>var      <br />&#160; p: PansiChar;       <br />&#160; a: AnsiChar;       <br />begin       <br />&#160; ShowMessage('Ukuran AnsiChar: '+IntToStr(SizeOf(a)) +#13'Ukuran PansiChar: '+ IntToStr(SizeOf(p)));</p>
 </blockquote>
-<p><font></font></p>
-<p><font></font></p>
+<p align="justify">Hasil kode di atas:    <br /><a href="http://jokorb.files.wordpress.com/2010/03/image1.png"><img loading="lazy" style="display:inline;border-width:0;" title="image" border="0" alt="image" src="https://kppdi.github.io/media/posts/78/image_thumb1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xs.png 300w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-sm.png 480w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-md.png 768w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-lg.png 1024w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xl.png 1360w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-2xl.png 1600w"  width="146" height="137" /></a>&#160;</p>
+<p align="justify"><b>PAnsiString</b>     <br />Menunjukkan alamat AnsiString. AnsiString sendiri adalah sejenis pointer, sehingga PAnsiString jarang dugunakan. Anda mungkin ingin membaca tentang <a href="http://jokorb.wordpress.com/2010/03/20/tipe-char-dan-string/">AnsiString</a> untuk melihatnya lebih jauh.</p>
+<p align="justify"><b>PChar</b>     <br />Mirip dengan PAnsiChar. Meskipun pada versi Delphi terbaru, Char telah diperlakukan sebagai PWideChar (2 byte), bukan lagi AnsiChar (1 byte), tetap saja PChar berukuran 4 byte. Karena bagaimanapun, PChar adalah pointer. Penggunakan PChar biasanya dalam operasi string yang dibatasi dengan zero character, seperti yang digunakan di Windows dan biasanya digunakan dalam C/C++. </p>
+<p align="justify">Pada kode-kode Windows API yang menggunakan string sebagai parameter/kembalian fungsi, maka tipe data inilah yang sering dipakai. Tinggal menetukan apakah PAnsiChar apabila fungsi tersebut menggunakan standar ANSI ataukah PWideChar jika Unicode.</p>
+<p align="justify"><b>PCurrency</b>     <br />Pointer ke tipe data Currency.</p>
+<p align="justify"><b>PDateTime</b>     <br />Pointer ke tipe DateTime.</p>
+<p align="justify"><b>PExtended</b>     <br />Pointer ke tipe Extended.</p>
+<p align="justify">Pointer to an Int64 value.</p>
+<p align="justify"><b><a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/">Pointer</a></b>     <br />Defines a general use Pointer to any memory based data.</p>
+<p align="justify"><b>PShortString</b>     <br />Pointer ke tipe data ShortString.</p>
+<p align="justify"><b>PString</b>     <br />Pointer ke tipe String</p>
+<p align="justify"><b>PVariant</b>     <br />Pointer ke tipe</p>
+<p align="justify"><b>PWideChar</b>     <br />Mirip dengan PChar dan PAnsiChar.</p>
+<p align="justify"><b>PWideString</b>     <br />Pointer ke tipe WideString.</p>
+<p align="justify">Lebih jauh dengan pointer, kita diskusikan <a href="http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/">di sini</a>.</p>
 
             ]]>
         </content>
