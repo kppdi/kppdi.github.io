@@ -11,6 +11,23 @@
     },
     "items": [
         {
+            "id": "https://kppdi.github.io/crud-mahasiswa-menggunakan-delphi-dan-ms-access-dengan-adotable-2-pengkodean-1/",
+            "url": "https://kppdi.github.io/crud-mahasiswa-menggunakan-delphi-dan-ms-access-dengan-adotable-2-pengkodean-1/",
+            "title": "CRUD Mahasiswa Menggunakan Delphi dan MS Access dengan ADOTable #2 Pengkodean 1",
+            "summary": "Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access. Autohor: Roy Royesta Pampey Original Post",
+            "content_html": "<p>Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access.</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SPTWJef98GI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></div></p>\n<p>Autohor: <span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\"><a href=\"https://www.facebook.com/royesta?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2Cd-]C%2CP-R\" target=\"_blank\" rel=\"noopener noreferrer\">Roy Royesta Pampey</a></span></p>\n<div class=\"qzhwtbm6 knvmm38d\"> </div>\n<div class=\"qzhwtbm6 knvmm38d\"><a href=\"https://www.facebook.com/groups/kppdi/permalink/10158794089845850/?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2CO%2CP-R\" target=\"_blank\" rel=\"noopener noreferrer\">Original Post</a></div>",
+            "image": "https://kppdi.github.io/media/posts/97/database-schema-1895779_1280-2.png",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+                   "Video",
+                   "Tutorial"
+            ],
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
+        },
+        {
             "id": "https://kppdi.github.io/parsing-json-ke-ttreeview/",
             "url": "https://kppdi.github.io/parsing-json-ke-ttreeview/",
             "title": "Parsing JSON Ke TTreeView",
@@ -25,8 +42,8 @@
                    "Sample App",
                    "Delphi"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/",
@@ -41,8 +58,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/screen-capture-menggunakan-delphi/",
@@ -58,8 +75,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/save-setting-koneksi-ke-file-ini/",
@@ -74,8 +91,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/",
@@ -91,8 +108,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/format-angka-finansial/",
@@ -114,8 +131,8 @@
                    "Angka",
                    "Akuntansi"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/menggunakan-header-control-pada-dbgrid/",
@@ -135,8 +152,8 @@
                    "Control",
                    "Component"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer-2/",
@@ -153,8 +170,8 @@
                    "Object Pascal",
                    "Delphi"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer/",
@@ -170,23 +187,8 @@
                    "Tutorial",
                    "Docs"
             ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
-        },
-        {
-            "id": "https://kppdi.github.io/tipe-pointer/",
-            "url": "https://kppdi.github.io/tipe-pointer/",
-            "title": "Tipe Pointer",
-            "summary": "Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list. Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel&hellip;",
-            "content_html": "<p align=\"justify\">Di Delphi, hampir semua tipe data memiliki padanan bertipe pointer. Tipe-tipe pointer ini berguna pada penggunaan memori dalam skala besar secara dinamis. Misalnya pada pengaksesan file, linked-list.</p>\n<p align=\"justify\">Bila sebuah variabel bertipe integer dideklarasikan, maka compiler akan mengalokasikan memori sebesar 4 byte (32 bit) untuk variabel tersebut, terlepas dari apakah variabel tersebut digunakan atau tidak. Dengan pointer, memori hanya akan dialokasikan jika variabel bertipe pointer akan digunakan. Dengan demikian, kita dapat mengatur penggunaan memori secara fleksibel dan hemat. Bila belum perlu, memori tidak digunakan, sehingga dapat dialokasikan oleh variabel lain yang mungkin akan lebih dulu menggunakan memori.</p>\n<p align=\"justify\">Di bawah ini beberapa tipe pointer yang disediakan Delphi. Namun Anda dapat dengan bebas mendeklarasikan tipe pointer lainnya sesuai kebutuhan. Satu catatan mengenai penggunaan pointer, bila Anda mengalokasikan memori pada sebuah pointer, Anda bertanggungjawab untuk melepaskannya kembali. Bila tidak, memori tersebut tetap dicatat sebagai “sedang digunakan”, sehingga variabel bertipe pointer lainnya tidak mengalokasikan memori pada alamat yang ditunjuk oleh variabel bertipe pointer sebelumnya.</p>\n<p align=\"justify\">Sebenarnya pointer adalah berukuran 4 byte (32 bit), bertipe <a href=\"http://jokorb.wordpress.com/2010/03/20/tipe-ordinalbilangan-bulat/\">Dword</a>. Semua tipe pointer lainnya adalah pointer. Hanyasannya, tipe pointer lainnya dideklarasikan secara khusus untuk memberitahu compiler ukuran satuan data pada alamat yang ditunjuk oleh pointer tersebut.</p>\n<p align=\"justify\">Berikut adalah tipe-tipe pointer yang telah disediakan Delphi. Selanjutnya, kita akan lihat tipe-tipe pointer yang user-defined dan contoh penggunaanya.</p>\n<p align=\"justify\"><br><strong>PAnsiChar</strong> <br>PAnsiChar adalah pointer yang menunjukkan alamat data bertipe AnsiChar. Harap diingat, meskipun AnsiChar berukuran 1 byte (8 bit), tetapi PAnsiChar berukuran 4 byte (32 bite), karena pada dasarnya, semua pointer berukuran 4 byte.</p>\n<blockquote>\n<p>var <br>  p: PansiChar; <br>  a: AnsiChar; <br>begin <br>  ShowMessage('Ukuran AnsiChar: '+IntToStr(SizeOf(a)) +#13'Ukuran PansiChar: '+ IntToStr(SizeOf(p)));</p>\n</blockquote>\n<p align=\"justify\">Hasil kode di atas: <br><a href=\"http://jokorb.files.wordpress.com/2010/03/image1.png\"><img loading=\"lazy\" style=\"display: inline; border-width: 0;\" title=\"image\" src=\"https://kppdi.github.io/media/posts/78/image_thumb1.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xs.png 300w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-sm.png 480w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-md.png 768w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-lg.png 1024w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-xl.png 1360w ,https://kppdi.github.io/media/posts/78/responsive/image_thumb1-2xl.png 1600w\"  alt=\"image\" width=\"146\" height=\"137\" border=\"0\"></a> </p>\n<p align=\"justify\"><strong>PAnsiString</strong> <br>Menunjukkan alamat AnsiString. AnsiString sendiri adalah sejenis pointer, sehingga PAnsiString jarang dugunakan. Anda mungkin ingin membaca tentang <a href=\"http://jokorb.wordpress.com/2010/03/20/tipe-char-dan-string/\">AnsiString</a> untuk melihatnya lebih jauh.</p>\n<p align=\"justify\"><strong>PChar</strong> <br>Mirip dengan PAnsiChar. Meskipun pada versi Delphi terbaru, Char telah diperlakukan sebagai PWideChar (2 byte), bukan lagi AnsiChar (1 byte), tetap saja PChar berukuran 4 byte. Karena bagaimanapun, PChar adalah pointer. Penggunakan PChar biasanya dalam operasi string yang dibatasi dengan zero character, seperti yang digunakan di Windows dan biasanya digunakan dalam C/C++.</p>\n<p align=\"justify\">Pada kode-kode Windows API yang menggunakan string sebagai parameter/kembalian fungsi, maka tipe data inilah yang sering dipakai. Tinggal menetukan apakah PAnsiChar apabila fungsi tersebut menggunakan standar ANSI ataukah PWideChar jika Unicode.</p>\n<p align=\"justify\"><strong>PCurrency</strong> <br>Pointer ke tipe data Currency.</p>\n<p align=\"justify\"><strong>PDateTime</strong> <br>Pointer ke tipe DateTime.</p>\n<p align=\"justify\"><strong>PExtended</strong> <br>Pointer ke tipe Extended.</p>\n<p align=\"justify\">Pointer to an Int64 value.</p>\n<p align=\"justify\"><strong><a href=\"http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/\">Pointer</a></strong> <br>Defines a general use Pointer to any memory based data.</p>\n<p align=\"justify\"><strong>PShortString</strong> <br>Pointer ke tipe data ShortString.</p>\n<p align=\"justify\"><strong>PString</strong> <br>Pointer ke tipe String</p>\n<p align=\"justify\"><strong>PVariant</strong> <br>Pointer ke tipe</p>\n<p align=\"justify\"><strong>PWideChar</strong> <br>Mirip dengan PChar dan PAnsiChar.</p>\n<p align=\"justify\"><strong>PWideString</strong> <br>Pointer ke tipe WideString.</p>\n<p align=\"justify\">Lebih jauh dengan pointer, kita diskusikan <a href=\"http://jokorb.wordpress.com/2010/03/21/lebih-jauh-dengan-pointer/\">di sini</a>.</p>",
-            "image": "https://kppdi.github.io/media/posts/78/office-620817_1280.jpg",
-            "author": {
-                "name": "Grup KPPDI"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-08-02T19:21:57+08:00",
-            "date_modified": "2020-08-02T19:21:57+08:00"
+            "date_published": "2020-08-02T19:39:17+08:00",
+            "date_modified": "2020-08-02T19:39:17+08:00"
         }
     ]
 }
