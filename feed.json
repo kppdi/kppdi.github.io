@@ -11,6 +11,24 @@
     },
     "items": [
         {
+            "id": "https://kppdi.github.io/parsing-json-ke-ttreeview/",
+            "url": "https://kppdi.github.io/parsing-json-ke-ttreeview/",
+            "title": "Parsing JSON Ke TTreeView",
+            "summary": "Misalkan kita punya aplikasi yang memuat JSON dari REST Endpoint, dan kita ingin menampilkannya ke treeview, maka contoh berikut ini dapat digunakan sebagai langkah awal untuk melakukan parsing. Mari kita ikuti langkah-langkahnya: Siapkan satu buah form, pada form tersebut tambahkan satu buah panel, satu buah&hellip;",
+            "content_html": "<p>Misalkan kita punya aplikasi yang memuat JSON dari REST Endpoint, dan kita ingin menampilkannya ke treeview, maka contoh berikut ini dapat digunakan sebagai langkah awal untuk melakukan parsing. Mari kita ikuti langkah-langkahnya:</p>\n<p>Siapkan satu buah form, pada form tersebut tambahkan satu buah panel, satu buah treeview buah dan satu buah memo. Pada panel tambahkan satu buah tombol, dan atur posisi komponen-komponen tersebut seperti contoh gambar berikut:</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://kppdi.github.io/media/posts/96//Screen-Shot-2020-08-02-at-17.25.20.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.25.20-xs.png 300w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.25.20-sm.png 480w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.25.20-md.png 768w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.25.20-lg.png 1024w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.25.20-xl.png 1360w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.25.20-2xl.png 1600w\"  alt=\"\" width=\"1514\" height=\"888\"></figure>\n<p>Kemudian, sebelum coding, perlu disiapkan library yang dibutuhkan, yaitu <strong>SuperObject</strong>, yang merupakan JSON library favorit saya. Library ini sudah disiapkan bersama source code contoh aplikasi ini.</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://kppdi.github.io/media/posts/96//Screen-Shot-2020-08-02-at-17.32.15.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.32.15-xs.png 300w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.32.15-sm.png 480w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.32.15-md.png 768w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.32.15-lg.png 1024w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.32.15-xl.png 1360w ,https://kppdi.github.io/media/posts/96//responsive/Screen-Shot-2020-08-02-at-17.32.15-2xl.png 1600w\"  alt=\"\" width=\"1236\" height=\"542\"></figure>\n<p> </p>\n<p>Untuk menggunakan library tersebut, tambahkan SuperObject.pas ke project:</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://kppdi.github.io/media/posts/96/Screen-Shot-2020-08-02-at-17.35.04.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.04-xs.png 300w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.04-sm.png 480w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.04-md.png 768w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.04-lg.png 1024w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.04-xl.png 1360w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.04-2xl.png 1600w\"  alt=\"\" width=\"1034\" height=\"420\"></figure>\n<p>Dan pilih SuperObject.pas</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://kppdi.github.io/media/posts/96/Screen-Shot-2020-08-02-at-17.35.27-2.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.27-2-xs.png 300w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.27-2-sm.png 480w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.27-2-md.png 768w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.27-2-lg.png 1024w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.27-2-xl.png 1360w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.35.27-2-2xl.png 1600w\"  alt=\"\" width=\"1128\" height=\"900\"></figure>\n<p>Kemudian tambahkan SuperObject ke klausa uses:</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://kppdi.github.io/media/posts/96/Screen-Shot-2020-08-02-at-17.36.51.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.36.51-xs.png 300w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.36.51-sm.png 480w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.36.51-md.png 768w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.36.51-lg.png 1024w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.36.51-xl.png 1360w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-17.36.51-2xl.png 1600w\"  alt=\"\" width=\"1196\" height=\"358\"></figure>\n<p> </p>\n<p>Property Text dari Memo1 dapat diganti dengan default JSON text, misalnya:</p>\n<div>\n<div><code>{</code></div>\n<div><code>  \"id\": \"0001\",</code></div>\n<div><code>  \"type\": \"donut\",</code></div>\n<div><code>  \"name\": \"Cake\",</code></div>\n<div><code>  \"ppu\": 0.55,</code></div>\n<div><code>  \"batters\":</code></div>\n<div><code>    {</code></div>\n<div><code>      \"batter\":</code></div>\n<div><code>        [</code></div>\n<div><code>          { \"id\": \"1001\", \"type\": \"Regular\" },</code></div>\n<div><code>          { \"id\": \"1002\", \"type\": \"Chocolate\" },</code></div>\n<div><code>          { \"id\": \"1003\", \"type\": \"Blueberry\" },</code></div>\n<div><code>          { \"id\": \"1004\", \"type\": \"Devil's Food\" }</code></div>\n<div><code>        ]</code></div>\n<div><code>    },</code></div>\n<div><code>  \"topping\":</code></div>\n<div><code>    [</code></div>\n<div><code>      { \"id\": \"5001\", \"type\": \"None\" },</code></div>\n<div><code>      { \"id\": \"5002\", \"type\": \"Glazed\" },</code></div>\n<div><code>      { \"id\": \"5005\", \"type\": \"Sugar\" },</code></div>\n<div><code>      { \"id\": \"5007\", \"type\": \"Powdered Sugar\" },</code></div>\n<div><code>      { \"id\": \"5006\", \"type\": \"Chocolate with Sprinkles\" },</code></div>\n<div><code>      { \"id\": \"5003\", \"type\": \"Chocolate\" },</code></div>\n<div><code>      { \"id\": \"5004\", \"type\": \"Maple\" }</code></div>\n<div><code>    ]</code></div>\n<div><code>}</code></div>\n</div>\n<p> </p>\n<p>Klik ganda pada tombol caption <strong>Parse</strong>, kemudian isikan kode seperti berikut:</p>\n<p><code>var<br>  s, v: string;<br>  curv,<br>  iso: ISuperObject;<br>  item: TSuperObjectIter;<br>  tvi: TTreeNode;<br>begin<br>  s := Memo1.Text;<br>  TreeView1.Items.BeginUpdate;<br>  try<br>    TreeView1.Items.Clear;<br>    tvi := TreeView1.Items.AddFirst(nil, 'Parsed Data:');<br>    if (s = '') or (s = '{}') then<br>    begin<br>      TreeView1.Items.AddChild(tvi, 'Tidak ada data...');<br>    end<br>    else<br>    begin<br>      iso := so(s);<br>      ParseItemsIntoTreeView(tvi, iso);<br>    end;<br>  finally<br>    TreeView1.Items.EndUpdate;<br>    TreeView1.Items[0].Expand(false);<br>    TreeView1.Items[0].MakeVisible;<br>  end;<br>end;</code></p>\n<p>Kode di atas membuat node pertama bernama <strong>tvi</strong> dengan caption \"Parsed Data:\" jika teks pada Memo1 tidak kosong. Teks kemudian diparse ke JSON object pada variabel <strong>iso</strong>:</p>\n<p><code>iso := so(s);</code></p>\n<p>Lalu JSON ini ditelusuri item-itemnya dan dimuat ke treeview dengan menginduk ke node pertama, yaitu <strong>tvi</strong></p>\n<p><code>ParseItemsIntoTreeView(tvi, iso);</code></p>\n<p>Berikut fungsi parse JSON ke treeview:</p>\n<p><code>procedure TForm1.ParseItemsIntoTreeView(<br>  node: TTreeNode; itemData: ISuperObject);<br>var<br>  curv: ISuperObject;<br>  cura: TSuperArray;<br>  item: TSuperObjectIter;<br>  tvi: TTreeNode;<br>  s, v, dv: string;<br>  i: integer;<br>begin<br>  try<br>    if ObjectFindFirst(itemData, item) then<br>    repeat<br>      s := item.key;<br>      v := '';<br>      if item.val.IsType(stString) then<br>      begin<br>        v := item.val.AsString;<br>        dv := copy(v,1,10);<br>        // '2020-06-04'<br>        if<br>          (length(dv)&gt;=10) and<br>          (dv[5] = '-') and (dv[8] = '-') and<br>          (_s(_i( copy(dv,1,4) ,0)) = copy(dv,1,4)) and<br>          (_s(_i( copy(dv,6,2) ,0),2) = copy(dv,6,2)) and<br>          (_s(_i( copy(dv,9,2) ,0),2) = copy(dv,9,2))<br>        then<br>        begin<br>          TreeView1.Items.AddChild(<br>            node,<br>            s+': '+DateIndoShort(DateFromSQL(dv))+' '+<br>              copy(v,11,length(v))<br>          )<br><br>        end<br>        else<br>          TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stBoolean) then<br>      begin<br>        v := BoolToStr(item.val.AsBoolean, true);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stInt) then<br>      begin<br>        v := FloatToStr( item.val.AsInteger);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stDouble) then<br>      begin<br>        v := FloatToStr( item.val.AsDouble);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stCurrency) then<br>      begin<br>        v := FloatToStr (item.val.AsCurrency);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stNull) then<br>      begin<br>        v := '';<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stObject) then<br>      begin<br>        v := item.val.AsString();<br>        tvi := TreeView1.Items.AddChild(node, s+':');<br>        ParseItemsIntoTreeView(tvi, item.val);<br>      end<br>      else<br>      if item.val.IsType(stArray) then<br>      begin<br>        v := item.val.AsString();<br>        cura := item.val.AsArray;<br>        tvi := TreeView1.Items.AddChild(node, s+':');<br>        for i := 0 to cura.Length-1 do<br>        begin<br>          ParseItemsIntoTreeView(<br>            TreeView1.Items.AddChild(tvi, _s(i+1)+'.:'),<br>            cura[i]<br>          );<br>        end;<br>      end;<br>    until not ObjectFindNext(item);<br>  finally<br><br>  end;<br>end;</code></p>\n<p> </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://kppdi.github.io/media/posts/96/Screen-Shot-2020-08-02-at-18.10.56.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-18.10.56-xs.png 300w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-18.10.56-sm.png 480w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-18.10.56-md.png 768w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-18.10.56-lg.png 1024w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-18.10.56-xl.png 1360w ,https://kppdi.github.io/media/posts/96/responsive/Screen-Shot-2020-08-02-at-18.10.56-2xl.png 1600w\"  alt=\"\" width=\"1622\" height=\"1054\"></figure>\n<p> </p>\n<p>Beberapa fungsi bantu dapat Anda lihat pada listing lengkap berikut:</p>\n<p><code>unit Unit1;<br><br>interface<br><br>uses<br>  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,<br>  System.Classes, Vcl.Graphics,<br>  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,<br>  Vcl.ExtCtrls, Vcl.ComCtrls, SuperObject;<br><br>type<br>  TForm1 = class(TForm)<br>    Memo1: TMemo;<br>    TreeView1: TTreeView;<br>    Panel1: TPanel;<br>    Button2: TButton;<br>    procedure Button2Click(Sender: TObject);<br>  private<br>    { Private declarations }<br>    procedure ParseItemsIntoTreeView(node: TTreeNode; itemData: ISuperObject);<br>    function _s(i: integer; padLeftWith0Count: integer = 0): string;<br>    function _i(s: String; default: integer = 0): Integer;<br>    function  DateFromSQL(const ASQLDate: String): TDateTime;<br>    function  DateIndoShort (const ADate: TDate):String;<br>  public<br>    { Public declarations }<br>  end;<br><br>var<br>  Form1: TForm1;<br><br>implementation<br><br>{$R *.dfm}<br><br>procedure TForm1.Button2Click(Sender: TObject);<br>var<br>  s, v: string;<br>  curv,<br>  iso: ISuperObject;<br>  item: TSuperObjectIter;<br>  tvi: TTreeNode;<br>begin<br>  s := Memo1.Text;<br>  TreeView1.Items.BeginUpdate;<br>  try<br>    TreeView1.Items.Clear;<br>    tvi := TreeView1.Items.AddFirst(nil, 'Parsed Data:');<br>    tvi.ImageIndex := 0;<br>    if (s = '') or (s = '{}') then<br>    begin<br>      TreeView1.Items.AddChild(tvi, 'Tidak ada data...').ImageIndex := 5;<br>    end<br>    else<br>    begin<br>      iso := so(s);<br>      ParseItemsIntoTreeView(tvi, iso);<br>    end;<br>  finally<br>    TreeView1.Items.EndUpdate;<br>    TreeView1.Items[0].Expand(false);<br>    TreeView1.Items[0].MakeVisible;<br>  end;<br>end;<br><br>function TForm1.DateFromSQL(const ASQLDate: String): TDateTime;<br>begin<br>  try<br>    Result := EncodeDate(<br>      _i(Copy(ASQLDate,1,4)),<br>      _i(Copy(ASQLDate,6,2)),<br>      _i(Copy(ASQLDate,9,2))<br>    );<br>  except<br>    Result := Date();<br>  end;<br>end;<br><br>function TForm1.DateIndoShort(const ADate: TDate): String;<br>begin<br>  Result := FormatDateTime('dd/MM/yyyy', ADate);<br>end;<br><br>procedure TForm1.ParseItemsIntoTreeView(<br>  node: TTreeNode; itemData: ISuperObject);<br>var<br>  curv: ISuperObject;<br>  cura: TSuperArray;<br>  item: TSuperObjectIter;<br>  tvi: TTreeNode;<br>  s, v, dv: string;<br>  i: integer;<br>begin<br>  try<br>    if ObjectFindFirst(itemData, item) then<br>    repeat<br>      s := item.key;<br>      v := '';<br>      if item.val.IsType(stString) then<br>      begin<br>        v := item.val.AsString;<br>        dv := copy(v,1,10);<br>        // '2020-06-04'<br>        if<br>          (length(dv)&gt;=10) and<br>          (dv[5] = '-') and (dv[8] = '-') and<br>          (_s(_i( copy(dv,1,4) ,0)) = copy(dv,1,4)) and<br>          (_s(_i( copy(dv,6,2) ,0),2) = copy(dv,6,2)) and<br>          (_s(_i( copy(dv,9,2) ,0),2) = copy(dv,9,2))<br>        then<br>        begin<br>          TreeView1.Items.AddChild(<br>            node,<br>            s+': '+DateIndoShort(DateFromSQL(dv))+' '+<br>              copy(v,11,length(v))<br>          )<br><br>        end<br>        else<br>          TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stBoolean) then<br>      begin<br>        v := BoolToStr(item.val.AsBoolean, true);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stInt) then<br>      begin<br>        v := FloatToStr( item.val.AsInteger);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stDouble) then<br>      begin<br>        v := FloatToStr( item.val.AsDouble);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stCurrency) then<br>      begin<br>        v := FloatToStr (item.val.AsCurrency);<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stNull) then<br>      begin<br>        v := '';<br>        TreeView1.Items.AddChild(node, s+': '+v)<br>      end<br>      else<br>      if item.val.IsType(stObject) then<br>      begin<br>        v := item.val.AsString();<br>        tvi := TreeView1.Items.AddChild(node, s+':');<br>        ParseItemsIntoTreeView(tvi, item.val);<br>      end<br>      else<br>      if item.val.IsType(stArray) then<br>      begin<br>        v := item.val.AsString();<br>        cura := item.val.AsArray;<br>        tvi := TreeView1.Items.AddChild(node, s+':');<br>        for i := 0 to cura.Length-1 do<br>        begin<br>          ParseItemsIntoTreeView(<br>            TreeView1.Items.AddChild(tvi, _s(i+1)+'.:'),<br>            cura[i]<br>          );<br>        end;<br>      end;<br>    until not ObjectFindNext(item);<br>  finally<br><br>  end;<br>end;<br><br>function TForm1._i(s: String; default: integer = 0): Integer;<br>begin<br>  Result := StrToIntDef(s, default);<br>end;<br><br>function TForm1._s(i: integer; padLeftWith0Count: integer = 0): string;<br>begin<br>  Result := IntToStr(i);<br>  if padLeftWith0Count&gt; 0 then<br>  begin<br>    while length(Result)&lt;padLeftWith0Count do<br>      Result := '0' + Result;<br>  end;<br>end;<br><br>end.<br></code></p>\n<p> </p>\n<p>Source code dapat diunduh di<br><a href=\"https://github.com/kppdi/ParseJSONToTreeView\" target=\"_blank\" rel=\"noopener noreferrer\">https://github.com/kppdi/ParseJSONToTreeView</a></p>\n<p><code></code><code></code></p>",
+            "image": "https://kppdi.github.io/media/posts/96/analytics-3088958_1280.jpg",
+            "author": {
+                "name": "Grup KPPDI"
+            },
+            "tags": [
+                   "Tutorial",
+                   "Sample App",
+                   "Delphi"
+            ],
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
+        },
+        {
             "id": "https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/",
             "url": "https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/",
             "title": "Resize Gambar (JPG &amp; BMP) Menggunakan Delphi",
@@ -23,8 +41,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/screen-capture-menggunakan-delphi/",
@@ -40,8 +58,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/save-setting-koneksi-ke-file-ini/",
@@ -56,8 +74,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/",
@@ -73,8 +91,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/format-angka-finansial/",
@@ -96,8 +114,8 @@
                    "Angka",
                    "Akuntansi"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/menggunakan-header-control-pada-dbgrid/",
@@ -117,8 +135,8 @@
                    "Control",
                    "Component"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer-2/",
@@ -135,8 +153,8 @@
                    "Object Pascal",
                    "Delphi"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer/",
@@ -152,8 +170,8 @@
                    "Tutorial",
                    "Docs"
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         },
         {
             "id": "https://kppdi.github.io/tipe-pointer/",
@@ -167,23 +185,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
-        },
-        {
-            "id": "https://kppdi.github.io/tipe-char-dan-string/",
-            "url": "https://kppdi.github.io/tipe-char-dan-string/",
-            "title": "Tipe Char dan String",
-            "summary": "AnsiCharKarakter berkuran 1 byte (8 bit)type AnsiChar = #0..#255; var ws: WideString; l, sz: Integer; begin ws:='Hello World!'; l:= Length(ws); sz:=SizeOf(widechar) * l; ShowMessage('Panjang String: '+InttoStr(l)+#13+ 'Ukuran String (memori): ' +IntToStr(sz) ); Maka Anda akan mendapatkan hasil: ",
-            "content_html": "<table border=\"0\" width=\"653\" cellspacing=\"0\" cellpadding=\"2\">\n<tbody>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>AnsiChar</strong></td>\n<td valign=\"top\" width=\"548\">Karakter berkuran 1 byte (8 bit)\n<p><span style=\"color: #800000;\">type <strong>AnsiChar</strong> = #0..#255;</span></p>\n</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>AnsiString</strong></td>\n<td valign=\"top\" width=\"548\">Deretan karakter AnsiChar. Panjang string bertipe AnsiString tidak terbatas, hanya dibatasi oleh besarnya memori (RAM). <br>AnsiString adalah sejenis pointer yang akan dialokasikan secara otomatis bila diperlukan (bila ada nilainya) dan otomatis dibuang dari memori jika tidak bernilai.</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>Char</strong></td>\n<td valign=\"top\" width=\"548\">Char adalah tipe karakter seperti AnsiChar, namun sejak Delphi 2009 (Delphi 12), Char adalah WideChar, di mana ukurannya adalah 16bit (2 byte), menampung karakter ANSI maupun Unicode (multi-byte).</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>ShortString</strong></td>\n<td valign=\"top\" width=\"548\">ShortString merupakan deretan karakter berukuran hingga 255 karakter. Tipe String di bawah ini akan diperlakukan sebagai ShortString jika directive <strong>$LongStrings</strong> diset ke <strong>OFF</strong></td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>String</strong></td>\n<td valign=\"top\" width=\"548\">String merupakan deretan karakter. Bila directive <strong>$LongStrings</strong> diset ke <strong>OFF</strong>, String akan diperlakukan sebagai ShortString, sebaliknya jika directive ini diset ke <strong>ON, </strong>String akan diperlakukan sebagai AnsiString. <br>Meskipun <strong>$LongStrings</strong> diset ke <strong>ON</strong>, sebuah string akan tetap diperlakukan sebagai ShortString jika kita menentukan FixedSize pada sebuah string. <br><br><span style=\"color: #800000;\">var <br>shortstr: String[5]; <br>{ <br>mendefiniskan sebuah variabel bertipe ShortString dengan panjang string maksimal 5 karakter. <br>} <br>longstr: String[260]; <br>{ <br>error! ShortString hanya dapat menampung maksimal 255 karakter! <br>}</span></td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>WideChar</strong></td>\n<td valign=\"top\" width=\"548\">Karakter dengan ukuran 16 bit, untuk menampung karakter Unicode. Pada Delphi 2009 (mungkin versi selanjutnya juga), Char diperlakukan sebagai WideChar.</td>\n</tr>\n<tr>\n<td valign=\"top\" width=\"103\"><strong>WideString</strong></td>\n<td valign=\"top\" width=\"548\">String yang terbentuk dari deretan karakter bertipe WideChar. Tiap elemennya berukuran 16 bit. <br>Bila Anda mempunyai kode:\n<p><span style=\"color: #800000;\">var <br>  ws: WideString; <br>  l, <br>  sz: Integer; <br>begin <br>  ws:='Hello World!'; <br>  l:= Length(ws); <br>  sz:=SizeOf(widechar) * l; <br>  ShowMessage('Panjang String: '+InttoStr(l)+#13+ <br>              'Ukuran String (memori): ' +IntToStr(sz) <br>  );</span></p>\n<p><span style=\"color: #000000;\">Maka Anda akan mendapatkan hasil: <br><a href=\"http://jokorb.files.wordpress.com/2010/03/image.png\"><img loading=\"lazy\" style=\"display: inline; border: 0;\" title=\"image\" src=\"https://kppdi.github.io/media/posts/77/image_thumb.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://kppdi.github.io/media/posts/77/responsive/image_thumb-xs.png 300w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-sm.png 480w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-md.png 768w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-lg.png 1024w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-xl.png 1360w ,https://kppdi.github.io/media/posts/77/responsive/image_thumb-2xl.png 1600w\"  alt=\"image\" width=\"343\" height=\"133\" border=\"0\"></a> </span></p>\n</td>\n</tr>\n</tbody>\n</table>",
-            "image": "https://kppdi.github.io/media/posts/77/geometry-2520247_1280.jpg",
-            "author": {
-                "name": "Grup KPPDI"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-08-01T19:17:04+08:00",
-            "date_modified": "2020-08-01T19:17:04+08:00"
+            "date_published": "2020-08-02T19:21:57+08:00",
+            "date_modified": "2020-08-02T19:21:57+08:00"
         }
     ]
 }
