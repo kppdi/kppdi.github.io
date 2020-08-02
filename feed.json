@@ -13,9 +13,9 @@
         {
             "id": "https://kppdi.github.io/crud-mahasiswa-menggunakan-delphi-dan-ms-access-dengan-adotable-2-pengkodean-1/",
             "url": "https://kppdi.github.io/crud-mahasiswa-menggunakan-delphi-dan-ms-access-dengan-adotable-2-pengkodean-1/",
-            "title": "CRUD Mahasiswa Menggunakan Delphi dan MS Access dengan ADOTable #2 Pengkodean 1",
-            "summary": "Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access. Autohor: Roy Royesta Pampey Original Post",
-            "content_html": "<p>Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access.</p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SPTWJef98GI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></div></p>\n<p>Autohor: <span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\"><a href=\"https://www.facebook.com/royesta?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2Cd-]C%2CP-R\" target=\"_blank\" rel=\"noopener noreferrer\">Roy Royesta Pampey</a></span></p>\n<div class=\"qzhwtbm6 knvmm38d\"> </div>\n<div class=\"qzhwtbm6 knvmm38d\"><a href=\"https://www.facebook.com/groups/kppdi/permalink/10158794089845850/?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2CO%2CP-R\" target=\"_blank\" rel=\"noopener noreferrer\">Original Post</a></div>",
+            "title": "CRUD Mahasiswa Menggunakan Delphi dan MS Access dengan ADOTable",
+            "summary": "Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access. Part 1: Part 2: Author: Roy Royesta Pampey Original Post",
+            "content_html": "<p>Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access.</p>\n<p><strong>Part 1:</strong></p>\n<p><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SPTWJef98GI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\"></iframe></div></p>\n<p> </p>\n<p><strong>Part 2:</strong></p>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"560\" height=\"314\" src=\"https://www.youtube.com/embed/ydJfXK86nMo?feature=youtu\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></figure>\n<p> </p>\n<p>Author: <span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\"><a href=\"https://www.facebook.com/royesta?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2Cd-]C%2CP-R\" target=\"_blank\" rel=\"noopener noreferrer\">Roy Royesta Pampey</a></span></p>\n<div class=\"qzhwtbm6 knvmm38d\"> </div>\n<div class=\"qzhwtbm6 knvmm38d\"><a href=\"https://www.facebook.com/groups/kppdi/permalink/10158794089845850/?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2CO%2CP-R\" target=\"_blank\" rel=\"noopener noreferrer\">Original Post</a></div>",
             "image": "https://kppdi.github.io/media/posts/97/database-schema-1895779_1280-2.png",
             "author": {
                 "name": "Grup KPPDI"
@@ -24,8 +24,8 @@
                    "Video",
                    "Tutorial"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/parsing-json-ke-ttreeview/",
@@ -42,8 +42,8 @@
                    "Sample App",
                    "Delphi"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/",
@@ -58,8 +58,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/screen-capture-menggunakan-delphi/",
@@ -75,8 +75,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/save-setting-koneksi-ke-file-ini/",
@@ -91,8 +91,8 @@
             "tags": [
                    "Tutorial"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/tampilkan-beberapa-form-di-satu-form/",
@@ -108,8 +108,8 @@
                    "Tutorial",
                    "Sample App"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/format-angka-finansial/",
@@ -131,8 +131,8 @@
                    "Angka",
                    "Akuntansi"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/menggunakan-header-control-pada-dbgrid/",
@@ -152,8 +152,8 @@
                    "Control",
                    "Component"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer-2/",
@@ -170,8 +170,8 @@
                    "Object Pascal",
                    "Delphi"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         },
         {
             "id": "https://kppdi.github.io/lebih-jauh-dengan-pointer/",
@@ -187,8 +187,8 @@
                    "Tutorial",
                    "Docs"
             ],
-            "date_published": "2020-08-02T19:39:17+08:00",
-            "date_modified": "2020-08-02T19:39:17+08:00"
+            "date_published": "2020-08-02T19:43:02+08:00",
+            "date_modified": "2020-08-02T19:43:02+08:00"
         }
     ]
 }

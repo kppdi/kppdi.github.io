@@ -10,7 +10,7 @@
     <id>https://kppdi.github.io</id>
 
     <entry>
-        <title>CRUD Mahasiswa Menggunakan Delphi dan MS Access dengan ADOTable #2 Pengkodean 1</title>
+        <title>CRUD Mahasiswa Menggunakan Delphi dan MS Access dengan ADOTable</title>
         <author>
             <name>Grup KPPDI</name>
         </author>
@@ -19,19 +19,24 @@
             <category term="Video"/>
             <category term="Tutorial"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/97/database-schema-1895779_1280-2.png" alt="" />
-                    Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access. Autohor: Roy Royesta Pampey Original Post
+                    Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access. Part 1: Part 2: Author: Roy Royesta Pampey Original Post
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://kppdi.github.io/media/posts/97/database-schema-1895779_1280-2.png" alt="" />
                 <p>Video tutorial Database (CRUD) Database Mahasiswa menggunakan Delphi dan Microsoft Access.</p>
+<p><strong>Part 1:</strong></p>
 <p><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/SPTWJef98GI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></div></p>
-<p>Autohor: <span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"><a href="https://www.facebook.com/royesta?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2Cd-]C%2CP-R" target="_blank" rel="noopener noreferrer">Roy Royesta Pampey</a></span></p>
+<p> </p>
+<p><strong>Part 2:</strong></p>
+<figure class="post__video"><iframe loading="lazy" width="560" height="314" src="https://www.youtube.com/embed/ydJfXK86nMo?feature=youtu" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+<p> </p>
+<p>Author: <span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"><a href="https://www.facebook.com/royesta?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2Cd-]C%2CP-R" target="_blank" rel="noopener noreferrer">Roy Royesta Pampey</a></span></p>
 <div class="qzhwtbm6 knvmm38d"> </div>
 <div class="qzhwtbm6 knvmm38d"><a href="https://www.facebook.com/groups/kppdi/permalink/10158794089845850/?__cft__[0]=AZUFGl30ajb3dsN3eftwiXtOXxUpUrXlli7z5GGl5fdhdQ8R4FETmjJFdOR3u0oW4mX_DbvzP8SD-WZMu07_dxmjNFE4FKJm9fu7lHy_j4wnYcXpH6CmJ6UW1RZ4wSLB9XPC7O2CBFTQSK8Iu6CAQGp8NELXcigWpc04OXihV9yYztZ6K1NONCbkFDdRp2lX0GM&amp;__tn__=%2CO%2CP-R" target="_blank" rel="noopener noreferrer">Original Post</a></div>
             ]]>
@@ -48,7 +53,7 @@
             <category term="Sample App"/>
             <category term="Delphi"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/96/analytics-3088958_1280.jpg" alt="" />
@@ -129,7 +134,7 @@
         <id>https://kppdi.github.io/resize-gambar-jpg-and-bmp-menggunakan-delphi/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/5/scalimg-codegear-delphi-for-microsoft-windows-umain-running_2011-06-24_00-26-54-2.png" alt="" />
@@ -582,7 +587,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/4/winsnap_delphi_snapshot_screen_caputure.png" alt="" />
@@ -713,7 +718,7 @@
         <id>https://kppdi.github.io/save-setting-koneksi-ke-file-ini/</id>
             <category term="Tutorial"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/3/desain-form-parameter-koneksi.png" alt="" />
@@ -1107,7 +1112,7 @@
             <category term="Tutorial"/>
             <category term="Sample App"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/2/scrsht-2.jpg" alt="" />
@@ -1159,7 +1164,7 @@ end;<br><br></pre>
             <category term="Angka"/>
             <category term="Akuntansi"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/84/startup-594090_1280.jpg" alt="" />
@@ -1198,7 +1203,7 @@ end;<br><br></pre>
             <category term="Control"/>
             <category term="Component"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/82/office-620817_1280.jpg" alt="" />
@@ -1271,7 +1276,7 @@ end;<br><br></pre>
             <category term="Object Pascal"/>
             <category term="Delphi"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/81/fiber-4814456_1280.jpg" alt="" />
@@ -1321,7 +1326,7 @@ end;<br><br></pre>
             <category term="Tutorial"/>
             <category term="Docs"/>
 
-        <updated>2020-08-02T19:39:17+08:00</updated>
+        <updated>2020-08-02T19:43:02+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://kppdi.github.io/media/posts/79/fiber-4814456_1280.jpg" alt="" />
